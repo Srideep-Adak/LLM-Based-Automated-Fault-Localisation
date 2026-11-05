@@ -1,0 +1,7 @@
+{
+  "tests": [
+    {"test": "CalcTest::testAdd",    "failed": false, "cov": ["Calc.java:5", "Calc.java:6", "Calc.java:7"]},
+    {"test": "CalcTest::testSub",    "failed": false, "cov": ["Calc.java:5", "Calc.java:10", "Calc.java:11"]},
+    {"test": "CalcTest::testDivide", "failed": true,  "cov": ["Calc.java:5", "Calc.java:14", "Calc.java:15", "Calc.java:16"]}
+  ]
+}

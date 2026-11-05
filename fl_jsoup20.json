@@ -1,0 +1,7739 @@
+[
+  {
+    "id": "Jsoup-1",
+    "num_failing": 1,
+    "num_passing": 46,
+    "search_space_lines": 46,
+    "scope": "modified",
+    "ground_truth": [
+      [
+        "org/jsoup/nodes/Document.java",
+        125
+      ],
+      [
+        "org/jsoup/nodes/Document.java",
+        126
+      ]
+    ],
+    "tests": [
+      {
+        "test": "org.jsoup.parser.ParserTest::createsStructureFromBodySnippet",
+        "failed": true
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::createsDocumentStructure",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::createsImplicitLists",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::createsImplicitTable",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesBaseTags",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesBaseWithoutHref",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesCdata",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesDataOnlyTags",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesEmptyBlocks",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesEscapedData",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesFrames",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesInvalidStartTags",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesJavadocFont",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesMultiClosingBody",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesTextArea",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesUnclosedDefinitionLists",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesUnknownInlineTags",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesUnknownTags",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::normalisesDocument",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::normalisesEmptyDocument",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::normalisesHeadlessBody",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::parsesComments",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::parsesRoughAttributes",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::parsesSimpleDocument",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::parsesUnterminatedAttribute",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::parsesUnterminatedComments",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::parsesUnterminatedTag",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.integration.ParseTest::testSmhBizArticle",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::getElementsByTagName",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testClassDomMethods",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testFormatHtml",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testGetElementsWithAttribute",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testNormalisesText",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testSetText",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.safety.CleanerTest::simpleBehaviourTest",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.safety.CleanerTest::simpleBehaviourTest2",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.safety.CleanerTest::testDropsUnknownTags",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.safety.CleanerTest::testIsValid",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.ElementsTest::attributes",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.ElementsTest::eq",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.ElementsTest::filter",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.ElementsTest::wrap",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::deeperDescendant",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::notAdjacent",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testPseudoCombined",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testPseudoEquals",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testPseudoLessThan",
+        "failed": false
+      }
+    ],
+    "ochiai": {
+      "best": 1,
+      "avg": 3.0,
+      "worst": 5
+    },
+    "top_ochiai": [
+      {
+        "file": "org/jsoup/nodes/Document.java",
+        "line": 119,
+        "score": 1.0
+      },
+      {
+        "file": "org/jsoup/nodes/Document.java",
+        "line": 125,
+        "score": 1.0
+      },
+      {
+        "file": "org/jsoup/nodes/Document.java",
+        "line": 127,
+        "score": 1.0
+      },
+      {
+        "file": "org/jsoup/nodes/Document.java",
+        "line": 124,
+        "score": 1.0
+      },
+      {
+        "file": "org/jsoup/nodes/Document.java",
+        "line": 126,
+        "score": 1.0
+      },
+      {
+        "file": "org/jsoup/nodes/Document.java",
+        "line": 118,
+        "score": 0.7071
+      },
+      {
+        "file": "org/jsoup/nodes/Document.java",
+        "line": 117,
+        "score": 0.7071
+      },
+      {
+        "file": "org/jsoup/nodes/Document.java",
+        "line": 46,
+        "score": 0.1474
+      },
+      {
+        "file": "org/jsoup/nodes/Document.java",
+        "line": 128,
+        "score": 0.1474
+      },
+      {
+        "file": "org/jsoup/nodes/Document.java",
+        "line": 54,
+        "score": 0.1474
+      },
+      {
+        "file": "org/jsoup/nodes/Document.java",
+        "line": 121,
+        "score": 0.1474
+      },
+      {
+        "file": "org/jsoup/nodes/Document.java",
+        "line": 23,
+        "score": 0.1474
+      },
+      {
+        "file": "org/jsoup/nodes/Document.java",
+        "line": 96,
+        "score": 0.1474
+      },
+      {
+        "file": "org/jsoup/nodes/Document.java",
+        "line": 105,
+        "score": 0.1474
+      },
+      {
+        "file": "org/jsoup/nodes/Document.java",
+        "line": 114,
+        "score": 0.1474
+      },
+      {
+        "file": "org/jsoup/nodes/Document.java",
+        "line": 123,
+        "score": 0.1474
+      },
+      {
+        "file": "org/jsoup/nodes/Document.java",
+        "line": 98,
+        "score": 0.1474
+      },
+      {
+        "file": "org/jsoup/nodes/Document.java",
+        "line": 107,
+        "score": 0.1474
+      },
+      {
+        "file": "org/jsoup/nodes/Document.java",
+        "line": 116,
+        "score": 0.1474
+      },
+      {
+        "file": "org/jsoup/nodes/Document.java",
+        "line": 100,
+        "score": 0.1474
+      }
+    ],
+    "tarantula": {
+      "best": 1,
+      "avg": 3.0,
+      "worst": 5
+    },
+    "top_tarantula": [
+      {
+        "file": "org/jsoup/nodes/Document.java",
+        "line": 119,
+        "score": 1.0
+      },
+      {
+        "file": "org/jsoup/nodes/Document.java",
+        "line": 125,
+        "score": 1.0
+      },
+      {
+        "file": "org/jsoup/nodes/Document.java",
+        "line": 127,
+        "score": 1.0
+      },
+      {
+        "file": "org/jsoup/nodes/Document.java",
+        "line": 124,
+        "score": 1.0
+      },
+      {
+        "file": "org/jsoup/nodes/Document.java",
+        "line": 126,
+        "score": 1.0
+      },
+      {
+        "file": "org/jsoup/nodes/Document.java",
+        "line": 118,
+        "score": 0.9787
+      },
+      {
+        "file": "org/jsoup/nodes/Document.java",
+        "line": 117,
+        "score": 0.9787
+      },
+      {
+        "file": "org/jsoup/nodes/Document.java",
+        "line": 46,
+        "score": 0.5055
+      },
+      {
+        "file": "org/jsoup/nodes/Document.java",
+        "line": 128,
+        "score": 0.5055
+      },
+      {
+        "file": "org/jsoup/nodes/Document.java",
+        "line": 54,
+        "score": 0.5055
+      },
+      {
+        "file": "org/jsoup/nodes/Document.java",
+        "line": 121,
+        "score": 0.5055
+      },
+      {
+        "file": "org/jsoup/nodes/Document.java",
+        "line": 23,
+        "score": 0.5055
+      },
+      {
+        "file": "org/jsoup/nodes/Document.java",
+        "line": 96,
+        "score": 0.5055
+      },
+      {
+        "file": "org/jsoup/nodes/Document.java",
+        "line": 105,
+        "score": 0.5055
+      },
+      {
+        "file": "org/jsoup/nodes/Document.java",
+        "line": 114,
+        "score": 0.5055
+      },
+      {
+        "file": "org/jsoup/nodes/Document.java",
+        "line": 123,
+        "score": 0.5055
+      },
+      {
+        "file": "org/jsoup/nodes/Document.java",
+        "line": 98,
+        "score": 0.5055
+      },
+      {
+        "file": "org/jsoup/nodes/Document.java",
+        "line": 107,
+        "score": 0.5055
+      },
+      {
+        "file": "org/jsoup/nodes/Document.java",
+        "line": 116,
+        "score": 0.5055
+      },
+      {
+        "file": "org/jsoup/nodes/Document.java",
+        "line": 100,
+        "score": 0.5055
+      }
+    ]
+  },
+  {
+    "id": "Jsoup-2",
+    "num_failing": 1,
+    "num_passing": 47,
+    "search_space_lines": 162,
+    "scope": "modified",
+    "ground_truth": [
+      [
+        "org/jsoup/parser/Parser.java",
+        148
+      ]
+    ],
+    "tests": [
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesTextAfterData",
+        "failed": true
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::createsDocumentStructure",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::createsImplicitLists",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::createsImplicitTable",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::createsStructureFromBodySnippet",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesBaseTags",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesBaseWithoutHref",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesCdata",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesDataOnlyTags",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesEmptyBlocks",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesEscapedData",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesFrames",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesInvalidStartTags",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesJavadocFont",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesMultiClosingBody",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesTextArea",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesUnclosedDefinitionLists",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesUnknownInlineTags",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesUnknownTags",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::normalisesDocument",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::normalisesEmptyDocument",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::normalisesHeadlessBody",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::parsesComments",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::parsesRoughAttributes",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::parsesSimpleDocument",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::parsesUnterminatedAttribute",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::parsesUnterminatedComments",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::parsesUnterminatedTag",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.integration.ParseTest::testSmhBizArticle",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testAddNewElement",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testClassUpdates",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testGetElementById",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testGetElementsWithAttributeValue",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testOuterHtml",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testWrap",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.safety.CleanerTest::simpleBehaviourTest2",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.safety.CleanerTest::testCleanJavascriptHref",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.safety.CleanerTest::testHandlesEmptyAttributes",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.safety.CleanerTest::testRelaxed",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.ElementsTest::classes",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.ElementsTest::filter",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.ElementsTest::hasAttr",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::adjacentSiblings",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::descendant",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::parentChildElement",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testPseudoEquals",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testPseudoGreaterThan",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testSupportsLeadingCombinator",
+        "failed": false
+      }
+    ],
+    "ochiai": null,
+    "top_ochiai": [
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 153,
+        "score": 0.5
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 146,
+        "score": 0.3536
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 150,
+        "score": 0.3536
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 154,
+        "score": 0.3536
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 147,
+        "score": 0.3536
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 201,
+        "score": 0.1715
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 79,
+        "score": 0.1715
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 198,
+        "score": 0.1715
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 200,
+        "score": 0.1715
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 199,
+        "score": 0.1715
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 106,
+        "score": 0.1667
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 270,
+        "score": 0.1667
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 108,
+        "score": 0.1667
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 110,
+        "score": 0.1667
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 112,
+        "score": 0.1667
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 114,
+        "score": 0.1667
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 107,
+        "score": 0.1667
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 75,
+        "score": 0.1667
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 279,
+        "score": 0.1667
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 272,
+        "score": 0.1667
+      }
+    ],
+    "tarantula": null,
+    "top_tarantula": [
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 153,
+        "score": 0.94
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 146,
+        "score": 0.8704
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 150,
+        "score": 0.8704
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 154,
+        "score": 0.8704
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 147,
+        "score": 0.8704
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 201,
+        "score": 0.5875
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 79,
+        "score": 0.5875
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 198,
+        "score": 0.5875
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 200,
+        "score": 0.5875
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 199,
+        "score": 0.5875
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 106,
+        "score": 0.5732
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 270,
+        "score": 0.5732
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 108,
+        "score": 0.5732
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 110,
+        "score": 0.5732
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 112,
+        "score": 0.5732
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 114,
+        "score": 0.5732
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 107,
+        "score": 0.5732
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 75,
+        "score": 0.5732
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 279,
+        "score": 0.5732
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 272,
+        "score": 0.5732
+      }
+    ]
+  },
+  {
+    "id": "Jsoup-3",
+    "num_failing": 3,
+    "num_passing": 76,
+    "search_space_lines": 593,
+    "scope": "modified",
+    "ground_truth": [
+      [
+        "org/jsoup/nodes/Element.java",
+        270
+      ],
+      [
+        "org/jsoup/nodes/Element.java",
+        287
+      ],
+      [
+        "org/jsoup/nodes/Element.java",
+        314
+      ],
+      [
+        "org/jsoup/parser/Parser.java",
+        26
+      ],
+      [
+        "org/jsoup/parser/Parser.java",
+        73
+      ],
+      [
+        "org/jsoup/parser/Parser.java",
+        224
+      ],
+      [
+        "org/jsoup/parser/Parser.java",
+        253
+      ],
+      [
+        "org/jsoup/parser/Parser.java",
+        258
+      ],
+      [
+        "org/jsoup/parser/Tag.java",
+        28
+      ],
+      [
+        "org/jsoup/parser/Tag.java",
+        99
+      ],
+      [
+        "org/jsoup/parser/Tag.java",
+        155
+      ],
+      [
+        "org/jsoup/parser/Tag.java",
+        157
+      ],
+      [
+        "org/jsoup/parser/Tag.java",
+        158
+      ],
+      [
+        "org/jsoup/parser/Tag.java",
+        224
+      ],
+      [
+        "org/jsoup/parser/Tag.java",
+        225
+      ],
+      [
+        "org/jsoup/parser/Tag.java",
+        288
+      ],
+      [
+        "org/jsoup/parser/Tag.java",
+        289
+      ],
+      [
+        "org/jsoup/parser/Tag.java",
+        295
+      ],
+      [
+        "org/jsoup/parser/Tag.java",
+        300
+      ],
+      [
+        "org/jsoup/parser/Tag.java",
+        301
+      ],
+      [
+        "org/jsoup/parser/Tag.java",
+        307
+      ],
+      [
+        "org/jsoup/parser/Tag.java",
+        308
+      ],
+      [
+        "org/jsoup/parser/Tag.java",
+        309
+      ],
+      [
+        "org/jsoup/parser/Tag.java",
+        310
+      ],
+      [
+        "org/jsoup/parser/Tag.java",
+        311
+      ],
+      [
+        "org/jsoup/parser/Tag.java",
+        312
+      ],
+      [
+        "org/jsoup/parser/Tag.java",
+        313
+      ],
+      [
+        "org/jsoup/parser/Tag.java",
+        314
+      ],
+      [
+        "org/jsoup/parser/Tag.java",
+        315
+      ],
+      [
+        "org/jsoup/parser/Tag.java",
+        379
+      ]
+    ],
+    "tests": [
+      {
+        "test": "org.jsoup.nodes.ElementTest::testAppendRowToTable",
+        "failed": true
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testPrependRowToTable",
+        "failed": true
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesNestedImplicitTable",
+        "failed": true
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::getElementsByTagName",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testAddNewElement",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testAddNewHtml",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testAddNewText",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testClassDomMethods",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testClassUpdates",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testElementSiblingIndex",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testFormatHtml",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testGetElementById",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testGetElementsWithAttribute",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testGetElementsWithAttributeValue",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testGetElementsWithClass",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testGetParents",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testGetSiblings",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testGetText",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testHasText",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testInnerHtml",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testKeepsPreText",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testKeepsPreTextInCode",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testNormalisesText",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testOuterHtml",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testPrependElement",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testPrependNewHtml",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testPrependText",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testSetHtml",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testSetText",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testWrap",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testWrapWithRemainder",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::createsDocumentStructure",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::createsImplicitLists",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::createsImplicitTable",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::createsStructureFromBodySnippet",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesBaseTags",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesBaseWithoutHref",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesCdata",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesDataOnlyTags",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesEmptyBlocks",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesEscapedData",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesFrames",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesInvalidStartTags",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesJavadocFont",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesMultiClosingBody",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesTextAfterData",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesTextArea",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesUnclosedDefinitionLists",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesUnknownInlineTags",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesUnknownTags",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::normalisesDocument",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::normalisesEmptyDocument",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::normalisesHeadlessBody",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::parsesComments",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::parsesRoughAttributes",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::parsesSimpleDocument",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::parsesUnterminatedAttribute",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::parsesUnterminatedComments",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::parsesUnterminatedTag",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.integration.ParseTest::testBinary",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.integration.ParseTest::testSmhBizArticle",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.NodeTest::handlesAbsPrefix",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.TextNodeTest::testBlank",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.AttributeParseTest::parsesEmptyString",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.TagTest::defaultSemantics",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.TagTest::valueOfChecksNotNull",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.safety.CleanerTest::dropsUnresolvableRelativeLinks",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.safety.CleanerTest::simpleBehaviourTest2",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.safety.CleanerTest::testDropComments",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.ElementsTest::hasText",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.ElementsTest::html",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.ElementsTest::val",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::adjacentSiblings",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::caseInsensitive",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::descendant",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::generalSiblings",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testAllWithClass",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testCharactersInIdAndClass",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testPseudoGreaterThan",
+        "failed": false
+      }
+    ],
+    "ochiai": {
+      "best": 1,
+      "avg": 4.5,
+      "worst": 8
+    },
+    "top_ochiai": [
+      {
+        "file": "org/jsoup/nodes/Element.java",
+        "line": 291,
+        "score": 0.4082
+      },
+      {
+        "file": "org/jsoup/nodes/Element.java",
+        "line": 290,
+        "score": 0.4082
+      },
+      {
+        "file": "org/jsoup/nodes/Element.java",
+        "line": 285,
+        "score": 0.4082
+      },
+      {
+        "file": "org/jsoup/nodes/Element.java",
+        "line": 294,
+        "score": 0.4082
+      },
+      {
+        "file": "org/jsoup/nodes/Element.java",
+        "line": 289,
+        "score": 0.4082
+      },
+      {
+        "file": "org/jsoup/nodes/Element.java",
+        "line": 288,
+        "score": 0.4082
+      },
+      {
+        "file": "org/jsoup/nodes/Element.java",
+        "line": 292,
+        "score": 0.4082
+      },
+      {
+        "file": "org/jsoup/nodes/Element.java",
+        "line": 287,
+        "score": 0.4082
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 63,
+        "score": 0.3482
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 62,
+        "score": 0.3482
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 37,
+        "score": 0.3482
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 36,
+        "score": 0.3482
+      },
+      {
+        "file": "org/jsoup/nodes/Element.java",
+        "line": 775,
+        "score": 0.3464
+      },
+      {
+        "file": "org/jsoup/nodes/Element.java",
+        "line": 801,
+        "score": 0.3397
+      },
+      {
+        "file": "org/jsoup/nodes/Element.java",
+        "line": 800,
+        "score": 0.3397
+      },
+      {
+        "file": "org/jsoup/nodes/Element.java",
+        "line": 799,
+        "score": 0.3397
+      },
+      {
+        "file": "org/jsoup/nodes/Element.java",
+        "line": 807,
+        "score": 0.3333
+      },
+      {
+        "file": "org/jsoup/nodes/Element.java",
+        "line": 272,
+        "score": 0.3333
+      },
+      {
+        "file": "org/jsoup/nodes/Element.java",
+        "line": 806,
+        "score": 0.3333
+      },
+      {
+        "file": "org/jsoup/nodes/Element.java",
+        "line": 271,
+        "score": 0.3333
+      }
+    ],
+    "tarantula": {
+      "best": 1,
+      "avg": 4.5,
+      "worst": 8
+    },
+    "top_tarantula": [
+      {
+        "file": "org/jsoup/nodes/Element.java",
+        "line": 291,
+        "score": 0.962
+      },
+      {
+        "file": "org/jsoup/nodes/Element.java",
+        "line": 290,
+        "score": 0.962
+      },
+      {
+        "file": "org/jsoup/nodes/Element.java",
+        "line": 285,
+        "score": 0.962
+      },
+      {
+        "file": "org/jsoup/nodes/Element.java",
+        "line": 294,
+        "score": 0.962
+      },
+      {
+        "file": "org/jsoup/nodes/Element.java",
+        "line": 289,
+        "score": 0.962
+      },
+      {
+        "file": "org/jsoup/nodes/Element.java",
+        "line": 288,
+        "score": 0.962
+      },
+      {
+        "file": "org/jsoup/nodes/Element.java",
+        "line": 292,
+        "score": 0.962
+      },
+      {
+        "file": "org/jsoup/nodes/Element.java",
+        "line": 287,
+        "score": 0.962
+      },
+      {
+        "file": "org/jsoup/nodes/Element.java",
+        "line": 272,
+        "score": 0.9268
+      },
+      {
+        "file": "org/jsoup/nodes/Element.java",
+        "line": 271,
+        "score": 0.9268
+      },
+      {
+        "file": "org/jsoup/nodes/Element.java",
+        "line": 275,
+        "score": 0.9268
+      },
+      {
+        "file": "org/jsoup/nodes/Element.java",
+        "line": 270,
+        "score": 0.9268
+      },
+      {
+        "file": "org/jsoup/nodes/Element.java",
+        "line": 274,
+        "score": 0.9268
+      },
+      {
+        "file": "org/jsoup/nodes/Element.java",
+        "line": 273,
+        "score": 0.9268
+      },
+      {
+        "file": "org/jsoup/nodes/Element.java",
+        "line": 268,
+        "score": 0.9268
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 63,
+        "score": 0.8492
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 62,
+        "score": 0.8492
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 37,
+        "score": 0.8492
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 36,
+        "score": 0.8492
+      },
+      {
+        "file": "org/jsoup/nodes/Element.java",
+        "line": 220,
+        "score": 0.7835
+      }
+    ]
+  },
+  {
+    "id": "Jsoup-4",
+    "error": "no failing test was reproduced"
+  },
+  {
+    "id": "Jsoup-5",
+    "num_failing": 1,
+    "num_passing": 60,
+    "search_space_lines": 172,
+    "scope": "modified",
+    "ground_truth": [
+      [
+        "org/jsoup/parser/Parser.java",
+        206
+      ]
+    ],
+    "tests": [
+      {
+        "test": "org.jsoup.parser.ParserTest::parsesQuiteRoughAttributes",
+        "failed": true
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::createsDocumentStructure",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::createsImplicitLists",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::createsImplicitTable",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::createsStructureFromBodySnippet",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::findsCharsetInMalformedMeta",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesBaseTags",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesBaseWithoutHref",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesBlocksInDefinitions",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesCdata",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesDataOnlyTags",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesEmptyBlocks",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesEscapedData",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesFrames",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesImplicitCaptionClose",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesInvalidStartTags",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesJavadocFont",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesMultiClosingBody",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesNestedImplicitTable",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesTbodyTable",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesTextAfterData",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesTextArea",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesUnclosedDefinitionLists",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesUnknownInlineTags",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesUnknownNamespaceTags",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesUnknownTags",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesWhatWgExpensesTableExample",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::normalisesDocument",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::normalisesEmptyDocument",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::normalisesHeadlessBody",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::parsesComments",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::parsesRoughAttributes",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::parsesSimpleDocument",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::parsesUnterminatedAttribute",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::parsesUnterminatedComments",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::parsesUnterminatedOption",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::parsesUnterminatedTag",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::parsesUnterminatedTextarea",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::testHgroup",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::testRelaxedTags",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::testSpaceAfterTag",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.integration.ParseTest::testHtml5Charset",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.DocumentTest::setTextPreservesDocumentStructure",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::before",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::getNamespacedElementsByTag",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testAddNewHtml",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testGetElementsWithAttribute",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testHasText",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.NodeTest::ownerDocument",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.safety.CleanerTest::basicWithImagesTest",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.safety.CleanerTest::simpleBehaviourTest",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.safety.CleanerTest::testCleanJavascriptHref",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.safety.CleanerTest::testDropComments",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.ElementsTest::attr",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.ElementsTest::parents",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::multiChildDescent",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::parentChildStar",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testAllElements",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testByAttributeRegexCharacterClass",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testByClass",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testMatches",
+        "failed": false
+      }
+    ],
+    "ochiai": {
+      "best": 1,
+      "avg": 1.5,
+      "worst": 2
+    },
+    "top_ochiai": [
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 208,
+        "score": 1.0
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 206,
+        "score": 1.0
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 196,
+        "score": 0.1925
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 197,
+        "score": 0.1925
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 199,
+        "score": 0.1925
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 194,
+        "score": 0.1925
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 191,
+        "score": 0.1715
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 142,
+        "score": 0.169
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 201,
+        "score": 0.169
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 203,
+        "score": 0.169
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 189,
+        "score": 0.169
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 182,
+        "score": 0.169
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 184,
+        "score": 0.169
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 186,
+        "score": 0.169
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 204,
+        "score": 0.169
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 183,
+        "score": 0.169
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 185,
+        "score": 0.169
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 187,
+        "score": 0.169
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 139,
+        "score": 0.169
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 141,
+        "score": 0.169
+      }
+    ],
+    "tarantula": {
+      "best": 1,
+      "avg": 1.5,
+      "worst": 2
+    },
+    "top_tarantula": [
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 208,
+        "score": 1.0
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 206,
+        "score": 1.0
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 196,
+        "score": 0.6977
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 197,
+        "score": 0.6977
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 199,
+        "score": 0.6977
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 194,
+        "score": 0.6977
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 191,
+        "score": 0.6452
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 142,
+        "score": 0.6383
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 201,
+        "score": 0.6383
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 203,
+        "score": 0.6383
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 189,
+        "score": 0.6383
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 182,
+        "score": 0.6383
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 184,
+        "score": 0.6383
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 186,
+        "score": 0.6383
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 204,
+        "score": 0.6383
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 183,
+        "score": 0.6383
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 185,
+        "score": 0.6383
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 187,
+        "score": 0.6383
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 139,
+        "score": 0.6383
+      },
+      {
+        "file": "org/jsoup/parser/Parser.java",
+        "line": 141,
+        "score": 0.6383
+      }
+    ]
+  },
+  {
+    "id": "Jsoup-6",
+    "error": "no failing test was reproduced"
+  },
+  {
+    "id": "Jsoup-7",
+    "num_failing": 1,
+    "num_passing": 24,
+    "search_space_lines": 80,
+    "scope": "modified",
+    "ground_truth": [
+      [
+        "org/jsoup/nodes/Document.java",
+        5
+      ],
+      [
+        "org/jsoup/nodes/Document.java",
+        113
+      ],
+      [
+        "org/jsoup/nodes/Document.java",
+        137
+      ],
+      [
+        "org/jsoup/nodes/Document.java",
+        138
+      ]
+    ],
+    "tests": [
+      {
+        "test": "org.jsoup.nodes.DocumentTest::testNormalisesStructure",
+        "failed": true
+      },
+      {
+        "test": "org.jsoup.nodes.DocumentTest::setTextPreservesDocumentStructure",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.DocumentTest::testOutputEncoding",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.DocumentTest::testTitles",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.DocumentTest::testXhtmlReferences",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.integration.ParseTest::testBaidu",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.integration.ParseTest::testYahooArticle",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testAddNewElement",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testFormatHtml",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testGetParents",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testInnerHtml",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.NodeTest::testReplace",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesBaseWithoutHref",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::parsesUnterminatedTag",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::testHeaderContents",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.safety.CleanerTest::testCleanJavascriptHref",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.safety.CleanerTest::testDropXmlProc",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.safety.CleanerTest::testDropsUnknownTags",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.ElementsTest::attr",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.ElementsTest::empty",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.ElementsTest::filter",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::generalSiblings",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testAllWithClass",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testMatches",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testSupportsLeadingCombinator",
+        "failed": false
+      }
+    ],
+    "ochiai": null,
+    "top_ochiai": [
+      {
+        "file": "org/jsoup/nodes/Document.java",
+        "line": 270,
+        "score": 0.3015
+      },
+      {
+        "file": "org/jsoup/nodes/Document.java",
+        "line": 195,
+        "score": 0.2774
+      },
+      {
+        "file": "org/jsoup/nodes/Document.java",
+        "line": 243,
+        "score": 0.2774
+      },
+      {
+        "file": "org/jsoup/nodes/Document.java",
+        "line": 252,
+        "score": 0.2774
+      },
+      {
+        "file": "org/jsoup/nodes/Document.java",
+        "line": 290,
+        "score": 0.2673
+      },
+      {
+        "file": "org/jsoup/nodes/Document.java",
+        "line": 150,
+        "score": 0.2
+      },
+      {
+        "file": "org/jsoup/nodes/Document.java",
+        "line": 104,
+        "score": 0.2
+      },
+      {
+        "file": "org/jsoup/nodes/Document.java",
+        "line": 134,
+        "score": 0.2
+      },
+      {
+        "file": "org/jsoup/nodes/Document.java",
+        "line": 182,
+        "score": 0.2
+      },
+      {
+        "file": "org/jsoup/nodes/Document.java",
+        "line": 26,
+        "score": 0.2
+      },
+      {
+        "file": "org/jsoup/nodes/Document.java",
+        "line": 145,
+        "score": 0.2
+      },
+      {
+        "file": "org/jsoup/nodes/Document.java",
+        "line": 120,
+        "score": 0.2
+      },
+      {
+        "file": "org/jsoup/nodes/Document.java",
+        "line": 184,
+        "score": 0.2
+      },
+      {
+        "file": "org/jsoup/nodes/Document.java",
+        "line": 147,
+        "score": 0.2
+      },
+      {
+        "file": "org/jsoup/nodes/Document.java",
+        "line": 49,
+        "score": 0.2
+      },
+      {
+        "file": "org/jsoup/nodes/Document.java",
+        "line": 179,
+        "score": 0.2
+      },
+      {
+        "file": "org/jsoup/nodes/Document.java",
+        "line": 142,
+        "score": 0.2
+      },
+      {
+        "file": "org/jsoup/nodes/Document.java",
+        "line": 99,
+        "score": 0.2
+      },
+      {
+        "file": "org/jsoup/nodes/Document.java",
+        "line": 181,
+        "score": 0.2
+      },
+      {
+        "file": "org/jsoup/nodes/Document.java",
+        "line": 126,
+        "score": 0.2
+      }
+    ],
+    "tarantula": null,
+    "top_tarantula": [
+      {
+        "file": "org/jsoup/nodes/Document.java",
+        "line": 270,
+        "score": 0.7059
+      },
+      {
+        "file": "org/jsoup/nodes/Document.java",
+        "line": 195,
+        "score": 0.6667
+      },
+      {
+        "file": "org/jsoup/nodes/Document.java",
+        "line": 243,
+        "score": 0.6667
+      },
+      {
+        "file": "org/jsoup/nodes/Document.java",
+        "line": 252,
+        "score": 0.6667
+      },
+      {
+        "file": "org/jsoup/nodes/Document.java",
+        "line": 290,
+        "score": 0.6486
+      },
+      {
+        "file": "org/jsoup/nodes/Document.java",
+        "line": 150,
+        "score": 0.5
+      },
+      {
+        "file": "org/jsoup/nodes/Document.java",
+        "line": 104,
+        "score": 0.5
+      },
+      {
+        "file": "org/jsoup/nodes/Document.java",
+        "line": 134,
+        "score": 0.5
+      },
+      {
+        "file": "org/jsoup/nodes/Document.java",
+        "line": 182,
+        "score": 0.5
+      },
+      {
+        "file": "org/jsoup/nodes/Document.java",
+        "line": 26,
+        "score": 0.5
+      },
+      {
+        "file": "org/jsoup/nodes/Document.java",
+        "line": 145,
+        "score": 0.5
+      },
+      {
+        "file": "org/jsoup/nodes/Document.java",
+        "line": 120,
+        "score": 0.5
+      },
+      {
+        "file": "org/jsoup/nodes/Document.java",
+        "line": 184,
+        "score": 0.5
+      },
+      {
+        "file": "org/jsoup/nodes/Document.java",
+        "line": 147,
+        "score": 0.5
+      },
+      {
+        "file": "org/jsoup/nodes/Document.java",
+        "line": 49,
+        "score": 0.5
+      },
+      {
+        "file": "org/jsoup/nodes/Document.java",
+        "line": 179,
+        "score": 0.5
+      },
+      {
+        "file": "org/jsoup/nodes/Document.java",
+        "line": 142,
+        "score": 0.5
+      },
+      {
+        "file": "org/jsoup/nodes/Document.java",
+        "line": 99,
+        "score": 0.5
+      },
+      {
+        "file": "org/jsoup/nodes/Document.java",
+        "line": 181,
+        "score": 0.5
+      },
+      {
+        "file": "org/jsoup/nodes/Document.java",
+        "line": 126,
+        "score": 0.5
+      }
+    ]
+  },
+  {
+    "id": "Jsoup-8",
+    "num_failing": 1,
+    "num_passing": 58,
+    "search_space_lines": 139,
+    "scope": "modified",
+    "ground_truth": [
+      [
+        "org/jsoup/nodes/Node.java",
+        363
+      ],
+      [
+        "org/jsoup/nodes/Node.java",
+        367
+      ]
+    ],
+    "tests": [
+      {
+        "test": "org.jsoup.nodes.ElementTest::parentlessToString",
+        "failed": true
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::after",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::before",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::dataset",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::getElementsByTagName",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::getNamespacedElementsByTag",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testAddNewElement",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testAddNewHtml",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testAddNewText",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testAppendRowToTable",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testClassDomMethods",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testClassUpdates",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testElementSiblingIndex",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testEmptyElementFormatHtml",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testFormatHtml",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testGetChildText",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testGetElementById",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testGetElementsWithAttribute",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testGetElementsWithAttributeValue",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testGetElementsWithClass",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testGetParents",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testGetSiblings",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testGetText",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testHasText",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testInnerHtml",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testKeepsPreText",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testKeepsPreTextInCode",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testNormalisesText",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testNotPretty",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testOuterHtml",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testPrependElement",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testPrependNewHtml",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testPrependRowToTable",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testPrependText",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testSetHtml",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testSetIndent",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testSetText",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testWrap",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testWrapWithRemainder",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.integration.ParseTest::testBaidu",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.integration.ParseTest::testYahooArticle",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.NodeTest::handlesAbsPrefix",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.AttributeParseTest::parsesEmptyString",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::createsDocumentStructure",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::findsCharsetInMalformedMeta",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesCdata",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::noTableDirectInTable",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::parsesQuiteRoughAttributes",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::parsesUnterminatedTextarea",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::testRelaxedTags",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.ElementsTest::is",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.ElementsTest::parents",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::deeperDescendant",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::mixCombinator",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::mixCombinatorGroup",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::parentWithClassChild",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testByAttributeRegex",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testByAttributeStarting",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testSupportsLeadingCombinator",
+        "failed": false
+      }
+    ],
+    "ochiai": {
+      "best": 18,
+      "avg": 25.0,
+      "worst": 32
+    },
+    "top_ochiai": [
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 227,
+        "score": 1.0
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 229,
+        "score": 1.0
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 228,
+        "score": 1.0
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 218,
+        "score": 1.0
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 357,
+        "score": 0.5774
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 359,
+        "score": 0.5774
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 358,
+        "score": 0.5774
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 261,
+        "score": 0.3162
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 263,
+        "score": 0.3162
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 265,
+        "score": 0.3162
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 262,
+        "score": 0.3162
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 264,
+        "score": 0.3162
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 266,
+        "score": 0.3162
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 297,
+        "score": 0.2887
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 294,
+        "score": 0.2887
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 382,
+        "score": 0.2085
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 381,
+        "score": 0.2085
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 364,
+        "score": 0.2041
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 220,
+        "score": 0.2041
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 405,
+        "score": 0.2041
+      }
+    ],
+    "tarantula": {
+      "best": 18,
+      "avg": 25.0,
+      "worst": 32
+    },
+    "top_tarantula": [
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 227,
+        "score": 1.0
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 229,
+        "score": 1.0
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 228,
+        "score": 1.0
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 218,
+        "score": 1.0
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 357,
+        "score": 0.9667
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 359,
+        "score": 0.9667
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 358,
+        "score": 0.9667
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 261,
+        "score": 0.8657
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 263,
+        "score": 0.8657
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 265,
+        "score": 0.8657
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 262,
+        "score": 0.8657
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 264,
+        "score": 0.8657
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 266,
+        "score": 0.8657
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 297,
+        "score": 0.8406
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 294,
+        "score": 0.8406
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 382,
+        "score": 0.725
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 381,
+        "score": 0.725
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 364,
+        "score": 0.716
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 220,
+        "score": 0.716
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 405,
+        "score": 0.716
+      }
+    ]
+  },
+  {
+    "id": "Jsoup-9",
+    "error": "no failing test was reproduced"
+  },
+  {
+    "id": "Jsoup-10",
+    "num_failing": 1,
+    "num_passing": 25,
+    "search_space_lines": 154,
+    "scope": "modified",
+    "ground_truth": [
+      [
+        "org/jsoup/nodes/Node.java",
+        173
+      ]
+    ],
+    "tests": [
+      {
+        "test": "org.jsoup.nodes.NodeTest::absHandlesRelativeQuery",
+        "failed": true
+      },
+      {
+        "test": "org.jsoup.nodes.NodeTest::handlesAbsPrefix",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.NodeTest::handlesBaseUri",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.NodeTest::ownerDocument",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.NodeTest::testRemove",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.NodeTest::testReplace",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.integration.ParseTest::testBaidu",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.integration.ParseTest::testYahooArticle",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.DocumentTest::testTitles",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testAddNewElement",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testClone",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testGetChildText",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testSetHtml",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::createsImplicitTable",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::parsesSimpleDocument",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::parsesUnterminatedComments",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.safety.CleanerTest::dropsUnresolvableRelativeLinks",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.safety.CleanerTest::testCleanJavascriptHref",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.safety.CleanerTest::testDropComments",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.safety.CleanerTest::testHandlesEmptyAttributes",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.ElementsTest::attr",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.ElementsTest::before",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::caseInsensitive",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::parentChildElement",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testByTag",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testPseudoHas",
+        "failed": false
+      }
+    ],
+    "ochiai": {
+      "best": 1,
+      "avg": 2.0,
+      "worst": 3
+    },
+    "top_ochiai": [
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 174,
+        "score": 0.5
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 171,
+        "score": 0.5
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 173,
+        "score": 0.5
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 160,
+        "score": 0.378
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 157,
+        "score": 0.378
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 166,
+        "score": 0.378
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 159,
+        "score": 0.378
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 104,
+        "score": 0.2582
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 105,
+        "score": 0.2582
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 73,
+        "score": 0.2582
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 70,
+        "score": 0.2582
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 72,
+        "score": 0.2582
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 400,
+        "score": 0.2425
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 397,
+        "score": 0.2425
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 399,
+        "score": 0.2425
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 46,
+        "score": 0.2182
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 48,
+        "score": 0.2182
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 208,
+        "score": 0.2182
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 47,
+        "score": 0.2182
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 49,
+        "score": 0.2182
+      }
+    ],
+    "tarantula": {
+      "best": 1,
+      "avg": 2.0,
+      "worst": 3
+    },
+    "top_tarantula": [
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 174,
+        "score": 0.8929
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 171,
+        "score": 0.8929
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 173,
+        "score": 0.8929
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 160,
+        "score": 0.8065
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 157,
+        "score": 0.8065
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 166,
+        "score": 0.8065
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 159,
+        "score": 0.8065
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 104,
+        "score": 0.641
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 105,
+        "score": 0.641
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 73,
+        "score": 0.641
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 70,
+        "score": 0.641
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 72,
+        "score": 0.641
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 400,
+        "score": 0.6098
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 397,
+        "score": 0.6098
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 399,
+        "score": 0.6098
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 46,
+        "score": 0.5556
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 48,
+        "score": 0.5556
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 208,
+        "score": 0.5556
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 47,
+        "score": 0.5556
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 49,
+        "score": 0.5556
+      }
+    ]
+  },
+  {
+    "id": "Jsoup-11",
+    "num_failing": 4,
+    "num_passing": 60,
+    "search_space_lines": 198,
+    "scope": "modified",
+    "ground_truth": [
+      [
+        "org/jsoup/select/Selector.java",
+        110
+      ],
+      [
+        "org/jsoup/select/Selector.java",
+        181
+      ],
+      [
+        "org/jsoup/select/Selector.java",
+        305
+      ],
+      [
+        "org/jsoup/select/Selector.java",
+        306
+      ],
+      [
+        "org/jsoup/select/Selector.java",
+        399
+      ]
+    ],
+    "tests": [
+      {
+        "test": "org.jsoup.select.SelectorTest::notAll",
+        "failed": true
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testPseudoHas",
+        "failed": true
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::notClass",
+        "failed": true
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::notParas",
+        "failed": true
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::adjacentSiblings",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::adjacentSiblingsWithId",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::and",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::caseInsensitive",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::containsOwn",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::deeperDescendant",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::descendant",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::generalSiblings",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::matchesOwn",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::mixCombinator",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::mixCombinatorGroup",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::multiChildDescent",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::notAdjacent",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::parentChildElement",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::parentChildStar",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::parentWithClassChild",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testAllElements",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testAllWithClass",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testByAttribute",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testByAttributeRegex",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testByAttributeRegexCharacterClass",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testByAttributeStarting",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testByClass",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testById",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testByTag",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testCharactersInIdAndClass",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testGroupOr",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testGroupOrAttribute",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testMatches",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testNamespacedTag",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testNestedHas",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testPseudoBetween",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testPseudoCombined",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testPseudoContains",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testPseudoEquals",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testPseudoGreaterThan",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testPseudoLessThan",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testPsuedoContainsWithParentheses",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testRelaxedTags",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testSupportsLeadingCombinator",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.integration.ParseTest::testBaidu",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.integration.ParseTest::testYahooArticle",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::after",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testAddNewText",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testClassDomMethods",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testEmptyElementFormatHtml",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testGetElementsWithAttribute",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testSetText",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.NodeTest::handlesBaseUri",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::createsImplicitLists",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::findsCharsetInMalformedMeta",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesNestedImplicitTable",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::parsesRoughAttributes",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::parsesUnterminatedAttribute",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.ElementsTest::attr",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.ElementsTest::empty",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.ElementsTest::eq",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.ElementsTest::is",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.ElementsTest::setHtml",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.ElementsTest::val",
+        "failed": false
+      }
+    ],
+    "ochiai": null,
+    "top_ochiai": [
+      {
+        "file": "org/jsoup/select/Selector.java",
+        "line": 402,
+        "score": 0.866
+      },
+      {
+        "file": "org/jsoup/select/Selector.java",
+        "line": 182,
+        "score": 0.866
+      },
+      {
+        "file": "org/jsoup/select/Selector.java",
+        "line": 403,
+        "score": 0.866
+      },
+      {
+        "file": "org/jsoup/select/Selector.java",
+        "line": 179,
+        "score": 0.75
+      },
+      {
+        "file": "org/jsoup/select/Selector.java",
+        "line": 177,
+        "score": 0.6124
+      },
+      {
+        "file": "org/jsoup/select/Selector.java",
+        "line": 175,
+        "score": 0.5669
+      },
+      {
+        "file": "org/jsoup/select/Selector.java",
+        "line": 171,
+        "score": 0.5547
+      },
+      {
+        "file": "org/jsoup/select/Selector.java",
+        "line": 169,
+        "score": 0.5345
+      },
+      {
+        "file": "org/jsoup/select/Selector.java",
+        "line": 167,
+        "score": 0.4851
+      },
+      {
+        "file": "org/jsoup/select/Selector.java",
+        "line": 165,
+        "score": 0.4714
+      },
+      {
+        "file": "org/jsoup/select/Selector.java",
+        "line": 173,
+        "score": 0.433
+      },
+      {
+        "file": "org/jsoup/select/Selector.java",
+        "line": 163,
+        "score": 0.417
+      },
+      {
+        "file": "org/jsoup/select/Selector.java",
+        "line": 161,
+        "score": 0.3536
+      },
+      {
+        "file": "org/jsoup/select/Selector.java",
+        "line": 159,
+        "score": 0.2722
+      },
+      {
+        "file": "org/jsoup/select/Selector.java",
+        "line": 157,
+        "score": 0.2697
+      },
+      {
+        "file": "org/jsoup/select/Selector.java",
+        "line": 128,
+        "score": 0.2652
+      },
+      {
+        "file": "org/jsoup/select/Selector.java",
+        "line": 105,
+        "score": 0.2649
+      },
+      {
+        "file": "org/jsoup/select/Selector.java",
+        "line": 107,
+        "score": 0.2649
+      },
+      {
+        "file": "org/jsoup/select/Selector.java",
+        "line": 84,
+        "score": 0.2649
+      },
+      {
+        "file": "org/jsoup/select/Selector.java",
+        "line": 111,
+        "score": 0.2649
+      }
+    ],
+    "tarantula": null,
+    "top_tarantula": [
+      {
+        "file": "org/jsoup/select/Selector.java",
+        "line": 402,
+        "score": 1.0
+      },
+      {
+        "file": "org/jsoup/select/Selector.java",
+        "line": 182,
+        "score": 1.0
+      },
+      {
+        "file": "org/jsoup/select/Selector.java",
+        "line": 403,
+        "score": 1.0
+      },
+      {
+        "file": "org/jsoup/select/Selector.java",
+        "line": 179,
+        "score": 0.9783
+      },
+      {
+        "file": "org/jsoup/select/Selector.java",
+        "line": 177,
+        "score": 0.9375
+      },
+      {
+        "file": "org/jsoup/select/Selector.java",
+        "line": 175,
+        "score": 0.9184
+      },
+      {
+        "file": "org/jsoup/select/Selector.java",
+        "line": 171,
+        "score": 0.8696
+      },
+      {
+        "file": "org/jsoup/select/Selector.java",
+        "line": 169,
+        "score": 0.8571
+      },
+      {
+        "file": "org/jsoup/select/Selector.java",
+        "line": 279,
+        "score": 0.8333
+      },
+      {
+        "file": "org/jsoup/select/Selector.java",
+        "line": 281,
+        "score": 0.8333
+      },
+      {
+        "file": "org/jsoup/select/Selector.java",
+        "line": 340,
+        "score": 0.8333
+      },
+      {
+        "file": "org/jsoup/select/Selector.java",
+        "line": 342,
+        "score": 0.8333
+      },
+      {
+        "file": "org/jsoup/select/Selector.java",
+        "line": 344,
+        "score": 0.8333
+      },
+      {
+        "file": "org/jsoup/select/Selector.java",
+        "line": 346,
+        "score": 0.8333
+      },
+      {
+        "file": "org/jsoup/select/Selector.java",
+        "line": 339,
+        "score": 0.8333
+      },
+      {
+        "file": "org/jsoup/select/Selector.java",
+        "line": 341,
+        "score": 0.8333
+      },
+      {
+        "file": "org/jsoup/select/Selector.java",
+        "line": 345,
+        "score": 0.8333
+      },
+      {
+        "file": "org/jsoup/select/Selector.java",
+        "line": 338,
+        "score": 0.8333
+      },
+      {
+        "file": "org/jsoup/select/Selector.java",
+        "line": 283,
+        "score": 0.8333
+      },
+      {
+        "file": "org/jsoup/select/Selector.java",
+        "line": 280,
+        "score": 0.8333
+      }
+    ]
+  },
+  {
+    "id": "Jsoup-12",
+    "num_failing": 1,
+    "num_passing": 64,
+    "search_space_lines": 218,
+    "scope": "modified",
+    "ground_truth": [
+      [
+        "org/jsoup/select/Selector.java",
+        139
+      ],
+      [
+        "org/jsoup/select/Selector.java",
+        156
+      ]
+    ],
+    "tests": [
+      {
+        "test": "org.jsoup.select.SelectorTest::testByAttributeRegexCombined",
+        "failed": true
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::adjacentSiblings",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::adjacentSiblingsWithId",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::and",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::caseInsensitive",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::containsOwn",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::deeperDescendant",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::descendant",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::generalSiblings",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::matchesOwn",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::mixCombinator",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::mixCombinatorGroup",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::multiChildDescent",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::notAdjacent",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::notAll",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::notClass",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::notParas",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::parentChildElement",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::parentChildStar",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::parentWithClassChild",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testAllElements",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testAllWithClass",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testByAttribute",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testByAttributeRegex",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testByAttributeRegexCharacterClass",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testByAttributeStarting",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testByClass",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testById",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testByTag",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testCharactersInIdAndClass",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testGroupOr",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testGroupOrAttribute",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testMatches",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testNamespacedTag",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testNestedHas",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testPseudoBetween",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testPseudoCombined",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testPseudoContains",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testPseudoEquals",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testPseudoGreaterThan",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testPseudoHas",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testPseudoLessThan",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testPsuedoContainsWithParentheses",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testRelaxedTags",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testSupportsLeadingCombinator",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.integration.ParseTest::testBaidu",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.integration.ParseTest::testYahooArticle",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::after",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testAddNewText",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testClassDomMethods",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testEmptyElementFormatHtml",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testGetElementsWithAttribute",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testSetText",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.NodeTest::handlesBaseUri",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::createsImplicitLists",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::findsCharsetInMalformedMeta",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesNestedImplicitTable",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::parsesRoughAttributes",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::parsesUnterminatedAttribute",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.ElementsTest::attr",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.ElementsTest::empty",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.ElementsTest::eq",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.ElementsTest::is",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.ElementsTest::remove",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.ElementsTest::text",
+        "failed": false
+      }
+    ],
+    "ochiai": {
+      "best": 35,
+      "avg": 37.0,
+      "worst": 39
+    },
+    "top_ochiai": [
+      {
+        "file": "org/jsoup/select/Selector.java",
+        "line": 187,
+        "score": 1.0
+      },
+      {
+        "file": "org/jsoup/select/Selector.java",
+        "line": 429,
+        "score": 1.0
+      },
+      {
+        "file": "org/jsoup/select/Selector.java",
+        "line": 428,
+        "score": 1.0
+      },
+      {
+        "file": "org/jsoup/select/Selector.java",
+        "line": 148,
+        "score": 0.7071
+      },
+      {
+        "file": "org/jsoup/select/Selector.java",
+        "line": 149,
+        "score": 0.7071
+      },
+      {
+        "file": "org/jsoup/select/Selector.java",
+        "line": 184,
+        "score": 0.5
+      },
+      {
+        "file": "org/jsoup/select/Selector.java",
+        "line": 182,
+        "score": 0.4472
+      },
+      {
+        "file": "org/jsoup/select/Selector.java",
+        "line": 146,
+        "score": 0.378
+      },
+      {
+        "file": "org/jsoup/select/Selector.java",
+        "line": 180,
+        "score": 0.378
+      },
+      {
+        "file": "org/jsoup/select/Selector.java",
+        "line": 234,
+        "score": 0.3536
+      },
+      {
+        "file": "org/jsoup/select/Selector.java",
+        "line": 178,
+        "score": 0.3536
+      },
+      {
+        "file": "org/jsoup/select/Selector.java",
+        "line": 128,
+        "score": 0.2887
+      },
+      {
+        "file": "org/jsoup/select/Selector.java",
+        "line": 342,
+        "score": 0.2887
+      },
+      {
+        "file": "org/jsoup/select/Selector.java",
+        "line": 335,
+        "score": 0.2887
+      },
+      {
+        "file": "org/jsoup/select/Selector.java",
+        "line": 344,
+        "score": 0.2887
+      },
+      {
+        "file": "org/jsoup/select/Selector.java",
+        "line": 337,
+        "score": 0.2887
+      },
+      {
+        "file": "org/jsoup/select/Selector.java",
+        "line": 341,
+        "score": 0.2887
+      },
+      {
+        "file": "org/jsoup/select/Selector.java",
+        "line": 343,
+        "score": 0.2887
+      },
+      {
+        "file": "org/jsoup/select/Selector.java",
+        "line": 336,
+        "score": 0.2887
+      },
+      {
+        "file": "org/jsoup/select/Selector.java",
+        "line": 338,
+        "score": 0.2887
+      }
+    ],
+    "tarantula": {
+      "best": 35,
+      "avg": 37.0,
+      "worst": 39
+    },
+    "top_tarantula": [
+      {
+        "file": "org/jsoup/select/Selector.java",
+        "line": 187,
+        "score": 1.0
+      },
+      {
+        "file": "org/jsoup/select/Selector.java",
+        "line": 429,
+        "score": 1.0
+      },
+      {
+        "file": "org/jsoup/select/Selector.java",
+        "line": 428,
+        "score": 1.0
+      },
+      {
+        "file": "org/jsoup/select/Selector.java",
+        "line": 148,
+        "score": 0.9846
+      },
+      {
+        "file": "org/jsoup/select/Selector.java",
+        "line": 149,
+        "score": 0.9846
+      },
+      {
+        "file": "org/jsoup/select/Selector.java",
+        "line": 184,
+        "score": 0.9552
+      },
+      {
+        "file": "org/jsoup/select/Selector.java",
+        "line": 182,
+        "score": 0.9412
+      },
+      {
+        "file": "org/jsoup/select/Selector.java",
+        "line": 146,
+        "score": 0.9143
+      },
+      {
+        "file": "org/jsoup/select/Selector.java",
+        "line": 180,
+        "score": 0.9143
+      },
+      {
+        "file": "org/jsoup/select/Selector.java",
+        "line": 234,
+        "score": 0.9014
+      },
+      {
+        "file": "org/jsoup/select/Selector.java",
+        "line": 178,
+        "score": 0.9014
+      },
+      {
+        "file": "org/jsoup/select/Selector.java",
+        "line": 128,
+        "score": 0.8533
+      },
+      {
+        "file": "org/jsoup/select/Selector.java",
+        "line": 342,
+        "score": 0.8533
+      },
+      {
+        "file": "org/jsoup/select/Selector.java",
+        "line": 335,
+        "score": 0.8533
+      },
+      {
+        "file": "org/jsoup/select/Selector.java",
+        "line": 344,
+        "score": 0.8533
+      },
+      {
+        "file": "org/jsoup/select/Selector.java",
+        "line": 337,
+        "score": 0.8533
+      },
+      {
+        "file": "org/jsoup/select/Selector.java",
+        "line": 341,
+        "score": 0.8533
+      },
+      {
+        "file": "org/jsoup/select/Selector.java",
+        "line": 343,
+        "score": 0.8533
+      },
+      {
+        "file": "org/jsoup/select/Selector.java",
+        "line": 336,
+        "score": 0.8533
+      },
+      {
+        "file": "org/jsoup/select/Selector.java",
+        "line": 338,
+        "score": 0.8533
+      }
+    ]
+  },
+  {
+    "id": "Jsoup-13",
+    "num_failing": 4,
+    "num_passing": 50,
+    "search_space_lines": 194,
+    "scope": "modified",
+    "ground_truth": [
+      [
+        "org/jsoup/nodes/Node.java",
+        107
+      ]
+    ],
+    "tests": [
+      {
+        "test": "org.jsoup.nodes.NodeTest::handlesAbsPrefixOnHasAttr",
+        "failed": true
+      },
+      {
+        "test": "org.jsoup.nodes.NodeTest::handlesAbsPrefix",
+        "failed": true
+      },
+      {
+        "test": "org.jsoup.select.ElementsTest::absAttr",
+        "failed": true
+      },
+      {
+        "test": "org.jsoup.select.ElementsTest::hasAbsAttr",
+        "failed": true
+      },
+      {
+        "test": "org.jsoup.nodes.NodeTest::absHandlesRelativeQuery",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.NodeTest::after",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.NodeTest::before",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.NodeTest::handlesAbsOnImage",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.NodeTest::handlesBaseUri",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.NodeTest::literalAbsPrefix",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.NodeTest::ownerDocument",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.NodeTest::testRemove",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.NodeTest::testReplace",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.ElementsTest::after",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.ElementsTest::attr",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.ElementsTest::attributes",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.ElementsTest::before",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.ElementsTest::classes",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.ElementsTest::empty",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.ElementsTest::eq",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.ElementsTest::filter",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.ElementsTest::hasAttr",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.ElementsTest::hasText",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.ElementsTest::html",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.ElementsTest::is",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.ElementsTest::not",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.ElementsTest::outerHtml",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.ElementsTest::parents",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.ElementsTest::remove",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.ElementsTest::setHtml",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.ElementsTest::tagNameSet",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.ElementsTest::text",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.ElementsTest::val",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.ElementsTest::wrap",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.integration.ParseTest::testBaidu",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.integration.ParseTest::testSmhBizArticle",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.DocumentTest::testOutputEncoding",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::parentlessToString",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testClassDomMethods",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testElementSiblingIndex",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testOuterHtml",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.TextNodeTest::testSplitAnEmbolden",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesSolidusInA",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesTbodyTable",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::noTableDirectInTable",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::parsesBodyFragment",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::parsesComments",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::parsesUnterminatedOption",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::testAFlowContents",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::testHeaderContents",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.safety.CleanerTest::testIsValid",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::matchesOwn",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testAllElements",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testGroupOr",
+        "failed": false
+      }
+    ],
+    "ochiai": {
+      "best": 2,
+      "avg": 2.5,
+      "worst": 3
+    },
+    "top_ochiai": [
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 75,
+        "score": 0.5547
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 105,
+        "score": 0.4714
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 107,
+        "score": 0.4714
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 77,
+        "score": 0.4523
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 71,
+        "score": 0.417
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 73,
+        "score": 0.417
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 74,
+        "score": 0.417
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 76,
+        "score": 0.3536
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 161,
+        "score": 0.3536
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 179,
+        "score": 0.3536
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 162,
+        "score": 0.3536
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 159,
+        "score": 0.3536
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 180,
+        "score": 0.3536
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 168,
+        "score": 0.3536
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 212,
+        "score": 0.3015
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 415,
+        "score": 0.2981
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 48,
+        "score": 0.2949
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 50,
+        "score": 0.2949
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 47,
+        "score": 0.2949
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 49,
+        "score": 0.2949
+      }
+    ],
+    "tarantula": {
+      "best": 12,
+      "avg": 12.5,
+      "worst": 13
+    },
+    "top_tarantula": [
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 76,
+        "score": 0.9259
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 179,
+        "score": 0.9259
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 180,
+        "score": 0.9259
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 169,
+        "score": 0.8621
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 171,
+        "score": 0.8621
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 75,
+        "score": 0.8475
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 77,
+        "score": 0.8242
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 161,
+        "score": 0.8065
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 162,
+        "score": 0.8065
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 159,
+        "score": 0.8065
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 168,
+        "score": 0.8065
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 105,
+        "score": 0.7812
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 107,
+        "score": 0.7812
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 71,
+        "score": 0.7246
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 73,
+        "score": 0.7246
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 74,
+        "score": 0.7246
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 178,
+        "score": 0.7143
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 173,
+        "score": 0.7143
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 175,
+        "score": 0.7143
+      },
+      {
+        "file": "org/jsoup/nodes/Node.java",
+        "line": 177,
+        "score": 0.7143
+      }
+    ]
+  },
+  {
+    "id": "Jsoup-14",
+    "num_failing": 2,
+    "num_passing": 80,
+    "search_space_lines": 1246,
+    "scope": "modified",
+    "ground_truth": [
+      [
+        "org/jsoup/parser/Tokeniser.java",
+        197
+      ],
+      [
+        "org/jsoup/parser/TokeniserState.java",
+        218
+      ],
+      [
+        "org/jsoup/parser/TokeniserState.java",
+        220
+      ]
+    ],
+    "tests": [
+      {
+        "test": "org.jsoup.parser.ParserTest::parsesUnterminatedTextarea",
+        "failed": true
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesUnclosedTitle",
+        "failed": true
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::commentBeforeHtml",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::createsDocumentStructure",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::createsStructureFromBodySnippet",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::discardsNakedTds",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::doesNotCreateImplicitLists",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::dropsUnterminatedAttribute",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::dropsUnterminatedTag",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::emptyTdTag",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::findsCharsetInMalformedMeta",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesBaseTags",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesBaseWithoutHref",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesBlocksInDefinitions",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesCdata",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesDataOnlyTags",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesEscapedData",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesFrames",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesImplicitCaptionClose",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesInvalidStartTags",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesJavadocFont",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesKnownEmptyBlocks",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesMisnestedTagsBI",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesMisnestedTagsBP",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesMultiClosingBody",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesNestedImplicitTable",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesSolidusAtAttributeEnd",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesSolidusInA",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesSpanInTbody",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesTbodyTable",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesTextAfterData",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesTextArea",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesUnclosedDefinitionLists",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesUnclosedFormattingElements",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesUnclosedTitleAtEof",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesUnexpectedMarkupInTables",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesUnknownInlineTags",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesUnknownNamespaceTags",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesUnknownTags",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesWhatWgExpensesTableExample",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::ignoresDupeEndTrTag",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::noTableDirectInTable",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::normalisesDocument",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::normalisesEmptyDocument",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::normalisesHeadlessBody",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::parsesBodyFragment",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::parsesComments",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::parsesQuiteRoughAttributes",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::parsesRoughAttributes",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::parsesSimpleDocument",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::parsesUnterminatedComments",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::parsesUnterminatedOption",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::reconstructFormattingElements",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::reconstructFormattingElementsInTable",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::testAFlowContents",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::testFontFlowContents",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::testHeaderContents",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::testHgroup",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::testNoImagesInNoScriptInHead",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::testRelaxedTags",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::testSpaceAfterTag",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::testSpanContents",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.integration.ParseTest::testBaidu",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.integration.ParseTest::testSmhBizArticle",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.DocumentTest::testXhtmlReferences",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testAddNewHtml",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testClone",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testFormatHtml",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testPrependNewHtml",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testSetText",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.NodeTest::handlesAbsOnImage",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.NodeTest::handlesBaseUri",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.ElementsTest::after",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.ElementsTest::attributes",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.ElementsTest::not",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.ElementsTest::setHtml",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.ElementsTest::tagNameSet",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::adjacentSiblingsWithId",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::deeperDescendant",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::generalSiblings",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testByClass",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testPseudoBetween",
+        "failed": false
+      }
+    ],
+    "ochiai": null,
+    "top_ochiai": [
+      {
+        "file": "org/jsoup/parser/TokeniserState.java",
+        "line": 59,
+        "score": 0.8165
+      },
+      {
+        "file": "org/jsoup/parser/TokeniserState.java",
+        "line": 221,
+        "score": 0.8165
+      },
+      {
+        "file": "org/jsoup/parser/TokeniserState.java",
+        "line": 222,
+        "score": 0.8165
+      },
+      {
+        "file": "org/jsoup/parser/TokeniserState.java",
+        "line": 58,
+        "score": 0.8165
+      },
+      {
+        "file": "org/jsoup/parser/TokeniserState.java",
+        "line": 271,
+        "score": 0.7071
+      },
+      {
+        "file": "org/jsoup/parser/TokeniserState.java",
+        "line": 272,
+        "score": 0.7071
+      },
+      {
+        "file": "org/jsoup/parser/TokeniserState.java",
+        "line": 279,
+        "score": 0.5
+      },
+      {
+        "file": "org/jsoup/parser/TokeniserState.java",
+        "line": 281,
+        "score": 0.5
+      },
+      {
+        "file": "org/jsoup/parser/TokeniserState.java",
+        "line": 280,
+        "score": 0.5
+      },
+      {
+        "file": "org/jsoup/parser/TokeniserState.java",
+        "line": 224,
+        "score": 0.4472
+      },
+      {
+        "file": "org/jsoup/parser/TokeniserState.java",
+        "line": 50,
+        "score": 0.4472
+      },
+      {
+        "file": "org/jsoup/parser/TokeniserState.java",
+        "line": 62,
+        "score": 0.4472
+      },
+      {
+        "file": "org/jsoup/parser/TokeniserState.java",
+        "line": 215,
+        "score": 0.4472
+      },
+      {
+        "file": "org/jsoup/parser/TokeniserState.java",
+        "line": 61,
+        "score": 0.4472
+      },
+      {
+        "file": "org/jsoup/parser/TokeniserState.java",
+        "line": 51,
+        "score": 0.4472
+      },
+      {
+        "file": "org/jsoup/parser/TokeniserState.java",
+        "line": 65,
+        "score": 0.4472
+      },
+      {
+        "file": "org/jsoup/parser/TokeniserState.java",
+        "line": 45,
+        "score": 0.4472
+      },
+      {
+        "file": "org/jsoup/parser/TokeniserState.java",
+        "line": 237,
+        "score": 0.2357
+      },
+      {
+        "file": "org/jsoup/parser/TokeniserState.java",
+        "line": 249,
+        "score": 0.2357
+      },
+      {
+        "file": "org/jsoup/parser/TokeniserState.java",
+        "line": 216,
+        "score": 0.2357
+      }
+    ],
+    "tarantula": null,
+    "top_tarantula": [
+      {
+        "file": "org/jsoup/parser/TokeniserState.java",
+        "line": 271,
+        "score": 1.0
+      },
+      {
+        "file": "org/jsoup/parser/TokeniserState.java",
+        "line": 272,
+        "score": 1.0
+      },
+      {
+        "file": "org/jsoup/parser/TokeniserState.java",
+        "line": 59,
+        "score": 0.9877
+      },
+      {
+        "file": "org/jsoup/parser/TokeniserState.java",
+        "line": 221,
+        "score": 0.9877
+      },
+      {
+        "file": "org/jsoup/parser/TokeniserState.java",
+        "line": 222,
+        "score": 0.9877
+      },
+      {
+        "file": "org/jsoup/parser/TokeniserState.java",
+        "line": 58,
+        "score": 0.9877
+      },
+      {
+        "file": "org/jsoup/parser/TokeniserState.java",
+        "line": 279,
+        "score": 0.9756
+      },
+      {
+        "file": "org/jsoup/parser/TokeniserState.java",
+        "line": 281,
+        "score": 0.9756
+      },
+      {
+        "file": "org/jsoup/parser/TokeniserState.java",
+        "line": 280,
+        "score": 0.9756
+      },
+      {
+        "file": "org/jsoup/parser/TokeniserState.java",
+        "line": 224,
+        "score": 0.9091
+      },
+      {
+        "file": "org/jsoup/parser/TokeniserState.java",
+        "line": 50,
+        "score": 0.9091
+      },
+      {
+        "file": "org/jsoup/parser/TokeniserState.java",
+        "line": 62,
+        "score": 0.9091
+      },
+      {
+        "file": "org/jsoup/parser/TokeniserState.java",
+        "line": 215,
+        "score": 0.9091
+      },
+      {
+        "file": "org/jsoup/parser/TokeniserState.java",
+        "line": 61,
+        "score": 0.9091
+      },
+      {
+        "file": "org/jsoup/parser/TokeniserState.java",
+        "line": 51,
+        "score": 0.9091
+      },
+      {
+        "file": "org/jsoup/parser/TokeniserState.java",
+        "line": 65,
+        "score": 0.9091
+      },
+      {
+        "file": "org/jsoup/parser/TokeniserState.java",
+        "line": 45,
+        "score": 0.9091
+      },
+      {
+        "file": "org/jsoup/parser/TokeniserState.java",
+        "line": 237,
+        "score": 0.8333
+      },
+      {
+        "file": "org/jsoup/parser/TokeniserState.java",
+        "line": 249,
+        "score": 0.8333
+      },
+      {
+        "file": "org/jsoup/parser/TokeniserState.java",
+        "line": 216,
+        "score": 0.8333
+      }
+    ]
+  },
+  {
+    "id": "Jsoup-15",
+    "num_failing": 1,
+    "num_passing": 83,
+    "search_space_lines": 1055,
+    "scope": "modified",
+    "ground_truth": [
+      [
+        "org/jsoup/parser/TreeBuilderState.java",
+        283
+      ]
+    ],
+    "tests": [
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesDataOnlyTags",
+        "failed": true
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::commentBeforeHtml",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::createsDocumentStructure",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::createsStructureFromBodySnippet",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::discardsNakedTds",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::doesNotCreateImplicitLists",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::dropsUnterminatedAttribute",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::dropsUnterminatedTag",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::emptyTdTag",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::findsCharsetInMalformedMeta",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesBaseTags",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesBaseWithoutHref",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesBlocksInDefinitions",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesCdata",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesEscapedData",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesFrames",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesImplicitCaptionClose",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesInvalidStartTags",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesJavadocFont",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesKnownEmptyBlocks",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesMisnestedTagsBI",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesMisnestedTagsBP",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesMultiClosingBody",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesNestedImplicitTable",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesSolidusAtAttributeEnd",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesSolidusInA",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesSpanInTbody",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesTbodyTable",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesTextAfterData",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesTextArea",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesUnclosedDefinitionLists",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesUnclosedFormattingElements",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesUnclosedTitle",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesUnclosedTitleAtEof",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesUnexpectedMarkupInTables",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesUnknownInlineTags",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesUnknownNamespaceTags",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesUnknownTags",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesWhatWgExpensesTableExample",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::ignoresDupeEndTrTag",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::noImplicitFormForTextAreas",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::noTableDirectInTable",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::normalisedBodyAfterContent",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::normalisesDocument",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::normalisesEmptyDocument",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::normalisesHeadlessBody",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::parsesBodyFragment",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::parsesComments",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::parsesQuiteRoughAttributes",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::parsesRoughAttributes",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::parsesSimpleDocument",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::parsesUnterminatedComments",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::parsesUnterminatedOption",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::parsesUnterminatedTextarea",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::reconstructFormattingElements",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::reconstructFormattingElementsInTable",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::testAFlowContents",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::testFontFlowContents",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::testHeaderContents",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::testHgroup",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::testNoImagesInNoScriptInHead",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::testRelaxedTags",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::testSpaceAfterTag",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::testSpanContents",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.integration.ParseTest::testBaidu",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.integration.ParseTest::testSmhBizArticle",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.DocumentTest::testXhtmlReferences",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testAddNewHtml",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testClone",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testFormatHtml",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testPrependNewHtml",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.NodeTest::handlesAbsOnImage",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.NodeTest::handlesBaseUri",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.safety.CleanerTest::testRelaxed",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.ElementsTest::after",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.ElementsTest::html",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.ElementsTest::parents",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.ElementsTest::remove",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.ElementsTest::val",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::and",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::containsOwn",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testByAttributeRegexCharacterClass",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testMatches",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testRelaxedTags",
+        "failed": false
+      }
+    ],
+    "ochiai": {
+      "best": 188,
+      "avg": 621.5,
+      "worst": 1055
+    },
+    "top_ochiai": [
+      {
+        "file": "org/jsoup/parser/TreeBuilderState.java",
+        "line": 772,
+        "score": 0.7071
+      },
+      {
+        "file": "org/jsoup/parser/TreeBuilderState.java",
+        "line": 123,
+        "score": 0.7071
+      },
+      {
+        "file": "org/jsoup/parser/TreeBuilderState.java",
+        "line": 1481,
+        "score": 0.5774
+      },
+      {
+        "file": "org/jsoup/parser/TreeBuilderState.java",
+        "line": 1478,
+        "score": 0.5774
+      },
+      {
+        "file": "org/jsoup/parser/TreeBuilderState.java",
+        "line": 1477,
+        "score": 0.5774
+      },
+      {
+        "file": "org/jsoup/parser/TreeBuilderState.java",
+        "line": 1480,
+        "score": 0.5774
+      },
+      {
+        "file": "org/jsoup/parser/TreeBuilderState.java",
+        "line": 781,
+        "score": 0.5774
+      },
+      {
+        "file": "org/jsoup/parser/TreeBuilderState.java",
+        "line": 1479,
+        "score": 0.5774
+      },
+      {
+        "file": "org/jsoup/parser/TreeBuilderState.java",
+        "line": 609,
+        "score": 0.4472
+      },
+      {
+        "file": "org/jsoup/parser/TreeBuilderState.java",
+        "line": 234,
+        "score": 0.3333
+      },
+      {
+        "file": "org/jsoup/parser/TreeBuilderState.java",
+        "line": 155,
+        "score": 0.3333
+      },
+      {
+        "file": "org/jsoup/parser/TreeBuilderState.java",
+        "line": 401,
+        "score": 0.2774
+      },
+      {
+        "file": "org/jsoup/parser/TreeBuilderState.java",
+        "line": 414,
+        "score": 0.2774
+      },
+      {
+        "file": "org/jsoup/parser/TreeBuilderState.java",
+        "line": 413,
+        "score": 0.2774
+      },
+      {
+        "file": "org/jsoup/parser/TreeBuilderState.java",
+        "line": 789,
+        "score": 0.2774
+      },
+      {
+        "file": "org/jsoup/parser/TreeBuilderState.java",
+        "line": 415,
+        "score": 0.2774
+      },
+      {
+        "file": "org/jsoup/parser/TreeBuilderState.java",
+        "line": 412,
+        "score": 0.2774
+      },
+      {
+        "file": "org/jsoup/parser/TreeBuilderState.java",
+        "line": 788,
+        "score": 0.2673
+      },
+      {
+        "file": "org/jsoup/parser/TreeBuilderState.java",
+        "line": 799,
+        "score": 0.2673
+      },
+      {
+        "file": "org/jsoup/parser/TreeBuilderState.java",
+        "line": 801,
+        "score": 0.2673
+      }
+    ],
+    "tarantula": {
+      "best": 188,
+      "avg": 621.5,
+      "worst": 1055
+    },
+    "top_tarantula": [
+      {
+        "file": "org/jsoup/parser/TreeBuilderState.java",
+        "line": 772,
+        "score": 0.9881
+      },
+      {
+        "file": "org/jsoup/parser/TreeBuilderState.java",
+        "line": 123,
+        "score": 0.9881
+      },
+      {
+        "file": "org/jsoup/parser/TreeBuilderState.java",
+        "line": 1481,
+        "score": 0.9765
+      },
+      {
+        "file": "org/jsoup/parser/TreeBuilderState.java",
+        "line": 1478,
+        "score": 0.9765
+      },
+      {
+        "file": "org/jsoup/parser/TreeBuilderState.java",
+        "line": 1477,
+        "score": 0.9765
+      },
+      {
+        "file": "org/jsoup/parser/TreeBuilderState.java",
+        "line": 1480,
+        "score": 0.9765
+      },
+      {
+        "file": "org/jsoup/parser/TreeBuilderState.java",
+        "line": 781,
+        "score": 0.9765
+      },
+      {
+        "file": "org/jsoup/parser/TreeBuilderState.java",
+        "line": 1479,
+        "score": 0.9765
+      },
+      {
+        "file": "org/jsoup/parser/TreeBuilderState.java",
+        "line": 609,
+        "score": 0.954
+      },
+      {
+        "file": "org/jsoup/parser/TreeBuilderState.java",
+        "line": 234,
+        "score": 0.9121
+      },
+      {
+        "file": "org/jsoup/parser/TreeBuilderState.java",
+        "line": 155,
+        "score": 0.9121
+      },
+      {
+        "file": "org/jsoup/parser/TreeBuilderState.java",
+        "line": 401,
+        "score": 0.8737
+      },
+      {
+        "file": "org/jsoup/parser/TreeBuilderState.java",
+        "line": 414,
+        "score": 0.8737
+      },
+      {
+        "file": "org/jsoup/parser/TreeBuilderState.java",
+        "line": 413,
+        "score": 0.8737
+      },
+      {
+        "file": "org/jsoup/parser/TreeBuilderState.java",
+        "line": 789,
+        "score": 0.8737
+      },
+      {
+        "file": "org/jsoup/parser/TreeBuilderState.java",
+        "line": 415,
+        "score": 0.8737
+      },
+      {
+        "file": "org/jsoup/parser/TreeBuilderState.java",
+        "line": 412,
+        "score": 0.8737
+      },
+      {
+        "file": "org/jsoup/parser/TreeBuilderState.java",
+        "line": 788,
+        "score": 0.8646
+      },
+      {
+        "file": "org/jsoup/parser/TreeBuilderState.java",
+        "line": 799,
+        "score": 0.8646
+      },
+      {
+        "file": "org/jsoup/parser/TreeBuilderState.java",
+        "line": 801,
+        "score": 0.8646
+      }
+    ]
+  },
+  {
+    "id": "Jsoup-16",
+    "num_failing": 2,
+    "num_passing": 22,
+    "search_space_lines": 14,
+    "scope": "modified",
+    "ground_truth": [
+      [
+        "org/jsoup/nodes/DocumentType.java",
+        4
+      ],
+      [
+        "org/jsoup/nodes/DocumentType.java",
+        21
+      ],
+      [
+        "org/jsoup/nodes/DocumentType.java",
+        33
+      ],
+      [
+        "org/jsoup/nodes/DocumentType.java",
+        37
+      ]
+    ],
+    "tests": [
+      {
+        "test": "org.jsoup.nodes.DocumentTypeTest::outerHtmlGeneration",
+        "failed": true
+      },
+      {
+        "test": "org.jsoup.nodes.DocumentTypeTest::constructorValidationThrowsExceptionOnBlankName",
+        "failed": true
+      },
+      {
+        "test": "org.jsoup.nodes.DocumentTypeTest::constructorValidationOkWithBlankPublicAndSystemIds",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.DocumentTypeTest::constructorValidationThrowsExceptionOnNulls",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.integration.ParseTest::testSmhBizArticle",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.DocumentTest::testXhtmlReferences",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testAddNewHtml",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testClone",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testFormatHtml",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testPrependNewHtml",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.NodeTest::handlesAbsOnImage",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesEscapedData",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesUnclosedFormattingElements",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesUnexpectedMarkupInTables",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesWhatWgExpensesTableExample",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::noImplicitFormForTextAreas",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::testHgroup",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.ElementsTest::after",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::deeperDescendant",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::descendant",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::notAdjacent",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::parentChildElement",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testById",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testPseudoEquals",
+        "failed": false
+      }
+    ],
+    "ochiai": {
+      "best": 1,
+      "avg": 1.5,
+      "worst": 2
+    },
+    "top_ochiai": [
+      {
+        "file": "org/jsoup/nodes/DocumentType.java",
+        "line": 37,
+        "score": 0.7071
+      },
+      {
+        "file": "org/jsoup/nodes/DocumentType.java",
+        "line": 35,
+        "score": 0.7071
+      },
+      {
+        "file": "org/jsoup/nodes/DocumentType.java",
+        "line": 23,
+        "score": 0.6325
+      },
+      {
+        "file": "org/jsoup/nodes/DocumentType.java",
+        "line": 24,
+        "score": 0.6325
+      },
+      {
+        "file": "org/jsoup/nodes/DocumentType.java",
+        "line": 19,
+        "score": 0.5774
+      },
+      {
+        "file": "org/jsoup/nodes/DocumentType.java",
+        "line": 22,
+        "score": 0.5774
+      },
+      {
+        "file": "org/jsoup/nodes/DocumentType.java",
+        "line": 21,
+        "score": 0.5774
+      },
+      {
+        "file": "org/jsoup/nodes/DocumentType.java",
+        "line": 33,
+        "score": 0.5
+      },
+      {
+        "file": "org/jsoup/nodes/DocumentType.java",
+        "line": 36,
+        "score": 0.5
+      },
+      {
+        "file": "org/jsoup/nodes/DocumentType.java",
+        "line": 39,
+        "score": 0.5
+      },
+      {
+        "file": "org/jsoup/nodes/DocumentType.java",
+        "line": 28,
+        "score": 0.5
+      },
+      {
+        "file": "org/jsoup/nodes/DocumentType.java",
+        "line": 34,
+        "score": 0.5
+      },
+      {
+        "file": "org/jsoup/nodes/DocumentType.java",
+        "line": 43,
+        "score": 0.5
+      },
+      {
+        "file": "org/jsoup/nodes/DocumentType.java",
+        "line": 38,
+        "score": 0.5
+      }
+    ],
+    "tarantula": {
+      "best": 1,
+      "avg": 1.5,
+      "worst": 2
+    },
+    "top_tarantula": [
+      {
+        "file": "org/jsoup/nodes/DocumentType.java",
+        "line": 37,
+        "score": 1.0
+      },
+      {
+        "file": "org/jsoup/nodes/DocumentType.java",
+        "line": 35,
+        "score": 1.0
+      },
+      {
+        "file": "org/jsoup/nodes/DocumentType.java",
+        "line": 33,
+        "score": 0.9167
+      },
+      {
+        "file": "org/jsoup/nodes/DocumentType.java",
+        "line": 36,
+        "score": 0.9167
+      },
+      {
+        "file": "org/jsoup/nodes/DocumentType.java",
+        "line": 39,
+        "score": 0.9167
+      },
+      {
+        "file": "org/jsoup/nodes/DocumentType.java",
+        "line": 28,
+        "score": 0.9167
+      },
+      {
+        "file": "org/jsoup/nodes/DocumentType.java",
+        "line": 34,
+        "score": 0.9167
+      },
+      {
+        "file": "org/jsoup/nodes/DocumentType.java",
+        "line": 43,
+        "score": 0.9167
+      },
+      {
+        "file": "org/jsoup/nodes/DocumentType.java",
+        "line": 38,
+        "score": 0.9167
+      },
+      {
+        "file": "org/jsoup/nodes/DocumentType.java",
+        "line": 23,
+        "score": 0.88
+      },
+      {
+        "file": "org/jsoup/nodes/DocumentType.java",
+        "line": 24,
+        "score": 0.88
+      },
+      {
+        "file": "org/jsoup/nodes/DocumentType.java",
+        "line": 19,
+        "score": 0.8462
+      },
+      {
+        "file": "org/jsoup/nodes/DocumentType.java",
+        "line": 22,
+        "score": 0.8462
+      },
+      {
+        "file": "org/jsoup/nodes/DocumentType.java",
+        "line": 21,
+        "score": 0.8462
+      }
+    ]
+  },
+  {
+    "id": "Jsoup-17",
+    "num_failing": 1,
+    "num_passing": 88,
+    "search_space_lines": 1055,
+    "scope": "modified",
+    "ground_truth": [
+      [
+        "org/jsoup/parser/TreeBuilderState.java",
+        1451
+      ]
+    ],
+    "tests": [
+      {
+        "test": "org.jsoup.parser.ParserTest::handles0CharacterAsText",
+        "failed": true
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::commentBeforeHtml",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::createsDocumentStructure",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::createsStructureFromBodySnippet",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::discardsNakedTds",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::doesNotCreateImplicitLists",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::dropsUnterminatedAttribute",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::dropsUnterminatedTag",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::emptyTdTag",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::findsCharsetInMalformedMeta",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesBaseTags",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesBaseWithoutHref",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesBlocksInDefinitions",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesCdata",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesDataOnlyTags",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesEscapedData",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesEscapedScript",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesFrames",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesImplicitCaptionClose",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesInvalidStartTags",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesJavadocFont",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesKnownEmptyBlocks",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesMisnestedTagsBI",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesMisnestedTagsBP",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesMultiClosingBody",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesNestedImplicitTable",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesNullInData",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesSolidusAtAttributeEnd",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesSolidusInA",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesSpanInTbody",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesTbodyTable",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesTextAfterData",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesTextArea",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesUnclosedDefinitionLists",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesUnclosedFormattingElements",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesUnclosedRawtextAtEof",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesUnclosedScriptAtEof",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesUnclosedTitle",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesUnclosedTitleAtEof",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesUnexpectedMarkupInTables",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesUnknownInlineTags",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesUnknownNamespaceTags",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesUnknownTags",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesWhatWgExpensesTableExample",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::ignoresDupeEndTrTag",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::noImplicitFormForTextAreas",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::noTableDirectInTable",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::normalisedBodyAfterContent",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::normalisesDocument",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::normalisesEmptyDocument",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::normalisesHeadlessBody",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::parsesBodyFragment",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::parsesComments",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::parsesQuiteRoughAttributes",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::parsesRoughAttributes",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::parsesSimpleDocument",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::parsesUnterminatedComments",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::parsesUnterminatedOption",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::parsesUnterminatedTextarea",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::reconstructFormattingElements",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::reconstructFormattingElementsInTable",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::testAFlowContents",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::testFontFlowContents",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::testHeaderContents",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::testHgroup",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::testNoImagesInNoScriptInHead",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::testRelaxedTags",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::testSpaceAfterTag",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::testSpanContents",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.integration.ParseTest::testBaidu",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.integration.ParseTest::testSmhBizArticle",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.DocumentTest::testXhtmlReferences",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testAddNewHtml",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testClone",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testFormatHtml",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testPrependNewHtml",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.NodeTest::handlesAbsOnImage",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.NodeTest::handlesBaseUri",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.safety.CleanerTest::testRelaxed",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.ElementsTest::after",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.ElementsTest::html",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.ElementsTest::parents",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.ElementsTest::remove",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.ElementsTest::val",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::and",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::containsOwn",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testByAttributeRegexCharacterClass",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testMatches",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testRelaxedTags",
+        "failed": false
+      }
+    ],
+    "ochiai": {
+      "best": 83,
+      "avg": 96.0,
+      "worst": 109
+    },
+    "top_ochiai": [
+      {
+        "file": "org/jsoup/parser/TreeBuilderState.java",
+        "line": 253,
+        "score": 1.0
+      },
+      {
+        "file": "org/jsoup/parser/TreeBuilderState.java",
+        "line": 252,
+        "score": 1.0
+      },
+      {
+        "file": "org/jsoup/parser/TreeBuilderState.java",
+        "line": 234,
+        "score": 0.2774
+      },
+      {
+        "file": "org/jsoup/parser/TreeBuilderState.java",
+        "line": 155,
+        "score": 0.2774
+      },
+      {
+        "file": "org/jsoup/parser/TreeBuilderState.java",
+        "line": 610,
+        "score": 0.1601
+      },
+      {
+        "file": "org/jsoup/parser/TreeBuilderState.java",
+        "line": 608,
+        "score": 0.1601
+      },
+      {
+        "file": "org/jsoup/parser/TreeBuilderState.java",
+        "line": 607,
+        "score": 0.1601
+      },
+      {
+        "file": "org/jsoup/parser/TreeBuilderState.java",
+        "line": 602,
+        "score": 0.1601
+      },
+      {
+        "file": "org/jsoup/parser/TreeBuilderState.java",
+        "line": 321,
+        "score": 0.1374
+      },
+      {
+        "file": "org/jsoup/parser/TreeBuilderState.java",
+        "line": 324,
+        "score": 0.1374
+      },
+      {
+        "file": "org/jsoup/parser/TreeBuilderState.java",
+        "line": 588,
+        "score": 0.1222
+      },
+      {
+        "file": "org/jsoup/parser/TreeBuilderState.java",
+        "line": 569,
+        "score": 0.1187
+      },
+      {
+        "file": "org/jsoup/parser/TreeBuilderState.java",
+        "line": 240,
+        "score": 0.1179
+      },
+      {
+        "file": "org/jsoup/parser/TreeBuilderState.java",
+        "line": 560,
+        "score": 0.1179
+      },
+      {
+        "file": "org/jsoup/parser/TreeBuilderState.java",
+        "line": 242,
+        "score": 0.1179
+      },
+      {
+        "file": "org/jsoup/parser/TreeBuilderState.java",
+        "line": 559,
+        "score": 0.1179
+      },
+      {
+        "file": "org/jsoup/parser/TreeBuilderState.java",
+        "line": 241,
+        "score": 0.1179
+      },
+      {
+        "file": "org/jsoup/parser/TreeBuilderState.java",
+        "line": 561,
+        "score": 0.1179
+      },
+      {
+        "file": "org/jsoup/parser/TreeBuilderState.java",
+        "line": 1461,
+        "score": 0.117
+      },
+      {
+        "file": "org/jsoup/parser/TreeBuilderState.java",
+        "line": 1460,
+        "score": 0.117
+      }
+    ],
+    "tarantula": {
+      "best": 83,
+      "avg": 96.0,
+      "worst": 109
+    },
+    "top_tarantula": [
+      {
+        "file": "org/jsoup/parser/TreeBuilderState.java",
+        "line": 253,
+        "score": 1.0
+      },
+      {
+        "file": "org/jsoup/parser/TreeBuilderState.java",
+        "line": 252,
+        "score": 1.0
+      },
+      {
+        "file": "org/jsoup/parser/TreeBuilderState.java",
+        "line": 234,
+        "score": 0.88
+      },
+      {
+        "file": "org/jsoup/parser/TreeBuilderState.java",
+        "line": 155,
+        "score": 0.88
+      },
+      {
+        "file": "org/jsoup/parser/TreeBuilderState.java",
+        "line": 610,
+        "score": 0.6984
+      },
+      {
+        "file": "org/jsoup/parser/TreeBuilderState.java",
+        "line": 608,
+        "score": 0.6984
+      },
+      {
+        "file": "org/jsoup/parser/TreeBuilderState.java",
+        "line": 607,
+        "score": 0.6984
+      },
+      {
+        "file": "org/jsoup/parser/TreeBuilderState.java",
+        "line": 602,
+        "score": 0.6984
+      },
+      {
+        "file": "org/jsoup/parser/TreeBuilderState.java",
+        "line": 321,
+        "score": 0.6286
+      },
+      {
+        "file": "org/jsoup/parser/TreeBuilderState.java",
+        "line": 324,
+        "score": 0.6286
+      },
+      {
+        "file": "org/jsoup/parser/TreeBuilderState.java",
+        "line": 588,
+        "score": 0.5714
+      },
+      {
+        "file": "org/jsoup/parser/TreeBuilderState.java",
+        "line": 569,
+        "score": 0.557
+      },
+      {
+        "file": "org/jsoup/parser/TreeBuilderState.java",
+        "line": 240,
+        "score": 0.5535
+      },
+      {
+        "file": "org/jsoup/parser/TreeBuilderState.java",
+        "line": 560,
+        "score": 0.5535
+      },
+      {
+        "file": "org/jsoup/parser/TreeBuilderState.java",
+        "line": 242,
+        "score": 0.5535
+      },
+      {
+        "file": "org/jsoup/parser/TreeBuilderState.java",
+        "line": 559,
+        "score": 0.5535
+      },
+      {
+        "file": "org/jsoup/parser/TreeBuilderState.java",
+        "line": 241,
+        "score": 0.5535
+      },
+      {
+        "file": "org/jsoup/parser/TreeBuilderState.java",
+        "line": 561,
+        "score": 0.5535
+      },
+      {
+        "file": "org/jsoup/parser/TreeBuilderState.java",
+        "line": 1461,
+        "score": 0.55
+      },
+      {
+        "file": "org/jsoup/parser/TreeBuilderState.java",
+        "line": 1460,
+        "score": 0.55
+      }
+    ]
+  },
+  {
+    "id": "Jsoup-18",
+    "num_failing": 3,
+    "num_passing": 92,
+    "search_space_lines": 97,
+    "scope": "modified",
+    "ground_truth": [
+      [
+        "org/jsoup/parser/CharacterReader.java",
+        18
+      ],
+      [
+        "org/jsoup/parser/CharacterReader.java",
+        99
+      ]
+    ],
+    "tests": [
+      {
+        "test": "org.jsoup.parser.CharacterReaderTest::handleCarriageReturnAsLineFeed",
+        "failed": true
+      },
+      {
+        "test": "org.jsoup.parser.CharacterReaderTest::consumeToEnd",
+        "failed": true
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesNewlinesAndWhitespaceInTag",
+        "failed": true
+      },
+      {
+        "test": "org.jsoup.parser.CharacterReaderTest::consume",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.CharacterReaderTest::mark",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.CharacterReaderTest::unconsume",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::commentBeforeHtml",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::createsDocumentStructure",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::createsStructureFromBodySnippet",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::discardsNakedTds",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::doesNotCreateImplicitLists",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::dropsUnterminatedAttribute",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::dropsUnterminatedTag",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::emptyTdTag",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::findsCharsetInMalformedMeta",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handles0CharacterAsText",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesBaseTags",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesBaseWithoutHref",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesBlocksInDefinitions",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesCdata",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesDataOnlyTags",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesEscapedData",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesEscapedScript",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesFrames",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesImplicitCaptionClose",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesInvalidStartTags",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesJavadocFont",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesKnownEmptyBlocks",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesMisnestedTagsBI",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesMisnestedTagsBP",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesMultiClosingBody",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesNestedImplicitTable",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesNullInData",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesSolidusAtAttributeEnd",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesSolidusInA",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesSpanInTbody",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesTbodyTable",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesTextAfterData",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesTextArea",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesUnclosedDefinitionLists",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesUnclosedFormattingElements",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesUnclosedRawtextAtEof",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesUnclosedScriptAtEof",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesUnclosedTitle",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesUnclosedTitleAtEof",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesUnexpectedMarkupInTables",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesUnknownInlineTags",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesUnknownNamespaceTags",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesUnknownTags",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::handlesWhatWgExpensesTableExample",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::ignoresDupeEndTrTag",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::noImplicitFormForTextAreas",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::noTableDirectInTable",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::normalisedBodyAfterContent",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::normalisesDocument",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::normalisesEmptyDocument",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::normalisesHeadlessBody",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::parsesBodyFragment",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::parsesComments",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::parsesQuiteRoughAttributes",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::parsesRoughAttributes",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::parsesSimpleDocument",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::parsesUnterminatedComments",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::parsesUnterminatedOption",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::parsesUnterminatedTextarea",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::reconstructFormattingElements",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::reconstructFormattingElementsInTable",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::testAFlowContents",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::testFontFlowContents",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::testHeaderContents",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::testHgroup",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::testNoImagesInNoScriptInHead",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::testRelaxedTags",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::testSpaceAfterTag",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.ParserTest::testSpanContents",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.integration.ParseTest::testBaidu",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.integration.ParseTest::testSmhBizArticle",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.DocumentTest::testXhtmlReferences",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testAddNewHtml",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testClone",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testFormatHtml",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.ElementTest::testPrependNewHtml",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.NodeTest::handlesAbsOnImage",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.nodes.NodeTest::handlesBaseUri",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.safety.CleanerTest::testRelaxed",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.ElementsTest::after",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.ElementsTest::html",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.ElementsTest::parents",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.ElementsTest::remove",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.ElementsTest::val",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::and",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::containsOwn",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testByAttributeRegexCharacterClass",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testMatches",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.select.SelectorTest::testRelaxedTags",
+        "failed": false
+      }
+    ],
+    "ochiai": {
+      "best": 1,
+      "avg": 2.0,
+      "worst": 3
+    },
+    "top_ochiai": [
+      {
+        "file": "org/jsoup/parser/CharacterReader.java",
+        "line": 99,
+        "score": 0.5774
+      },
+      {
+        "file": "org/jsoup/parser/CharacterReader.java",
+        "line": 101,
+        "score": 0.5774
+      },
+      {
+        "file": "org/jsoup/parser/CharacterReader.java",
+        "line": 100,
+        "score": 0.5774
+      },
+      {
+        "file": "org/jsoup/parser/CharacterReader.java",
+        "line": 65,
+        "score": 0.4082
+      },
+      {
+        "file": "org/jsoup/parser/CharacterReader.java",
+        "line": 62,
+        "score": 0.4082
+      },
+      {
+        "file": "org/jsoup/parser/CharacterReader.java",
+        "line": 64,
+        "score": 0.4082
+      },
+      {
+        "file": "org/jsoup/parser/CharacterReader.java",
+        "line": 66,
+        "score": 0.4082
+      },
+      {
+        "file": "org/jsoup/parser/CharacterReader.java",
+        "line": 63,
+        "score": 0.4082
+      },
+      {
+        "file": "org/jsoup/parser/CharacterReader.java",
+        "line": 19,
+        "score": 0.1786
+      },
+      {
+        "file": "org/jsoup/parser/CharacterReader.java",
+        "line": 21,
+        "score": 0.1786
+      },
+      {
+        "file": "org/jsoup/parser/CharacterReader.java",
+        "line": 14,
+        "score": 0.1786
+      },
+      {
+        "file": "org/jsoup/parser/CharacterReader.java",
+        "line": 16,
+        "score": 0.1786
+      },
+      {
+        "file": "org/jsoup/parser/CharacterReader.java",
+        "line": 20,
+        "score": 0.1786
+      },
+      {
+        "file": "org/jsoup/parser/CharacterReader.java",
+        "line": 13,
+        "score": 0.1786
+      },
+      {
+        "file": "org/jsoup/parser/CharacterReader.java",
+        "line": 17,
+        "score": 0.1786
+      },
+      {
+        "file": "org/jsoup/parser/CharacterReader.java",
+        "line": 42,
+        "score": 0.0825
+      },
+      {
+        "file": "org/jsoup/parser/CharacterReader.java",
+        "line": 43,
+        "score": 0.0825
+      },
+      {
+        "file": "org/jsoup/parser/CharacterReader.java",
+        "line": 170,
+        "score": 0.0619
+      },
+      {
+        "file": "org/jsoup/parser/CharacterReader.java",
+        "line": 167,
+        "score": 0.0619
+      },
+      {
+        "file": "org/jsoup/parser/CharacterReader.java",
+        "line": 169,
+        "score": 0.0619
+      }
+    ],
+    "tarantula": {
+      "best": 1,
+      "avg": 2.0,
+      "worst": 3
+    },
+    "top_tarantula": [
+      {
+        "file": "org/jsoup/parser/CharacterReader.java",
+        "line": 99,
+        "score": 1.0
+      },
+      {
+        "file": "org/jsoup/parser/CharacterReader.java",
+        "line": 101,
+        "score": 1.0
+      },
+      {
+        "file": "org/jsoup/parser/CharacterReader.java",
+        "line": 100,
+        "score": 1.0
+      },
+      {
+        "file": "org/jsoup/parser/CharacterReader.java",
+        "line": 65,
+        "score": 0.9684
+      },
+      {
+        "file": "org/jsoup/parser/CharacterReader.java",
+        "line": 62,
+        "score": 0.9684
+      },
+      {
+        "file": "org/jsoup/parser/CharacterReader.java",
+        "line": 64,
+        "score": 0.9684
+      },
+      {
+        "file": "org/jsoup/parser/CharacterReader.java",
+        "line": 66,
+        "score": 0.9684
+      },
+      {
+        "file": "org/jsoup/parser/CharacterReader.java",
+        "line": 63,
+        "score": 0.9684
+      },
+      {
+        "file": "org/jsoup/parser/CharacterReader.java",
+        "line": 19,
+        "score": 0.5027
+      },
+      {
+        "file": "org/jsoup/parser/CharacterReader.java",
+        "line": 21,
+        "score": 0.5027
+      },
+      {
+        "file": "org/jsoup/parser/CharacterReader.java",
+        "line": 14,
+        "score": 0.5027
+      },
+      {
+        "file": "org/jsoup/parser/CharacterReader.java",
+        "line": 16,
+        "score": 0.5027
+      },
+      {
+        "file": "org/jsoup/parser/CharacterReader.java",
+        "line": 20,
+        "score": 0.5027
+      },
+      {
+        "file": "org/jsoup/parser/CharacterReader.java",
+        "line": 13,
+        "score": 0.5027
+      },
+      {
+        "file": "org/jsoup/parser/CharacterReader.java",
+        "line": 17,
+        "score": 0.5027
+      },
+      {
+        "file": "org/jsoup/parser/CharacterReader.java",
+        "line": 42,
+        "score": 0.3898
+      },
+      {
+        "file": "org/jsoup/parser/CharacterReader.java",
+        "line": 43,
+        "score": 0.3898
+      },
+      {
+        "file": "org/jsoup/parser/CharacterReader.java",
+        "line": 170,
+        "score": 0.2629
+      },
+      {
+        "file": "org/jsoup/parser/CharacterReader.java",
+        "line": 167,
+        "score": 0.2629
+      },
+      {
+        "file": "org/jsoup/parser/CharacterReader.java",
+        "line": 169,
+        "score": 0.2629
+      }
+    ]
+  },
+  {
+    "id": "Jsoup-19",
+    "num_failing": 1,
+    "num_passing": 16,
+    "search_space_lines": 147,
+    "scope": "modified",
+    "ground_truth": [
+      [
+        "org/jsoup/safety/Whitelist.java",
+        342
+      ]
+    ],
+    "tests": [
+      {
+        "test": "org.jsoup.safety.CleanerTest::handlesCustomProtocols",
+        "failed": true
+      },
+      {
+        "test": "org.jsoup.safety.CleanerTest::basicBehaviourTest",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.safety.CleanerTest::basicWithImagesTest",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.safety.CleanerTest::dropsUnresolvableRelativeLinks",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.safety.CleanerTest::preservesRelatedLinksIfConfigured",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.safety.CleanerTest::resolvesRelativeLinks",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.safety.CleanerTest::simpleBehaviourTest",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.safety.CleanerTest::simpleBehaviourTest2",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.safety.CleanerTest::testCleanJavascriptHref",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.safety.CleanerTest::testDropComments",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.safety.CleanerTest::testDropImageScript",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.safety.CleanerTest::testDropScript",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.safety.CleanerTest::testDropXmlProc",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.safety.CleanerTest::testDropsUnknownTags",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.safety.CleanerTest::testHandlesEmptyAttributes",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.safety.CleanerTest::testIsValid",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.safety.CleanerTest::testRelaxed",
+        "failed": false
+      }
+    ],
+    "ochiai": {
+      "best": 32,
+      "avg": 37.0,
+      "worst": 42
+    },
+    "top_ochiai": [
+      {
+        "file": "org/jsoup/safety/Whitelist.java",
+        "line": 295,
+        "score": 1.0
+      },
+      {
+        "file": "org/jsoup/safety/Whitelist.java",
+        "line": 301,
+        "score": 1.0
+      },
+      {
+        "file": "org/jsoup/safety/Whitelist.java",
+        "line": 119,
+        "score": 0.4472
+      },
+      {
+        "file": "org/jsoup/safety/Whitelist.java",
+        "line": 116,
+        "score": 0.4472
+      },
+      {
+        "file": "org/jsoup/safety/Whitelist.java",
+        "line": 118,
+        "score": 0.4472
+      },
+      {
+        "file": "org/jsoup/safety/Whitelist.java",
+        "line": 117,
+        "score": 0.4472
+      },
+      {
+        "file": "org/jsoup/safety/Whitelist.java",
+        "line": 238,
+        "score": 0.3536
+      },
+      {
+        "file": "org/jsoup/safety/Whitelist.java",
+        "line": 247,
+        "score": 0.3536
+      },
+      {
+        "file": "org/jsoup/safety/Whitelist.java",
+        "line": 240,
+        "score": 0.3536
+      },
+      {
+        "file": "org/jsoup/safety/Whitelist.java",
+        "line": 249,
+        "score": 0.3536
+      },
+      {
+        "file": "org/jsoup/safety/Whitelist.java",
+        "line": 96,
+        "score": 0.3536
+      },
+      {
+        "file": "org/jsoup/safety/Whitelist.java",
+        "line": 242,
+        "score": 0.3536
+      },
+      {
+        "file": "org/jsoup/safety/Whitelist.java",
+        "line": 98,
+        "score": 0.3536
+      },
+      {
+        "file": "org/jsoup/safety/Whitelist.java",
+        "line": 391,
+        "score": 0.3536
+      },
+      {
+        "file": "org/jsoup/safety/Whitelist.java",
+        "line": 91,
+        "score": 0.3536
+      },
+      {
+        "file": "org/jsoup/safety/Whitelist.java",
+        "line": 100,
+        "score": 0.3536
+      },
+      {
+        "file": "org/jsoup/safety/Whitelist.java",
+        "line": 251,
+        "score": 0.3536
+      },
+      {
+        "file": "org/jsoup/safety/Whitelist.java",
+        "line": 351,
+        "score": 0.3536
+      },
+      {
+        "file": "org/jsoup/safety/Whitelist.java",
+        "line": 244,
+        "score": 0.3536
+      },
+      {
+        "file": "org/jsoup/safety/Whitelist.java",
+        "line": 390,
+        "score": 0.3536
+      }
+    ],
+    "tarantula": {
+      "best": 32,
+      "avg": 37.0,
+      "worst": 42
+    },
+    "top_tarantula": [
+      {
+        "file": "org/jsoup/safety/Whitelist.java",
+        "line": 295,
+        "score": 1.0
+      },
+      {
+        "file": "org/jsoup/safety/Whitelist.java",
+        "line": 301,
+        "score": 1.0
+      },
+      {
+        "file": "org/jsoup/safety/Whitelist.java",
+        "line": 119,
+        "score": 0.8
+      },
+      {
+        "file": "org/jsoup/safety/Whitelist.java",
+        "line": 116,
+        "score": 0.8
+      },
+      {
+        "file": "org/jsoup/safety/Whitelist.java",
+        "line": 118,
+        "score": 0.8
+      },
+      {
+        "file": "org/jsoup/safety/Whitelist.java",
+        "line": 117,
+        "score": 0.8
+      },
+      {
+        "file": "org/jsoup/safety/Whitelist.java",
+        "line": 238,
+        "score": 0.6957
+      },
+      {
+        "file": "org/jsoup/safety/Whitelist.java",
+        "line": 247,
+        "score": 0.6957
+      },
+      {
+        "file": "org/jsoup/safety/Whitelist.java",
+        "line": 240,
+        "score": 0.6957
+      },
+      {
+        "file": "org/jsoup/safety/Whitelist.java",
+        "line": 249,
+        "score": 0.6957
+      },
+      {
+        "file": "org/jsoup/safety/Whitelist.java",
+        "line": 96,
+        "score": 0.6957
+      },
+      {
+        "file": "org/jsoup/safety/Whitelist.java",
+        "line": 242,
+        "score": 0.6957
+      },
+      {
+        "file": "org/jsoup/safety/Whitelist.java",
+        "line": 98,
+        "score": 0.6957
+      },
+      {
+        "file": "org/jsoup/safety/Whitelist.java",
+        "line": 391,
+        "score": 0.6957
+      },
+      {
+        "file": "org/jsoup/safety/Whitelist.java",
+        "line": 91,
+        "score": 0.6957
+      },
+      {
+        "file": "org/jsoup/safety/Whitelist.java",
+        "line": 100,
+        "score": 0.6957
+      },
+      {
+        "file": "org/jsoup/safety/Whitelist.java",
+        "line": 251,
+        "score": 0.6957
+      },
+      {
+        "file": "org/jsoup/safety/Whitelist.java",
+        "line": 351,
+        "score": 0.6957
+      },
+      {
+        "file": "org/jsoup/safety/Whitelist.java",
+        "line": 244,
+        "score": 0.6957
+      },
+      {
+        "file": "org/jsoup/safety/Whitelist.java",
+        "line": 390,
+        "score": 0.6957
+      }
+    ]
+  },
+  {
+    "id": "Jsoup-20",
+    "num_failing": 1,
+    "num_passing": 18,
+    "search_space_lines": 44,
+    "scope": "modified",
+    "ground_truth": [
+      [
+        "org/jsoup/helper/DataUtil.java",
+        98
+      ]
+    ],
+    "tests": [
+      {
+        "test": "org.jsoup.helper.DataUtilTest::discardsSpuriousByteOrderMark",
+        "failed": true
+      },
+      {
+        "test": "org.jsoup.helper.DataUtilTest::testCharset",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.helper.DataUtilTest::testQuotedCharset",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.integration.ParseTest::testBaidu",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.integration.ParseTest::testBaiduVariant",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.integration.ParseTest::testBinary",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.integration.ParseTest::testGoogleSearchIpod",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.integration.ParseTest::testHtml5Charset",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.integration.ParseTest::testNewsHomepage",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.integration.ParseTest::testNytArticle",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.integration.ParseTest::testSmhBizArticle",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.integration.ParseTest::testYahooArticle",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.integration.ParseTest::testYahooJp",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.XmlTreeBuilderTest::testCommentAndDocType",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.XmlTreeBuilderTest::testDoesNotForceSelfClosingKnownTags",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.XmlTreeBuilderTest::testPopToClose",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.XmlTreeBuilderTest::testSimpleXmlParse",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.XmlTreeBuilderTest::testSupplyParserToDataStream",
+        "failed": false
+      },
+      {
+        "test": "org.jsoup.parser.XmlTreeBuilderTest::testSupplyParserToJsoupClass",
+        "failed": false
+      }
+    ],
+    "ochiai": null,
+    "top_ochiai": [
+      {
+        "file": "org/jsoup/helper/DataUtil.java",
+        "line": 92,
+        "score": 0.378
+      },
+      {
+        "file": "org/jsoup/helper/DataUtil.java",
+        "line": 91,
+        "score": 0.378
+      },
+      {
+        "file": "org/jsoup/helper/DataUtil.java",
+        "line": 100,
+        "score": 0.3162
+      },
+      {
+        "file": "org/jsoup/helper/DataUtil.java",
+        "line": 99,
+        "score": 0.3162
+      },
+      {
+        "file": "org/jsoup/helper/DataUtil.java",
+        "line": 94,
+        "score": 0.2887
+      },
+      {
+        "file": "org/jsoup/helper/DataUtil.java",
+        "line": 76,
+        "score": 0.2887
+      },
+      {
+        "file": "org/jsoup/helper/DataUtil.java",
+        "line": 75,
+        "score": 0.2887
+      },
+      {
+        "file": "org/jsoup/helper/DataUtil.java",
+        "line": 102,
+        "score": 0.2887
+      },
+      {
+        "file": "org/jsoup/helper/DataUtil.java",
+        "line": 18,
+        "score": 0.2673
+      },
+      {
+        "file": "org/jsoup/helper/DataUtil.java",
+        "line": 22,
+        "score": 0.0
+      },
+      {
+        "file": "org/jsoup/helper/DataUtil.java",
+        "line": 86,
+        "score": 0.0
+      },
+      {
+        "file": "org/jsoup/helper/DataUtil.java",
+        "line": 40,
+        "score": 0.0
+      },
+      {
+        "file": "org/jsoup/helper/DataUtil.java",
+        "line": 37,
+        "score": 0.0
+      },
+      {
+        "file": "org/jsoup/helper/DataUtil.java",
+        "line": 110,
+        "score": 0.0
+      },
+      {
+        "file": "org/jsoup/helper/DataUtil.java",
+        "line": 125,
+        "score": 0.0
+      },
+      {
+        "file": "org/jsoup/helper/DataUtil.java",
+        "line": 79,
+        "score": 0.0
+      },
+      {
+        "file": "org/jsoup/helper/DataUtil.java",
+        "line": 33,
+        "score": 0.0
+      },
+      {
+        "file": "org/jsoup/helper/DataUtil.java",
+        "line": 39,
+        "score": 0.0
+      },
+      {
+        "file": "org/jsoup/helper/DataUtil.java",
+        "line": 112,
+        "score": 0.0
+      },
+      {
+        "file": "org/jsoup/helper/DataUtil.java",
+        "line": 54,
+        "score": 0.0
+      }
+    ],
+    "tarantula": null,
+    "top_tarantula": [
+      {
+        "file": "org/jsoup/helper/DataUtil.java",
+        "line": 92,
+        "score": 0.75
+      },
+      {
+        "file": "org/jsoup/helper/DataUtil.java",
+        "line": 91,
+        "score": 0.75
+      },
+      {
+        "file": "org/jsoup/helper/DataUtil.java",
+        "line": 100,
+        "score": 0.6667
+      },
+      {
+        "file": "org/jsoup/helper/DataUtil.java",
+        "line": 99,
+        "score": 0.6667
+      },
+      {
+        "file": "org/jsoup/helper/DataUtil.java",
+        "line": 94,
+        "score": 0.6207
+      },
+      {
+        "file": "org/jsoup/helper/DataUtil.java",
+        "line": 76,
+        "score": 0.6207
+      },
+      {
+        "file": "org/jsoup/helper/DataUtil.java",
+        "line": 75,
+        "score": 0.6207
+      },
+      {
+        "file": "org/jsoup/helper/DataUtil.java",
+        "line": 102,
+        "score": 0.6207
+      },
+      {
+        "file": "org/jsoup/helper/DataUtil.java",
+        "line": 18,
+        "score": 0.5806
+      },
+      {
+        "file": "org/jsoup/helper/DataUtil.java",
+        "line": 22,
+        "score": 0.0
+      },
+      {
+        "file": "org/jsoup/helper/DataUtil.java",
+        "line": 86,
+        "score": 0.0
+      },
+      {
+        "file": "org/jsoup/helper/DataUtil.java",
+        "line": 40,
+        "score": 0.0
+      },
+      {
+        "file": "org/jsoup/helper/DataUtil.java",
+        "line": 37,
+        "score": 0.0
+      },
+      {
+        "file": "org/jsoup/helper/DataUtil.java",
+        "line": 110,
+        "score": 0.0
+      },
+      {
+        "file": "org/jsoup/helper/DataUtil.java",
+        "line": 125,
+        "score": 0.0
+      },
+      {
+        "file": "org/jsoup/helper/DataUtil.java",
+        "line": 79,
+        "score": 0.0
+      },
+      {
+        "file": "org/jsoup/helper/DataUtil.java",
+        "line": 33,
+        "score": 0.0
+      },
+      {
+        "file": "org/jsoup/helper/DataUtil.java",
+        "line": 39,
+        "score": 0.0
+      },
+      {
+        "file": "org/jsoup/helper/DataUtil.java",
+        "line": 112,
+        "score": 0.0
+      },
+      {
+        "file": "org/jsoup/helper/DataUtil.java",
+        "line": 54,
+        "score": 0.0
+      }
+    ]
+  }
+]

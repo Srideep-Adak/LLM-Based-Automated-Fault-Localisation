@@ -1,0 +1,7076 @@
+[
+  {
+    "id": "Cli-1",
+    "num_failing": 1,
+    "num_passing": 20,
+    "search_space_lines": 45,
+    "scope": "modified",
+    "ground_truth": [
+      [
+        "org/apache/commons/cli/CommandLine.java",
+        19
+      ],
+      [
+        "org/apache/commons/cli/CommandLine.java",
+        23
+      ],
+      [
+        "org/apache/commons/cli/CommandLine.java",
+        46
+      ],
+      [
+        "org/apache/commons/cli/CommandLine.java",
+        47
+      ],
+      [
+        "org/apache/commons/cli/CommandLine.java",
+        51
+      ],
+      [
+        "org/apache/commons/cli/CommandLine.java",
+        69
+      ],
+      [
+        "org/apache/commons/cli/CommandLine.java",
+        93
+      ],
+      [
+        "org/apache/commons/cli/CommandLine.java",
+        98
+      ],
+      [
+        "org/apache/commons/cli/CommandLine.java",
+        149
+      ],
+      [
+        "org/apache/commons/cli/CommandLine.java",
+        151
+      ],
+      [
+        "org/apache/commons/cli/CommandLine.java",
+        152
+      ],
+      [
+        "org/apache/commons/cli/CommandLine.java",
+        153
+      ],
+      [
+        "org/apache/commons/cli/CommandLine.java",
+        154
+      ],
+      [
+        "org/apache/commons/cli/CommandLine.java",
+        155
+      ],
+      [
+        "org/apache/commons/cli/CommandLine.java",
+        156
+      ],
+      [
+        "org/apache/commons/cli/CommandLine.java",
+        158
+      ],
+      [
+        "org/apache/commons/cli/CommandLine.java",
+        169
+      ],
+      [
+        "org/apache/commons/cli/CommandLine.java",
+        170
+      ],
+      [
+        "org/apache/commons/cli/CommandLine.java",
+        277
+      ],
+      [
+        "org/apache/commons/cli/CommandLine.java",
+        278
+      ],
+      [
+        "org/apache/commons/cli/CommandLine.java",
+        279
+      ],
+      [
+        "org/apache/commons/cli/CommandLine.java",
+        280
+      ],
+      [
+        "org/apache/commons/cli/CommandLine.java",
+        281
+      ],
+      [
+        "org/apache/commons/cli/CommandLine.java",
+        282
+      ],
+      [
+        "org/apache/commons/cli/CommandLine.java",
+        283
+      ],
+      [
+        "org/apache/commons/cli/CommandLine.java",
+        284
+      ],
+      [
+        "org/apache/commons/cli/CommandLine.java",
+        285
+      ],
+      [
+        "org/apache/commons/cli/CommandLine.java",
+        286
+      ],
+      [
+        "org/apache/commons/cli/CommandLine.java",
+        287
+      ],
+      [
+        "org/apache/commons/cli/CommandLine.java",
+        298
+      ],
+      [
+        "org/apache/commons/cli/CommandLine.java",
+        308
+      ],
+      [
+        "org/apache/commons/cli/CommandLine.java",
+        316
+      ]
+    ],
+    "tests": [
+      {
+        "test": "org.apache.commons.cli.bug.BugCLI13Test::testCLI13",
+        "failed": true
+      },
+      {
+        "test": "org.apache.commons.cli.ArgumentIsOptionTest::testOptionAndOptionWithArgument",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test11680",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test13935",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test15648",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test21215",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.GnuParseTest::testMultipleWithLong",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.GnuParseTest::testSimpleShort",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.GnuParseTest::testSingleDash",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.OptionGroupTest::testSingleOptionFromGroup",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.OptionGroupTest::testValidLongOnlyOptions",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ParseTest::testSimpleLong",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ParseTest::testSimpleShort",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ValueTest::testLongNoArg",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ValueTest::testLongOptionalNoValue",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ValueTest::testPropertyOptionMultipleValues",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ValueTest::testPropertyOverrideValues",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ValueTest::testShortNoArg",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ValueTest::testShortOptionalNArgValues",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ValuesTest::testCharSeparator",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ValuesTest::testMultipleArgValues",
+        "failed": false
+      }
+    ],
+    "ochiai": {
+      "best": 3,
+      "avg": 3.0,
+      "worst": 3
+    },
+    "top_ochiai": [
+      {
+        "file": "org/apache/commons/cli/CommandLine.java",
+        "line": 137,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli/CommandLine.java",
+        "line": 80,
+        "score": 0.7071
+      },
+      {
+        "file": "org/apache/commons/cli/CommandLine.java",
+        "line": 154,
+        "score": 0.4082
+      },
+      {
+        "file": "org/apache/commons/cli/CommandLine.java",
+        "line": 123,
+        "score": 0.2673
+      },
+      {
+        "file": "org/apache/commons/cli/CommandLine.java",
+        "line": 125,
+        "score": 0.2673
+      },
+      {
+        "file": "org/apache/commons/cli/CommandLine.java",
+        "line": 152,
+        "score": 0.2425
+      },
+      {
+        "file": "org/apache/commons/cli/CommandLine.java",
+        "line": 156,
+        "score": 0.2425
+      },
+      {
+        "file": "org/apache/commons/cli/CommandLine.java",
+        "line": 149,
+        "score": 0.2425
+      },
+      {
+        "file": "org/apache/commons/cli/CommandLine.java",
+        "line": 158,
+        "score": 0.2425
+      },
+      {
+        "file": "org/apache/commons/cli/CommandLine.java",
+        "line": 69,
+        "score": 0.2425
+      },
+      {
+        "file": "org/apache/commons/cli/CommandLine.java",
+        "line": 151,
+        "score": 0.2425
+      },
+      {
+        "file": "org/apache/commons/cli/CommandLine.java",
+        "line": 279,
+        "score": 0.2236
+      },
+      {
+        "file": "org/apache/commons/cli/CommandLine.java",
+        "line": 288,
+        "score": 0.2236
+      },
+      {
+        "file": "org/apache/commons/cli/CommandLine.java",
+        "line": 47,
+        "score": 0.2236
+      },
+      {
+        "file": "org/apache/commons/cli/CommandLine.java",
+        "line": 287,
+        "score": 0.2236
+      },
+      {
+        "file": "org/apache/commons/cli/CommandLine.java",
+        "line": 51,
+        "score": 0.2236
+      },
+      {
+        "file": "org/apache/commons/cli/CommandLine.java",
+        "line": 57,
+        "score": 0.2236
+      },
+      {
+        "file": "org/apache/commons/cli/CommandLine.java",
+        "line": 285,
+        "score": 0.2236
+      },
+      {
+        "file": "org/apache/commons/cli/CommandLine.java",
+        "line": 59,
+        "score": 0.2236
+      },
+      {
+        "file": "org/apache/commons/cli/CommandLine.java",
+        "line": 278,
+        "score": 0.2236
+      }
+    ],
+    "tarantula": {
+      "best": 3,
+      "avg": 3.0,
+      "worst": 3
+    },
+    "top_tarantula": [
+      {
+        "file": "org/apache/commons/cli/CommandLine.java",
+        "line": 137,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli/CommandLine.java",
+        "line": 80,
+        "score": 0.9524
+      },
+      {
+        "file": "org/apache/commons/cli/CommandLine.java",
+        "line": 154,
+        "score": 0.8
+      },
+      {
+        "file": "org/apache/commons/cli/CommandLine.java",
+        "line": 123,
+        "score": 0.6061
+      },
+      {
+        "file": "org/apache/commons/cli/CommandLine.java",
+        "line": 125,
+        "score": 0.6061
+      },
+      {
+        "file": "org/apache/commons/cli/CommandLine.java",
+        "line": 152,
+        "score": 0.5556
+      },
+      {
+        "file": "org/apache/commons/cli/CommandLine.java",
+        "line": 156,
+        "score": 0.5556
+      },
+      {
+        "file": "org/apache/commons/cli/CommandLine.java",
+        "line": 149,
+        "score": 0.5556
+      },
+      {
+        "file": "org/apache/commons/cli/CommandLine.java",
+        "line": 158,
+        "score": 0.5556
+      },
+      {
+        "file": "org/apache/commons/cli/CommandLine.java",
+        "line": 69,
+        "score": 0.5556
+      },
+      {
+        "file": "org/apache/commons/cli/CommandLine.java",
+        "line": 151,
+        "score": 0.5556
+      },
+      {
+        "file": "org/apache/commons/cli/CommandLine.java",
+        "line": 279,
+        "score": 0.5128
+      },
+      {
+        "file": "org/apache/commons/cli/CommandLine.java",
+        "line": 288,
+        "score": 0.5128
+      },
+      {
+        "file": "org/apache/commons/cli/CommandLine.java",
+        "line": 47,
+        "score": 0.5128
+      },
+      {
+        "file": "org/apache/commons/cli/CommandLine.java",
+        "line": 287,
+        "score": 0.5128
+      },
+      {
+        "file": "org/apache/commons/cli/CommandLine.java",
+        "line": 51,
+        "score": 0.5128
+      },
+      {
+        "file": "org/apache/commons/cli/CommandLine.java",
+        "line": 57,
+        "score": 0.5128
+      },
+      {
+        "file": "org/apache/commons/cli/CommandLine.java",
+        "line": 285,
+        "score": 0.5128
+      },
+      {
+        "file": "org/apache/commons/cli/CommandLine.java",
+        "line": 59,
+        "score": 0.5128
+      },
+      {
+        "file": "org/apache/commons/cli/CommandLine.java",
+        "line": 278,
+        "score": 0.5128
+      }
+    ]
+  },
+  {
+    "id": "Cli-2",
+    "num_failing": 1,
+    "num_passing": 20,
+    "search_space_lines": 68,
+    "scope": "modified",
+    "ground_truth": [
+      [
+        "org/apache/commons/cli/PosixParser.java",
+        305
+      ],
+      [
+        "org/apache/commons/cli/PosixParser.java",
+        309
+      ]
+    ],
+    "tests": [
+      {
+        "test": "org.apache.commons.cli.bug.BugCLI51Test::test",
+        "failed": true
+      },
+      {
+        "test": "org.apache.commons.cli.ApplicationTest::testAnt",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ApplicationTest::testLs",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test11457",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test11680",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test14786",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test15648",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test21215",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.OptionGroupTest::testTwoLongOptionsFromGroup",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.OptionGroupTest::testTwoValidLongOptions",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.OptionGroupTest::testTwoValidOptions",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ParseRequiredTest::testMissingRequiredOption",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ParseRequiredTest::testOptionAndRequiredOption",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ParseRequiredTest::testWithRequiredOption",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ParseTest::testMultipleWithLong",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ParseTest::testSingleDash",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ValueTest::testLongOptionalNoValue",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ValueTest::testPropertyOptionFlags",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ValueTest::testShortOptionalNArgValues",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ValuesTest::testExtraArgs",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ValuesTest::testMultipleArgValues",
+        "failed": false
+      }
+    ],
+    "ochiai": {
+      "best": 1,
+      "avg": 1.5,
+      "worst": 2
+    },
+    "top_ochiai": [
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 299,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 305,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 280,
+        "score": 0.5774
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 289,
+        "score": 0.5774
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 282,
+        "score": 0.5774
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 138,
+        "score": 0.5774
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 284,
+        "score": 0.5774
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 290,
+        "score": 0.5774
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 308,
+        "score": 0.5774
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 292,
+        "score": 0.5774
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 285,
+        "score": 0.5774
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 294,
+        "score": 0.5774
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 144,
+        "score": 0.5774
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 287,
+        "score": 0.5774
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 296,
+        "score": 0.5774
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 134,
+        "score": 0.2774
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 136,
+        "score": 0.2774
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 132,
+        "score": 0.2774
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 244,
+        "score": 0.2774
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 250,
+        "score": 0.2774
+      }
+    ],
+    "tarantula": {
+      "best": 1,
+      "avg": 1.5,
+      "worst": 2
+    },
+    "top_tarantula": [
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 299,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 305,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 280,
+        "score": 0.9091
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 289,
+        "score": 0.9091
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 282,
+        "score": 0.9091
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 138,
+        "score": 0.9091
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 284,
+        "score": 0.9091
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 290,
+        "score": 0.9091
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 308,
+        "score": 0.9091
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 292,
+        "score": 0.9091
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 285,
+        "score": 0.9091
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 294,
+        "score": 0.9091
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 144,
+        "score": 0.9091
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 287,
+        "score": 0.9091
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 296,
+        "score": 0.9091
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 134,
+        "score": 0.625
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 136,
+        "score": 0.625
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 132,
+        "score": 0.625
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 244,
+        "score": 0.625
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 250,
+        "score": 0.625
+      }
+    ]
+  },
+  {
+    "id": "Cli-3",
+    "num_failing": 1,
+    "num_passing": 0,
+    "search_space_lines": 55,
+    "scope": "modified",
+    "ground_truth": [
+      [
+        "org/apache/commons/cli/TypeHandler.java",
+        161
+      ]
+    ],
+    "tests": [
+      {
+        "test": "org.apache.commons.cli.PatternOptionBuilderTest::testSimplePattern",
+        "failed": true
+      }
+    ],
+    "ochiai": {
+      "best": 1,
+      "avg": 11.5,
+      "worst": 22
+    },
+    "top_ochiai": [
+      {
+        "file": "org/apache/commons/cli/TypeHandler.java",
+        "line": 61,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli/TypeHandler.java",
+        "line": 125,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli/TypeHandler.java",
+        "line": 67,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli/TypeHandler.java",
+        "line": 73,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli/TypeHandler.java",
+        "line": 79,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli/TypeHandler.java",
+        "line": 146,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli/TypeHandler.java",
+        "line": 161,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli/TypeHandler.java",
+        "line": 112,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli/TypeHandler.java",
+        "line": 63,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli/TypeHandler.java",
+        "line": 69,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli/TypeHandler.java",
+        "line": 81,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli/TypeHandler.java",
+        "line": 47,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli/TypeHandler.java",
+        "line": 239,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli/TypeHandler.java",
+        "line": 65,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli/TypeHandler.java",
+        "line": 123,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli/TypeHandler.java",
+        "line": 129,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli/TypeHandler.java",
+        "line": 181,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli/TypeHandler.java",
+        "line": 71,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli/TypeHandler.java",
+        "line": 77,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli/TypeHandler.java",
+        "line": 144,
+        "score": 1.0
+      }
+    ],
+    "tarantula": {
+      "best": 1,
+      "avg": 11.5,
+      "worst": 22
+    },
+    "top_tarantula": [
+      {
+        "file": "org/apache/commons/cli/TypeHandler.java",
+        "line": 61,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli/TypeHandler.java",
+        "line": 125,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli/TypeHandler.java",
+        "line": 67,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli/TypeHandler.java",
+        "line": 73,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli/TypeHandler.java",
+        "line": 79,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli/TypeHandler.java",
+        "line": 146,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli/TypeHandler.java",
+        "line": 161,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli/TypeHandler.java",
+        "line": 112,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli/TypeHandler.java",
+        "line": 63,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli/TypeHandler.java",
+        "line": 69,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli/TypeHandler.java",
+        "line": 81,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli/TypeHandler.java",
+        "line": 47,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli/TypeHandler.java",
+        "line": 239,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli/TypeHandler.java",
+        "line": 65,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli/TypeHandler.java",
+        "line": 123,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli/TypeHandler.java",
+        "line": 129,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli/TypeHandler.java",
+        "line": 181,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli/TypeHandler.java",
+        "line": 71,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli/TypeHandler.java",
+        "line": 77,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli/TypeHandler.java",
+        "line": 144,
+        "score": 1.0
+      }
+    ]
+  },
+  {
+    "id": "Cli-4",
+    "num_failing": 2,
+    "num_passing": 21,
+    "search_space_lines": 99,
+    "scope": "modified",
+    "ground_truth": [
+      [
+        "org/apache/commons/cli/Parser.java",
+        298
+      ]
+    ],
+    "tests": [
+      {
+        "test": "org.apache.commons.cli.OptionsTest::testMissingOptionsException",
+        "failed": true
+      },
+      {
+        "test": "org.apache.commons.cli.OptionsTest::testMissingOptionException",
+        "failed": true
+      },
+      {
+        "test": "org.apache.commons.cli.OptionsTest::testHelpOptions",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ApplicationTest::testAnt",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ArgumentIsOptionTest::testOptionAndOptionWithArgument",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test11680",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test13935",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test15648",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test21215",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.GnuParseTest::testSimpleShort",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.OptionGroupTest::testNoOptionsExtraArgs",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.OptionGroupTest::testSingleOptionFromGroup",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.OptionGroupTest::testTwoOptionsFromDifferentGroup",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.OptionGroupTest::testTwoValidOptions",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ParseTest::testSimpleLong",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ParseTest::testSimpleShort",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ValueTest::testLongOptionalArgValues",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ValueTest::testLongOptionalNoValue",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ValueTest::testPropertyOptionMultipleValues",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ValueTest::testPropertyOverrideValues",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ValueTest::testShortNoArg",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ValuesTest::testMultipleArgValues",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ValuesTest::testTwoArgValues",
+        "failed": false
+      }
+    ],
+    "ochiai": {
+      "best": 1,
+      "avg": 3.0,
+      "worst": 5
+    },
+    "top_ochiai": [
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 307,
+        "score": 0.8165
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 302,
+        "score": 0.8165
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 304,
+        "score": 0.8165
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 297,
+        "score": 0.8165
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 298,
+        "score": 0.8165
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 140,
+        "score": 0.3086
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 71,
+        "score": 0.3086
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 135,
+        "score": 0.3086
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 144,
+        "score": 0.3086
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 238,
+        "score": 0.3086
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 295,
+        "score": 0.3086
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 240,
+        "score": 0.3086
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 139,
+        "score": 0.3086
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 160,
+        "score": 0.3086
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 224,
+        "score": 0.3086
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 153,
+        "score": 0.3086
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 146,
+        "score": 0.3086
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 148,
+        "score": 0.3086
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 157,
+        "score": 0.3086
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 141,
+        "score": 0.3086
+      }
+    ],
+    "tarantula": {
+      "best": 1,
+      "avg": 3.0,
+      "worst": 5
+    },
+    "top_tarantula": [
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 307,
+        "score": 0.9545
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 302,
+        "score": 0.9545
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 304,
+        "score": 0.9545
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 297,
+        "score": 0.9545
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 298,
+        "score": 0.9545
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 140,
+        "score": 0.525
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 71,
+        "score": 0.525
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 135,
+        "score": 0.525
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 144,
+        "score": 0.525
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 238,
+        "score": 0.525
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 295,
+        "score": 0.525
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 240,
+        "score": 0.525
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 139,
+        "score": 0.525
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 160,
+        "score": 0.525
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 224,
+        "score": 0.525
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 153,
+        "score": 0.525
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 146,
+        "score": 0.525
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 148,
+        "score": 0.525
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 157,
+        "score": 0.525
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 141,
+        "score": 0.525
+      }
+    ]
+  },
+  {
+    "id": "Cli-5",
+    "num_failing": 2,
+    "num_passing": 20,
+    "search_space_lines": 11,
+    "scope": "modified",
+    "ground_truth": [
+      [
+        "org/apache/commons/cli/Util.java",
+        36
+      ]
+    ],
+    "tests": [
+      {
+        "test": "org.apache.commons.cli.UtilTest::testStripLeadingHyphens",
+        "failed": true
+      },
+      {
+        "test": "org.apache.commons.cli.bug.BugCLI133Test::testOrder",
+        "failed": true
+      },
+      {
+        "test": "org.apache.commons.cli.ApplicationTest::testAnt",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ArgumentIsOptionTest::testOptionAndOptionWithArgument",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test11680",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test13935",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test15648",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test21215",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.GnuParseTest::testMissingArg",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.GnuParseTest::testSimpleLong",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.GnuParseTest::testStop",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.OptionGroupTest::testSingleLongOption",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ParseTest::testExtraOption",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ParseTest::testMissingArg",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ParseTest::testStop",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ValueTest::testLongNoArg",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ValueTest::testLongOptionalNArgValues",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ValueTest::testLongWithArg",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ValueTest::testPropertyOptionFlags",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ValueTest::testShortWithArg",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ValuesTest::testShortArgs",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.bug.BugCLI71Test::testGetsDefaultIfOptional",
+        "failed": false
+      }
+    ],
+    "ochiai": {
+      "best": 1,
+      "avg": 1.0,
+      "worst": 1
+    },
+    "top_ochiai": [
+      {
+        "file": "org/apache/commons/cli/Util.java",
+        "line": 36,
+        "score": 0.3086
+      },
+      {
+        "file": "org/apache/commons/cli/Util.java",
+        "line": 38,
+        "score": 0.2357
+      },
+      {
+        "file": "org/apache/commons/cli/Util.java",
+        "line": 42,
+        "score": 0.1667
+      },
+      {
+        "file": "org/apache/commons/cli/Util.java",
+        "line": 40,
+        "score": 0.1581
+      },
+      {
+        "file": "org/apache/commons/cli/Util.java",
+        "line": 45,
+        "score": 0.0
+      },
+      {
+        "file": "org/apache/commons/cli/Util.java",
+        "line": 63,
+        "score": 0.0
+      },
+      {
+        "file": "org/apache/commons/cli/Util.java",
+        "line": 60,
+        "score": 0.0
+      },
+      {
+        "file": "org/apache/commons/cli/Util.java",
+        "line": 24,
+        "score": 0.0
+      },
+      {
+        "file": "org/apache/commons/cli/Util.java",
+        "line": 59,
+        "score": 0.0
+      },
+      {
+        "file": "org/apache/commons/cli/Util.java",
+        "line": 65,
+        "score": 0.0
+      },
+      {
+        "file": "org/apache/commons/cli/Util.java",
+        "line": 62,
+        "score": 0.0
+      }
+    ],
+    "tarantula": {
+      "best": 2,
+      "avg": 2.0,
+      "worst": 2
+    },
+    "top_tarantula": [
+      {
+        "file": "org/apache/commons/cli/Util.java",
+        "line": 38,
+        "score": 0.5556
+      },
+      {
+        "file": "org/apache/commons/cli/Util.java",
+        "line": 36,
+        "score": 0.5128
+      },
+      {
+        "file": "org/apache/commons/cli/Util.java",
+        "line": 42,
+        "score": 0.3704
+      },
+      {
+        "file": "org/apache/commons/cli/Util.java",
+        "line": 40,
+        "score": 0.3448
+      },
+      {
+        "file": "org/apache/commons/cli/Util.java",
+        "line": 45,
+        "score": 0.0
+      },
+      {
+        "file": "org/apache/commons/cli/Util.java",
+        "line": 63,
+        "score": 0.0
+      },
+      {
+        "file": "org/apache/commons/cli/Util.java",
+        "line": 60,
+        "score": 0.0
+      },
+      {
+        "file": "org/apache/commons/cli/Util.java",
+        "line": 24,
+        "score": 0.0
+      },
+      {
+        "file": "org/apache/commons/cli/Util.java",
+        "line": 59,
+        "score": 0.0
+      },
+      {
+        "file": "org/apache/commons/cli/Util.java",
+        "line": 65,
+        "score": 0.0
+      },
+      {
+        "file": "org/apache/commons/cli/Util.java",
+        "line": 62,
+        "score": 0.0
+      }
+    ]
+  },
+  {
+    "id": "Cli-7",
+    "num_failing": 1,
+    "num_passing": 0,
+    "search_space_lines": 68,
+    "scope": "modified",
+    "ground_truth": [
+      [
+        "org/apache/commons/cli2/builder/PatternBuilder.java",
+        19
+      ],
+      [
+        "org/apache/commons/cli2/builder/PatternBuilder.java",
+        21
+      ],
+      [
+        "org/apache/commons/cli2/builder/PatternBuilder.java",
+        67
+      ]
+    ],
+    "tests": [
+      {
+        "test": "org.apache.commons.cli2.bug.Bug27575Test::testRequiredOptions",
+        "failed": true
+      }
+    ],
+    "ochiai": {
+      "best": 1,
+      "avg": 29.0,
+      "worst": 57
+    },
+    "top_ochiai": [
+      {
+        "file": "org/apache/commons/cli2/builder/PatternBuilder.java",
+        "line": 111,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli2/builder/PatternBuilder.java",
+        "line": 108,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli2/builder/PatternBuilder.java",
+        "line": 175,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli2/builder/PatternBuilder.java",
+        "line": 172,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli2/builder/PatternBuilder.java",
+        "line": 117,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli2/builder/PatternBuilder.java",
+        "line": 62,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli2/builder/PatternBuilder.java",
+        "line": 126,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli2/builder/PatternBuilder.java",
+        "line": 190,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli2/builder/PatternBuilder.java",
+        "line": 135,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli2/builder/PatternBuilder.java",
+        "line": 141,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli2/builder/PatternBuilder.java",
+        "line": 159,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli2/builder/PatternBuilder.java",
+        "line": 46,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli2/builder/PatternBuilder.java",
+        "line": 165,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli2/builder/PatternBuilder.java",
+        "line": 64,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli2/builder/PatternBuilder.java",
+        "line": 61,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli2/builder/PatternBuilder.java",
+        "line": 125,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli2/builder/PatternBuilder.java",
+        "line": 192,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli2/builder/PatternBuilder.java",
+        "line": 137,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli2/builder/PatternBuilder.java",
+        "line": 143,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli2/builder/PatternBuilder.java",
+        "line": 97,
+        "score": 1.0
+      }
+    ],
+    "tarantula": {
+      "best": 1,
+      "avg": 29.0,
+      "worst": 57
+    },
+    "top_tarantula": [
+      {
+        "file": "org/apache/commons/cli2/builder/PatternBuilder.java",
+        "line": 111,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli2/builder/PatternBuilder.java",
+        "line": 108,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli2/builder/PatternBuilder.java",
+        "line": 175,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli2/builder/PatternBuilder.java",
+        "line": 172,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli2/builder/PatternBuilder.java",
+        "line": 117,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli2/builder/PatternBuilder.java",
+        "line": 62,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli2/builder/PatternBuilder.java",
+        "line": 126,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli2/builder/PatternBuilder.java",
+        "line": 190,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli2/builder/PatternBuilder.java",
+        "line": 135,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli2/builder/PatternBuilder.java",
+        "line": 141,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli2/builder/PatternBuilder.java",
+        "line": 159,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli2/builder/PatternBuilder.java",
+        "line": 46,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli2/builder/PatternBuilder.java",
+        "line": 165,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli2/builder/PatternBuilder.java",
+        "line": 64,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli2/builder/PatternBuilder.java",
+        "line": 61,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli2/builder/PatternBuilder.java",
+        "line": 125,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli2/builder/PatternBuilder.java",
+        "line": 192,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli2/builder/PatternBuilder.java",
+        "line": 137,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli2/builder/PatternBuilder.java",
+        "line": 143,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli2/builder/PatternBuilder.java",
+        "line": 97,
+        "score": 1.0
+      }
+    ]
+  },
+  {
+    "id": "Cli-8",
+    "num_failing": 2,
+    "num_passing": 19,
+    "search_space_lines": 192,
+    "scope": "modified",
+    "ground_truth": [
+      [
+        "org/apache/commons/cli/HelpFormatter.java",
+        812
+      ]
+    ],
+    "tests": [
+      {
+        "test": "org.apache.commons.cli.HelpFormatterTest::testPrintWrapped",
+        "failed": true
+      },
+      {
+        "test": "org.apache.commons.cli.HelpFormatterTest::testAutomaticUsage",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.HelpFormatterTest::testFindWrapPos",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.HelpFormatterTest::testPrintOptions",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.HelpFormatterTest::testPrintUsage",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test11456",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test11457",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test11458",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test11680",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test12210",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test13425",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test13666",
+        "failed": true
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test13935",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test14786",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test15046",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test15648",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test19383",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test21215",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test27635",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test31148",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.bug.BugCLI18Test::testCLI18",
+        "failed": false
+      }
+    ],
+    "ochiai": {
+      "best": 38,
+      "avg": 58.0,
+      "worst": 78
+    },
+    "top_ochiai": [
+      {
+        "file": "org/apache/commons/cli/HelpFormatter.java",
+        "line": 301,
+        "score": 0.7071
+      },
+      {
+        "file": "org/apache/commons/cli/HelpFormatter.java",
+        "line": 302,
+        "score": 0.7071
+      },
+      {
+        "file": "org/apache/commons/cli/HelpFormatter.java",
+        "line": 393,
+        "score": 0.7071
+      },
+      {
+        "file": "org/apache/commons/cli/HelpFormatter.java",
+        "line": 388,
+        "score": 0.7071
+      },
+      {
+        "file": "org/apache/commons/cli/HelpFormatter.java",
+        "line": 390,
+        "score": 0.7071
+      },
+      {
+        "file": "org/apache/commons/cli/HelpFormatter.java",
+        "line": 392,
+        "score": 0.7071
+      },
+      {
+        "file": "org/apache/commons/cli/HelpFormatter.java",
+        "line": 735,
+        "score": 0.7071
+      },
+      {
+        "file": "org/apache/commons/cli/HelpFormatter.java",
+        "line": 620,
+        "score": 0.7071
+      },
+      {
+        "file": "org/apache/commons/cli/HelpFormatter.java",
+        "line": 622,
+        "score": 0.7071
+      },
+      {
+        "file": "org/apache/commons/cli/HelpFormatter.java",
+        "line": 741,
+        "score": 0.7071
+      },
+      {
+        "file": "org/apache/commons/cli/HelpFormatter.java",
+        "line": 451,
+        "score": 0.7071
+      },
+      {
+        "file": "org/apache/commons/cli/HelpFormatter.java",
+        "line": 624,
+        "score": 0.7071
+      },
+      {
+        "file": "org/apache/commons/cli/HelpFormatter.java",
+        "line": 900,
+        "score": 0.5774
+      },
+      {
+        "file": "org/apache/commons/cli/HelpFormatter.java",
+        "line": 893,
+        "score": 0.5774
+      },
+      {
+        "file": "org/apache/commons/cli/HelpFormatter.java",
+        "line": 895,
+        "score": 0.5774
+      },
+      {
+        "file": "org/apache/commons/cli/HelpFormatter.java",
+        "line": 897,
+        "score": 0.5774
+      },
+      {
+        "file": "org/apache/commons/cli/HelpFormatter.java",
+        "line": 924,
+        "score": 0.5
+      },
+      {
+        "file": "org/apache/commons/cli/HelpFormatter.java",
+        "line": 917,
+        "score": 0.5
+      },
+      {
+        "file": "org/apache/commons/cli/HelpFormatter.java",
+        "line": 919,
+        "score": 0.5
+      },
+      {
+        "file": "org/apache/commons/cli/HelpFormatter.java",
+        "line": 912,
+        "score": 0.5
+      }
+    ],
+    "tarantula": {
+      "best": 18,
+      "avg": 41.0,
+      "worst": 64
+    },
+    "top_tarantula": [
+      {
+        "file": "org/apache/commons/cli/HelpFormatter.java",
+        "line": 301,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli/HelpFormatter.java",
+        "line": 302,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli/HelpFormatter.java",
+        "line": 393,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli/HelpFormatter.java",
+        "line": 388,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli/HelpFormatter.java",
+        "line": 390,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli/HelpFormatter.java",
+        "line": 392,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli/HelpFormatter.java",
+        "line": 735,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli/HelpFormatter.java",
+        "line": 620,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli/HelpFormatter.java",
+        "line": 622,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli/HelpFormatter.java",
+        "line": 741,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli/HelpFormatter.java",
+        "line": 451,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli/HelpFormatter.java",
+        "line": 624,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli/HelpFormatter.java",
+        "line": 225,
+        "score": 0.9048
+      },
+      {
+        "file": "org/apache/commons/cli/HelpFormatter.java",
+        "line": 900,
+        "score": 0.8261
+      },
+      {
+        "file": "org/apache/commons/cli/HelpFormatter.java",
+        "line": 893,
+        "score": 0.8261
+      },
+      {
+        "file": "org/apache/commons/cli/HelpFormatter.java",
+        "line": 895,
+        "score": 0.8261
+      },
+      {
+        "file": "org/apache/commons/cli/HelpFormatter.java",
+        "line": 897,
+        "score": 0.8261
+      },
+      {
+        "file": "org/apache/commons/cli/HelpFormatter.java",
+        "line": 855,
+        "score": 0.76
+      },
+      {
+        "file": "org/apache/commons/cli/HelpFormatter.java",
+        "line": 745,
+        "score": 0.76
+      },
+      {
+        "file": "org/apache/commons/cli/HelpFormatter.java",
+        "line": 866,
+        "score": 0.76
+      }
+    ]
+  },
+  {
+    "id": "Cli-9",
+    "num_failing": 2,
+    "num_passing": 25,
+    "search_space_lines": 105,
+    "scope": "modified",
+    "ground_truth": [
+      [
+        "org/apache/commons/cli/Parser.java",
+        320
+      ],
+      [
+        "org/apache/commons/cli/Parser.java",
+        322
+      ]
+    ],
+    "tests": [
+      {
+        "test": "org.apache.commons.cli.OptionsTest::testMissingOptionsException",
+        "failed": true
+      },
+      {
+        "test": "org.apache.commons.cli.ParseRequiredTest::testMissingRequiredOptions",
+        "failed": true
+      },
+      {
+        "test": "org.apache.commons.cli.OptionsTest::testHelpOptions",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.OptionsTest::testMissingOptionException",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ParseRequiredTest::testMissingRequiredOption",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ParseRequiredTest::testOptionAndRequiredOption",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ParseRequiredTest::testWithRequiredOption",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ApplicationTest::testAnt",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ArgumentIsOptionTest::testOptionAndOptionWithArgument",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test11680",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test13935",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test15648",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test21215",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.GnuParseTest::testSimpleShort",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.OptionGroupTest::testNoOptionsExtraArgs",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.OptionGroupTest::testSingleOptionFromGroup",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.OptionGroupTest::testTwoOptionsFromDifferentGroup",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.OptionGroupTest::testTwoValidOptions",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ParseTest::testStop",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.PatternOptionBuilderTest::testSimplePattern",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ValueTest::testLongWithArg",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ValueTest::testPropertyOptionMultipleValues",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ValueTest::testShortNoArg",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ValueTest::testShortOptionalArgValue",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ValueTest::testShortOptionalArgValues",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ValuesTest::testTwoArgValues",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.bug.BugCLI148Test::testWorkaround1",
+        "failed": false
+      }
+    ],
+    "ochiai": {
+      "best": 1,
+      "avg": 4.0,
+      "worst": 7
+    },
+    "top_ochiai": [
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 311,
+        "score": 0.6325
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 313,
+        "score": 0.6325
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 322,
+        "score": 0.6325
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 317,
+        "score": 0.6325
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 310,
+        "score": 0.6325
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 319,
+        "score": 0.6325
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 312,
+        "score": 0.6325
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 85,
+        "score": 0.2887
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 149,
+        "score": 0.2828
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 151,
+        "score": 0.2828
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 46,
+        "score": 0.2828
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 238,
+        "score": 0.2828
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 50,
+        "score": 0.2828
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 251,
+        "score": 0.2828
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 308,
+        "score": 0.2828
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 253,
+        "score": 0.2828
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 155,
+        "score": 0.2828
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 45,
+        "score": 0.2828
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 54,
+        "score": 0.2828
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 173,
+        "score": 0.2828
+      }
+    ],
+    "tarantula": {
+      "best": 1,
+      "avg": 4.0,
+      "worst": 7
+    },
+    "top_tarantula": [
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 311,
+        "score": 0.8929
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 313,
+        "score": 0.8929
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 322,
+        "score": 0.8929
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 317,
+        "score": 0.8929
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 310,
+        "score": 0.8929
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 319,
+        "score": 0.8929
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 312,
+        "score": 0.8929
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 85,
+        "score": 0.5319
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 149,
+        "score": 0.5208
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 151,
+        "score": 0.5208
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 46,
+        "score": 0.5208
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 238,
+        "score": 0.5208
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 50,
+        "score": 0.5208
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 251,
+        "score": 0.5208
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 308,
+        "score": 0.5208
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 253,
+        "score": 0.5208
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 155,
+        "score": 0.5208
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 45,
+        "score": 0.5208
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 54,
+        "score": 0.5208
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 173,
+        "score": 0.5208
+      }
+    ]
+  },
+  {
+    "id": "Cli-10",
+    "num_failing": 1,
+    "num_passing": 24,
+    "search_space_lines": 106,
+    "scope": "modified",
+    "ground_truth": [
+      [
+        "org/apache/commons/cli/Parser.java",
+        19
+      ],
+      [
+        "org/apache/commons/cli/Parser.java",
+        46
+      ]
+    ],
+    "tests": [
+      {
+        "test": "org.apache.commons.cli.ParseRequiredTest::testReuseOptionsTwice",
+        "failed": true
+      },
+      {
+        "test": "org.apache.commons.cli.ParseRequiredTest::testMissingRequiredOption",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ParseRequiredTest::testMissingRequiredOptions",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ParseRequiredTest::testOptionAndRequiredOption",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ParseRequiredTest::testWithRequiredOption",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ApplicationTest::testAnt",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ArgumentIsOptionTest::testOptionAndOptionWithArgument",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test11680",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test13935",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test14786",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test15648",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test21215",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.GnuParseTest::testSimpleShort",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.OptionGroupTest::testNoOptionsExtraArgs",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.OptionGroupTest::testSingleOptionFromGroup",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.OptionGroupTest::testTwoOptionsFromDifferentGroup",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ParseTest::testSimpleLong",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ParseTest::testSimpleShort",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ValueTest::testLongOptionalArgValues",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ValueTest::testLongOptionalNoValue",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ValueTest::testPropertyOptionMultipleValues",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ValueTest::testPropertyOverrideValues",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ValueTest::testShortNoArg",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ValuesTest::testMultipleArgValues",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.bug.BugCLI148Test::testWorkaround1",
+        "failed": false
+      }
+    ],
+    "ochiai": {
+      "best": 14,
+      "avg": 28.0,
+      "worst": 42
+    },
+    "top_ochiai": [
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 404,
+        "score": 0.4472
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 325,
+        "score": 0.2132
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 240,
+        "score": 0.2132
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 206,
+        "score": 0.2085
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 398,
+        "score": 0.2085
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 199,
+        "score": 0.2085
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 391,
+        "score": 0.2085
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 409,
+        "score": 0.2085
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 430,
+        "score": 0.2085
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 402,
+        "score": 0.2085
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 388,
+        "score": 0.2085
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 429,
+        "score": 0.2085
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 422,
+        "score": 0.2085
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 85,
+        "score": 0.2041
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 149,
+        "score": 0.2041
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 222,
+        "score": 0.2041
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 197,
+        "score": 0.2041
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 151,
+        "score": 0.2041
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 46,
+        "score": 0.2041
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 238,
+        "score": 0.2041
+      }
+    ],
+    "tarantula": {
+      "best": 14,
+      "avg": 28.0,
+      "worst": 42
+    },
+    "top_tarantula": [
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 404,
+        "score": 0.8571
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 325,
+        "score": 0.5333
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 240,
+        "score": 0.5333
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 206,
+        "score": 0.5217
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 398,
+        "score": 0.5217
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 199,
+        "score": 0.5217
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 391,
+        "score": 0.5217
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 409,
+        "score": 0.5217
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 430,
+        "score": 0.5217
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 402,
+        "score": 0.5217
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 388,
+        "score": 0.5217
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 429,
+        "score": 0.5217
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 422,
+        "score": 0.5217
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 85,
+        "score": 0.5106
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 149,
+        "score": 0.5106
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 222,
+        "score": 0.5106
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 197,
+        "score": 0.5106
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 151,
+        "score": 0.5106
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 46,
+        "score": 0.5106
+      },
+      {
+        "file": "org/apache/commons/cli/Parser.java",
+        "line": 238,
+        "score": 0.5106
+      }
+    ]
+  },
+  {
+    "id": "Cli-11",
+    "num_failing": 2,
+    "num_passing": 23,
+    "search_space_lines": 198,
+    "scope": "modified",
+    "ground_truth": [
+      [
+        "org/apache/commons/cli/HelpFormatter.java",
+        632
+      ]
+    ],
+    "tests": [
+      {
+        "test": "org.apache.commons.cli.HelpFormatterTest::testPrintOptionWithEmptyArgNameUsage",
+        "failed": true
+      },
+      {
+        "test": "org.apache.commons.cli.HelpFormatterTest::testAutomaticUsage",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.HelpFormatterTest::testFindWrapPos",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.HelpFormatterTest::testPrintOptionGroupUsage",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.HelpFormatterTest::testPrintOptions",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.HelpFormatterTest::testPrintRequiredOptionGroupUsage",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.HelpFormatterTest::testPrintSortedUsage",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.HelpFormatterTest::testPrintUsage",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.HelpFormatterTest::testPrintWrapped",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test11456",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test11457",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test11458",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test11680",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test12210",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test13425",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test13666",
+        "failed": true
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test13935",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test14786",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test15046",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test15648",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test19383",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test21215",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test27635",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test31148",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.bug.BugCLI18Test::testCLI18",
+        "failed": false
+      }
+    ],
+    "ochiai": {
+      "best": 87,
+      "avg": 92.0,
+      "worst": 97
+    },
+    "top_ochiai": [
+      {
+        "file": "org/apache/commons/cli/HelpFormatter.java",
+        "line": 336,
+        "score": 0.7071
+      },
+      {
+        "file": "org/apache/commons/cli/HelpFormatter.java",
+        "line": 427,
+        "score": 0.7071
+      },
+      {
+        "file": "org/apache/commons/cli/HelpFormatter.java",
+        "line": 422,
+        "score": 0.7071
+      },
+      {
+        "file": "org/apache/commons/cli/HelpFormatter.java",
+        "line": 424,
+        "score": 0.7071
+      },
+      {
+        "file": "org/apache/commons/cli/HelpFormatter.java",
+        "line": 426,
+        "score": 0.7071
+      },
+      {
+        "file": "org/apache/commons/cli/HelpFormatter.java",
+        "line": 654,
+        "score": 0.7071
+      },
+      {
+        "file": "org/apache/commons/cli/HelpFormatter.java",
+        "line": 656,
+        "score": 0.7071
+      },
+      {
+        "file": "org/apache/commons/cli/HelpFormatter.java",
+        "line": 775,
+        "score": 0.7071
+      },
+      {
+        "file": "org/apache/commons/cli/HelpFormatter.java",
+        "line": 658,
+        "score": 0.7071
+      },
+      {
+        "file": "org/apache/commons/cli/HelpFormatter.java",
+        "line": 769,
+        "score": 0.7071
+      },
+      {
+        "file": "org/apache/commons/cli/HelpFormatter.java",
+        "line": 634,
+        "score": 0.7071
+      },
+      {
+        "file": "org/apache/commons/cli/HelpFormatter.java",
+        "line": 335,
+        "score": 0.7071
+      },
+      {
+        "file": "org/apache/commons/cli/HelpFormatter.java",
+        "line": 485,
+        "score": 0.7071
+      },
+      {
+        "file": "org/apache/commons/cli/HelpFormatter.java",
+        "line": 704,
+        "score": 0.4472
+      },
+      {
+        "file": "org/apache/commons/cli/HelpFormatter.java",
+        "line": 706,
+        "score": 0.4472
+      },
+      {
+        "file": "org/apache/commons/cli/HelpFormatter.java",
+        "line": 708,
+        "score": 0.4472
+      },
+      {
+        "file": "org/apache/commons/cli/HelpFormatter.java",
+        "line": 707,
+        "score": 0.4472
+      },
+      {
+        "file": "org/apache/commons/cli/HelpFormatter.java",
+        "line": 833,
+        "score": 0.4264
+      },
+      {
+        "file": "org/apache/commons/cli/HelpFormatter.java",
+        "line": 835,
+        "score": 0.4264
+      },
+      {
+        "file": "org/apache/commons/cli/HelpFormatter.java",
+        "line": 302,
+        "score": 0.4264
+      }
+    ],
+    "tarantula": {
+      "best": 87,
+      "avg": 92.0,
+      "worst": 97
+    },
+    "top_tarantula": [
+      {
+        "file": "org/apache/commons/cli/HelpFormatter.java",
+        "line": 336,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli/HelpFormatter.java",
+        "line": 427,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli/HelpFormatter.java",
+        "line": 422,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli/HelpFormatter.java",
+        "line": 424,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli/HelpFormatter.java",
+        "line": 426,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli/HelpFormatter.java",
+        "line": 654,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli/HelpFormatter.java",
+        "line": 656,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli/HelpFormatter.java",
+        "line": 775,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli/HelpFormatter.java",
+        "line": 658,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli/HelpFormatter.java",
+        "line": 769,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli/HelpFormatter.java",
+        "line": 634,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli/HelpFormatter.java",
+        "line": 335,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli/HelpFormatter.java",
+        "line": 485,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli/HelpFormatter.java",
+        "line": 678,
+        "score": 0.7931
+      },
+      {
+        "file": "org/apache/commons/cli/HelpFormatter.java",
+        "line": 806,
+        "score": 0.7931
+      },
+      {
+        "file": "org/apache/commons/cli/HelpFormatter.java",
+        "line": 799,
+        "score": 0.7931
+      },
+      {
+        "file": "org/apache/commons/cli/HelpFormatter.java",
+        "line": 801,
+        "score": 0.7931
+      },
+      {
+        "file": "org/apache/commons/cli/HelpFormatter.java",
+        "line": 810,
+        "score": 0.7931
+      },
+      {
+        "file": "org/apache/commons/cli/HelpFormatter.java",
+        "line": 675,
+        "score": 0.7931
+      },
+      {
+        "file": "org/apache/commons/cli/HelpFormatter.java",
+        "line": 787,
+        "score": 0.7931
+      }
+    ]
+  },
+  {
+    "id": "Cli-12",
+    "num_failing": 4,
+    "num_passing": 30,
+    "search_space_lines": 25,
+    "scope": "modified",
+    "ground_truth": [
+      [
+        "org/apache/commons/cli/GnuParser.java",
+        81
+      ],
+      [
+        "org/apache/commons/cli/GnuParser.java",
+        84
+      ]
+    ],
+    "tests": [
+      {
+        "test": "org.apache.commons.cli.GnuParserTest::testShortWithEqual",
+        "failed": true
+      },
+      {
+        "test": "org.apache.commons.cli.GnuParserTest::testLongWithEqualSingleDash",
+        "failed": true
+      },
+      {
+        "test": "org.apache.commons.cli.GnuParserTest::testLongWithEqual",
+        "failed": true
+      },
+      {
+        "test": "org.apache.commons.cli.GnuParserTest::testDoubleDash",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.GnuParserTest::testExtraOption",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.GnuParserTest::testMissingArg",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.GnuParserTest::testMultiple",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.GnuParserTest::testMultipleWithLong",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.GnuParserTest::testNegativeArgument",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.GnuParserTest::testShortWithoutEqual",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.GnuParserTest::testSimpleLong",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.GnuParserTest::testSimpleShort",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.GnuParserTest::testSingleDash",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.GnuParserTest::testStop",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ApplicationTest::testAnt",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ApplicationTest::testLs",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test11456",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test11457",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test11458",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test12210",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test13425",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test13666",
+        "failed": true
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test13935",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test14786",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test15046",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test15648",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test19383",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test21215",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test27635",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test31148",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ParseRequiredTest::testMissingRequiredOption",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ParseRequiredTest::testMissingRequiredOptions",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ParseRequiredTest::testReuseOptionsTwice",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ParseRequiredTest::testWithRequiredOption",
+        "failed": false
+      }
+    ],
+    "ochiai": {
+      "best": 1,
+      "avg": 1.0,
+      "worst": 1
+    },
+    "top_ochiai": [
+      {
+        "file": "org/apache/commons/cli/GnuParser.java",
+        "line": 81,
+        "score": 0.5303
+      },
+      {
+        "file": "org/apache/commons/cli/GnuParser.java",
+        "line": 85,
+        "score": 0.5
+      },
+      {
+        "file": "org/apache/commons/cli/GnuParser.java",
+        "line": 86,
+        "score": 0.5
+      },
+      {
+        "file": "org/apache/commons/cli/GnuParser.java",
+        "line": 58,
+        "score": 0.3441
+      },
+      {
+        "file": "org/apache/commons/cli/GnuParser.java",
+        "line": 67,
+        "score": 0.3441
+      },
+      {
+        "file": "org/apache/commons/cli/GnuParser.java",
+        "line": 73,
+        "score": 0.3441
+      },
+      {
+        "file": "org/apache/commons/cli/GnuParser.java",
+        "line": 94,
+        "score": 0.3441
+      },
+      {
+        "file": "org/apache/commons/cli/GnuParser.java",
+        "line": 100,
+        "score": 0.3441
+      },
+      {
+        "file": "org/apache/commons/cli/GnuParser.java",
+        "line": 109,
+        "score": 0.3441
+      },
+      {
+        "file": "org/apache/commons/cli/GnuParser.java",
+        "line": 54,
+        "score": 0.3441
+      },
+      {
+        "file": "org/apache/commons/cli/GnuParser.java",
+        "line": 60,
+        "score": 0.3441
+      },
+      {
+        "file": "org/apache/commons/cli/GnuParser.java",
+        "line": 75,
+        "score": 0.3441
+      },
+      {
+        "file": "org/apache/commons/cli/GnuParser.java",
+        "line": 56,
+        "score": 0.3441
+      },
+      {
+        "file": "org/apache/commons/cli/GnuParser.java",
+        "line": 62,
+        "score": 0.3441
+      },
+      {
+        "file": "org/apache/commons/cli/GnuParser.java",
+        "line": 71,
+        "score": 0.3441
+      },
+      {
+        "file": "org/apache/commons/cli/GnuParser.java",
+        "line": 31,
+        "score": 0.3441
+      },
+      {
+        "file": "org/apache/commons/cli/GnuParser.java",
+        "line": 91,
+        "score": 0.25
+      },
+      {
+        "file": "org/apache/commons/cli/GnuParser.java",
+        "line": 90,
+        "score": 0.25
+      },
+      {
+        "file": "org/apache/commons/cli/GnuParser.java",
+        "line": 64,
+        "score": 0.0
+      },
+      {
+        "file": "org/apache/commons/cli/GnuParser.java",
+        "line": 97,
+        "score": 0.0
+      }
+    ],
+    "tarantula": {
+      "best": 3,
+      "avg": 3.0,
+      "worst": 3
+    },
+    "top_tarantula": [
+      {
+        "file": "org/apache/commons/cli/GnuParser.java",
+        "line": 85,
+        "score": 0.8824
+      },
+      {
+        "file": "org/apache/commons/cli/GnuParser.java",
+        "line": 86,
+        "score": 0.8824
+      },
+      {
+        "file": "org/apache/commons/cli/GnuParser.java",
+        "line": 81,
+        "score": 0.8182
+      },
+      {
+        "file": "org/apache/commons/cli/GnuParser.java",
+        "line": 91,
+        "score": 0.7143
+      },
+      {
+        "file": "org/apache/commons/cli/GnuParser.java",
+        "line": 90,
+        "score": 0.7143
+      },
+      {
+        "file": "org/apache/commons/cli/GnuParser.java",
+        "line": 58,
+        "score": 0.5844
+      },
+      {
+        "file": "org/apache/commons/cli/GnuParser.java",
+        "line": 67,
+        "score": 0.5844
+      },
+      {
+        "file": "org/apache/commons/cli/GnuParser.java",
+        "line": 73,
+        "score": 0.5844
+      },
+      {
+        "file": "org/apache/commons/cli/GnuParser.java",
+        "line": 94,
+        "score": 0.5844
+      },
+      {
+        "file": "org/apache/commons/cli/GnuParser.java",
+        "line": 100,
+        "score": 0.5844
+      },
+      {
+        "file": "org/apache/commons/cli/GnuParser.java",
+        "line": 109,
+        "score": 0.5844
+      },
+      {
+        "file": "org/apache/commons/cli/GnuParser.java",
+        "line": 54,
+        "score": 0.5844
+      },
+      {
+        "file": "org/apache/commons/cli/GnuParser.java",
+        "line": 60,
+        "score": 0.5844
+      },
+      {
+        "file": "org/apache/commons/cli/GnuParser.java",
+        "line": 75,
+        "score": 0.5844
+      },
+      {
+        "file": "org/apache/commons/cli/GnuParser.java",
+        "line": 56,
+        "score": 0.5844
+      },
+      {
+        "file": "org/apache/commons/cli/GnuParser.java",
+        "line": 62,
+        "score": 0.5844
+      },
+      {
+        "file": "org/apache/commons/cli/GnuParser.java",
+        "line": 71,
+        "score": 0.5844
+      },
+      {
+        "file": "org/apache/commons/cli/GnuParser.java",
+        "line": 31,
+        "score": 0.5844
+      },
+      {
+        "file": "org/apache/commons/cli/GnuParser.java",
+        "line": 64,
+        "score": 0.0
+      },
+      {
+        "file": "org/apache/commons/cli/GnuParser.java",
+        "line": 97,
+        "score": 0.0
+      }
+    ]
+  },
+  {
+    "id": "Cli-13",
+    "num_failing": 1,
+    "num_passing": 21,
+    "search_space_lines": 193,
+    "scope": "modified",
+    "ground_truth": [
+      [
+        "org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java",
+        132
+      ],
+      [
+        "org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java",
+        133
+      ],
+      [
+        "org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java",
+        135
+      ],
+      [
+        "org/apache/commons/cli2/option/ArgumentImpl.java",
+        144
+      ]
+    ],
+    "tests": [
+      {
+        "test": "org.apache.commons.cli2.bug.BugLoopingOptionLookAlikeTest::testLoopingOptionLookAlike2",
+        "failed": true
+      },
+      {
+        "test": "org.apache.commons.cli2.bug.BugLoopingOptionLookAlikeTest::testLoopingOptionLookAlike",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.CommandLineDefaultsTest::testValues_Parsed_Option",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.application.LsTest::testLs",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.builder.ArgumentBuilderTest::testDefaults",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.builder.ArgumentBuilderTest::testNullDefaults",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.builder.DefaultOptionBuilderTest::testNew_EmptyShortPrefix",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.DefaultingCommandLineTest::testSwitches",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.PreferencesCommandLineTest::testGetSwitchOptionBoolean",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.WriteableCommandLineImplTest::testGetOption",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.WriteableCommandLineImplTest::testGetOptionTriggers",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.WriteableCommandLineImplTest::testOptions",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.option.ArgumentTest::testAppendUsage_InfiniteNoNumbering",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.option.ArgumentTest::testProcessValues",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.option.ArgumentTest::testProcess_ConsumeNothing",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.option.ArgumentTest::testProcess_StripBoundaryQuotes",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.option.DefaultOptionTest::testProcessParent",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.option.ParentTest::testHelpLines_NoChildren",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.util.ComparatorsTest::testCommandLast",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.util.ComparatorsTest::testDefaultOptionLast",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.util.HelpFormatterTest::testGutters",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.util.HelpFormatterTest::testPrintException",
+        "failed": false
+      }
+    ],
+    "ochiai": {
+      "best": 51,
+      "avg": 53.0,
+      "worst": 55
+    },
+    "top_ochiai": [
+      {
+        "file": "org/apache/commons/cli2/option/ArgumentImpl.java",
+        "line": 340,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli2/option/ArgumentImpl.java",
+        "line": 193,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli2/option/ArgumentImpl.java",
+        "line": 246,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli2/option/ArgumentImpl.java",
+        "line": 245,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli2/option/ArgumentImpl.java",
+        "line": 336,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli2/option/ArgumentImpl.java",
+        "line": 232,
+        "score": 0.7071
+      },
+      {
+        "file": "org/apache/commons/cli2/option/ArgumentImpl.java",
+        "line": 244,
+        "score": 0.7071
+      },
+      {
+        "file": "org/apache/commons/cli2/option/ArgumentImpl.java",
+        "line": 203,
+        "score": 0.5774
+      },
+      {
+        "file": "org/apache/commons/cli2/option/ArgumentImpl.java",
+        "line": 186,
+        "score": 0.5774
+      },
+      {
+        "file": "org/apache/commons/cli2/option/ArgumentImpl.java",
+        "line": 204,
+        "score": 0.5774
+      },
+      {
+        "file": "org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java",
+        "line": 75,
+        "score": 0.5774
+      },
+      {
+        "file": "org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java",
+        "line": 212,
+        "score": 0.5774
+      },
+      {
+        "file": "org/apache/commons/cli2/option/ArgumentImpl.java",
+        "line": 158,
+        "score": 0.5774
+      },
+      {
+        "file": "org/apache/commons/cli2/option/ArgumentImpl.java",
+        "line": 185,
+        "score": 0.5774
+      },
+      {
+        "file": "org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java",
+        "line": 177,
+        "score": 0.5774
+      },
+      {
+        "file": "org/apache/commons/cli2/option/ArgumentImpl.java",
+        "line": 164,
+        "score": 0.5774
+      },
+      {
+        "file": "org/apache/commons/cli2/option/ArgumentImpl.java",
+        "line": 367,
+        "score": 0.5774
+      },
+      {
+        "file": "org/apache/commons/cli2/option/ArgumentImpl.java",
+        "line": 369,
+        "score": 0.5774
+      },
+      {
+        "file": "org/apache/commons/cli2/option/ArgumentImpl.java",
+        "line": 238,
+        "score": 0.5774
+      },
+      {
+        "file": "org/apache/commons/cli2/option/ArgumentImpl.java",
+        "line": 240,
+        "score": 0.5774
+      }
+    ],
+    "tarantula": {
+      "best": 51,
+      "avg": 53.0,
+      "worst": 55
+    },
+    "top_tarantula": [
+      {
+        "file": "org/apache/commons/cli2/option/ArgumentImpl.java",
+        "line": 340,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli2/option/ArgumentImpl.java",
+        "line": 193,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli2/option/ArgumentImpl.java",
+        "line": 246,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli2/option/ArgumentImpl.java",
+        "line": 245,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli2/option/ArgumentImpl.java",
+        "line": 336,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli2/option/ArgumentImpl.java",
+        "line": 232,
+        "score": 0.9545
+      },
+      {
+        "file": "org/apache/commons/cli2/option/ArgumentImpl.java",
+        "line": 244,
+        "score": 0.9545
+      },
+      {
+        "file": "org/apache/commons/cli2/option/ArgumentImpl.java",
+        "line": 203,
+        "score": 0.913
+      },
+      {
+        "file": "org/apache/commons/cli2/option/ArgumentImpl.java",
+        "line": 186,
+        "score": 0.913
+      },
+      {
+        "file": "org/apache/commons/cli2/option/ArgumentImpl.java",
+        "line": 204,
+        "score": 0.913
+      },
+      {
+        "file": "org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java",
+        "line": 75,
+        "score": 0.913
+      },
+      {
+        "file": "org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java",
+        "line": 212,
+        "score": 0.913
+      },
+      {
+        "file": "org/apache/commons/cli2/option/ArgumentImpl.java",
+        "line": 158,
+        "score": 0.913
+      },
+      {
+        "file": "org/apache/commons/cli2/option/ArgumentImpl.java",
+        "line": 185,
+        "score": 0.913
+      },
+      {
+        "file": "org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java",
+        "line": 177,
+        "score": 0.913
+      },
+      {
+        "file": "org/apache/commons/cli2/option/ArgumentImpl.java",
+        "line": 164,
+        "score": 0.913
+      },
+      {
+        "file": "org/apache/commons/cli2/option/ArgumentImpl.java",
+        "line": 367,
+        "score": 0.913
+      },
+      {
+        "file": "org/apache/commons/cli2/option/ArgumentImpl.java",
+        "line": 369,
+        "score": 0.913
+      },
+      {
+        "file": "org/apache/commons/cli2/option/ArgumentImpl.java",
+        "line": 238,
+        "score": 0.913
+      },
+      {
+        "file": "org/apache/commons/cli2/option/ArgumentImpl.java",
+        "line": 240,
+        "score": 0.913
+      }
+    ]
+  },
+  {
+    "id": "Cli-14",
+    "num_failing": 1,
+    "num_passing": 20,
+    "search_space_lines": 189,
+    "scope": "modified",
+    "ground_truth": [
+      [
+        "org/apache/commons/cli2/option/GroupImpl.java",
+        250
+      ],
+      [
+        "org/apache/commons/cli2/option/GroupImpl.java",
+        251
+      ],
+      [
+        "org/apache/commons/cli2/option/GroupImpl.java",
+        252
+      ],
+      [
+        "org/apache/commons/cli2/option/GroupImpl.java",
+        261
+      ],
+      [
+        "org/apache/commons/cli2/option/GroupImpl.java",
+        262
+      ]
+    ],
+    "tests": [
+      {
+        "test": "org.apache.commons.cli2.bug.BugCLI144Test::testFileValidator",
+        "failed": true
+      },
+      {
+        "test": "org.apache.commons.cli2.DocumentationTest::testExampleAnt",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.application.CpTest::testNoSource",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.bug.BugLoopingOptionLookAlikeTest::testLoopingOptionLookAlike",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.DefaultingCommandLineTest::testGetOptionCount",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.DefaultingCommandLineTest::testGetOptionTriggers",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.DefaultingCommandLineTest::testGetSwitchString",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.DefaultingCommandLineTest::testGetValuesString",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.PreferencesCommandLineTest::testGetValuesOptionList",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.PreferencesCommandLineTest::testProperties",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.PropertiesCommandLineTest::testGetOptions_Order",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.PropertiesCommandLineTest::testGetSwitchString",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.WriteableCommandLineImplTest::testAddValue",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.WriteableCommandLineImplTest::testSwitches_True",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.option.GroupTest::testAppendUsage_NoExpandOrName",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.option.NestedGroupTest::testNestedGroup",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.option.ParentTest::testCanProcess_BadMatch",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.option.ParentTest::testGetDescription",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.option.ParentTest::testProcess_Argument",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.util.ComparatorsTest::testChained",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.util.ComparatorsTest::testDefaultOptionLast",
+        "failed": false
+      }
+    ],
+    "ochiai": {
+      "best": 1,
+      "avg": 1.5,
+      "worst": 2
+    },
+    "top_ochiai": [
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 121,
+        "score": 0.5774
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 251,
+        "score": 0.5774
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 262,
+        "score": 0.5
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 234,
+        "score": 0.5
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 235,
+        "score": 0.5
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 180,
+        "score": 0.5
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 182,
+        "score": 0.5
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 175,
+        "score": 0.5
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 159,
+        "score": 0.5
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 177,
+        "score": 0.5
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 181,
+        "score": 0.5
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 167,
+        "score": 0.5
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 162,
+        "score": 0.5
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 256,
+        "score": 0.5
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 164,
+        "score": 0.5
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 120,
+        "score": 0.4472
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 115,
+        "score": 0.4472
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 246,
+        "score": 0.4082
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 255,
+        "score": 0.4082
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 250,
+        "score": 0.4082
+      }
+    ],
+    "tarantula": {
+      "best": 1,
+      "avg": 1.5,
+      "worst": 2
+    },
+    "top_tarantula": [
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 121,
+        "score": 0.9091
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 251,
+        "score": 0.9091
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 262,
+        "score": 0.8696
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 234,
+        "score": 0.8696
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 235,
+        "score": 0.8696
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 180,
+        "score": 0.8696
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 182,
+        "score": 0.8696
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 175,
+        "score": 0.8696
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 159,
+        "score": 0.8696
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 177,
+        "score": 0.8696
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 181,
+        "score": 0.8696
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 167,
+        "score": 0.8696
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 162,
+        "score": 0.8696
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 256,
+        "score": 0.8696
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 164,
+        "score": 0.8696
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 120,
+        "score": 0.8333
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 115,
+        "score": 0.8333
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 246,
+        "score": 0.8
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 255,
+        "score": 0.8
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 250,
+        "score": 0.8
+      }
+    ]
+  },
+  {
+    "id": "Cli-15",
+    "num_failing": 2,
+    "num_passing": 21,
+    "search_space_lines": 93,
+    "scope": "modified",
+    "ground_truth": [
+      [
+        "org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java",
+        117
+      ],
+      [
+        "org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java",
+        118
+      ],
+      [
+        "org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java",
+        122
+      ],
+      [
+        "org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java",
+        123
+      ],
+      [
+        "org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java",
+        124
+      ],
+      [
+        "org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java",
+        127
+      ],
+      [
+        "org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java",
+        128
+      ]
+    ],
+    "tests": [
+      {
+        "test": "org.apache.commons.cli2.bug.BugCLI158Test::testSingleOptionSingleArgument",
+        "failed": true
+      },
+      {
+        "test": "org.apache.commons.cli2.bug.BugCLI158Test::testSingleOptionMaximumNumberOfArgument",
+        "failed": true
+      },
+      {
+        "test": "org.apache.commons.cli2.bug.BugCLI158Test::testSingleOptionNoArgument",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.CommandLineDefaultsTest::testSwitch_Method_Option",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.CommandLineDefaultsTest::testValues_Parsed_Option",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.bug.Bug13886Test::testMandatoryGroup",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.DefaultingCommandLineTest::testDefaults",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.DefaultingCommandLineTest::testGetSwitchOption",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.DefaultingCommandLineTest::testGetValuesOption",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.PreferencesCommandLineTest::testGetValueStringObject",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.PropertiesCommandLineTest::testGetOptionTriggers",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.WriteableCommandLineImplTest::testSwitches",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.option.ArgumentTest::testAppendUsage",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.option.ArgumentTest::testProcess_ConsumeRemaining",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.option.ArgumentTest::testTooManyDefaults",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.option.ArgumentTest::testValidate",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.option.CommandTest::testEmotyPreferredName",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.option.CommandTest::testProcessParent_Spare",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.option.DefaultOptionTest::testAppendUsage_NoAlias",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.option.NestedGroupTest::testNestedGroupHelp",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.option.ParentTest::testProcess_Children",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.option.PropertyOptionTest::testTriggers",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.option.SwitchTest::testTriggers",
+        "failed": false
+      }
+    ],
+    "ochiai": {
+      "best": 16,
+      "avg": 21.0,
+      "worst": 26
+    },
+    "top_ochiai": [
+      {
+        "file": "org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java",
+        "line": 210,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java",
+        "line": 205,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java",
+        "line": 207,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java",
+        "line": 212,
+        "score": 0.8165
+      },
+      {
+        "file": "org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java",
+        "line": 204,
+        "score": 0.8165
+      },
+      {
+        "file": "org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java",
+        "line": 137,
+        "score": 0.7071
+      },
+      {
+        "file": "org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java",
+        "line": 249,
+        "score": 0.7071
+      },
+      {
+        "file": "org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java",
+        "line": 251,
+        "score": 0.7071
+      },
+      {
+        "file": "org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java",
+        "line": 246,
+        "score": 0.7071
+      },
+      {
+        "file": "org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java",
+        "line": 141,
+        "score": 0.7071
+      },
+      {
+        "file": "org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java",
+        "line": 134,
+        "score": 0.7071
+      },
+      {
+        "file": "org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java",
+        "line": 138,
+        "score": 0.7071
+      },
+      {
+        "file": "org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java",
+        "line": 102,
+        "score": 0.5774
+      },
+      {
+        "file": "org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java",
+        "line": 104,
+        "score": 0.5774
+      },
+      {
+        "file": "org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java",
+        "line": 108,
+        "score": 0.5345
+      },
+      {
+        "file": "org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java",
+        "line": 117,
+        "score": 0.4714
+      },
+      {
+        "file": "org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java",
+        "line": 87,
+        "score": 0.4714
+      },
+      {
+        "file": "org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java",
+        "line": 114,
+        "score": 0.4714
+      },
+      {
+        "file": "org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java",
+        "line": 80,
+        "score": 0.4714
+      },
+      {
+        "file": "org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java",
+        "line": 82,
+        "score": 0.4714
+      }
+    ],
+    "tarantula": {
+      "best": 16,
+      "avg": 21.0,
+      "worst": 26
+    },
+    "top_tarantula": [
+      {
+        "file": "org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java",
+        "line": 210,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java",
+        "line": 205,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java",
+        "line": 207,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java",
+        "line": 212,
+        "score": 0.9545
+      },
+      {
+        "file": "org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java",
+        "line": 204,
+        "score": 0.9545
+      },
+      {
+        "file": "org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java",
+        "line": 137,
+        "score": 0.913
+      },
+      {
+        "file": "org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java",
+        "line": 249,
+        "score": 0.913
+      },
+      {
+        "file": "org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java",
+        "line": 251,
+        "score": 0.913
+      },
+      {
+        "file": "org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java",
+        "line": 246,
+        "score": 0.913
+      },
+      {
+        "file": "org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java",
+        "line": 141,
+        "score": 0.913
+      },
+      {
+        "file": "org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java",
+        "line": 134,
+        "score": 0.913
+      },
+      {
+        "file": "org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java",
+        "line": 138,
+        "score": 0.913
+      },
+      {
+        "file": "org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java",
+        "line": 102,
+        "score": 0.84
+      },
+      {
+        "file": "org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java",
+        "line": 104,
+        "score": 0.84
+      },
+      {
+        "file": "org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java",
+        "line": 108,
+        "score": 0.8077
+      },
+      {
+        "file": "org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java",
+        "line": 117,
+        "score": 0.75
+      },
+      {
+        "file": "org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java",
+        "line": 87,
+        "score": 0.75
+      },
+      {
+        "file": "org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java",
+        "line": 114,
+        "score": 0.75
+      },
+      {
+        "file": "org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java",
+        "line": 80,
+        "score": 0.75
+      },
+      {
+        "file": "org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java",
+        "line": 82,
+        "score": 0.75
+      }
+    ]
+  },
+  {
+    "id": "Cli-16",
+    "num_failing": 7,
+    "num_passing": 120,
+    "search_space_lines": 343,
+    "scope": "modified",
+    "ground_truth": [
+      [
+        "org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java",
+        74
+      ],
+      [
+        "org/apache/commons/cli2/option/GroupImpl.java",
+        92
+      ],
+      [
+        "org/apache/commons/cli2/option/OptionImpl.java",
+        36
+      ],
+      [
+        "org/apache/commons/cli2/option/OptionImpl.java",
+        128
+      ],
+      [
+        "org/apache/commons/cli2/option/OptionImpl.java",
+        129
+      ]
+    ],
+    "tests": [
+      {
+        "test": "org.apache.commons.cli2.bug.BugCLI123Test::testMultipleChildOptions",
+        "failed": true
+      },
+      {
+        "test": "org.apache.commons.cli2.bug.BugCLI123Test::testParentOptionAndChildOption",
+        "failed": true
+      },
+      {
+        "test": "org.apache.commons.cli2.bug.BugCLI123Test::testSingleChildOption",
+        "failed": true
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.DefaultingCommandLineTest::testGetOptions_Order",
+        "failed": true
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.PreferencesCommandLineTest::testGetOptions_Order",
+        "failed": true
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.PropertiesCommandLineTest::testGetOptions_Order",
+        "failed": true
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.WriteableCommandLineImplTest::testGetOptions_Order",
+        "failed": true
+      },
+      {
+        "test": "org.apache.commons.cli2.bug.BugCLI123Test::testSingleParentOption",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.DefaultingCommandLineTest::testAppendCommandLine",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.DefaultingCommandLineTest::testDefaults",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.DefaultingCommandLineTest::testGetOption",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.DefaultingCommandLineTest::testGetOptionCount",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.DefaultingCommandLineTest::testGetOptionCountString",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.DefaultingCommandLineTest::testGetOptionCount_Strings",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.DefaultingCommandLineTest::testGetProperties",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.DefaultingCommandLineTest::testGetPropertyString",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.DefaultingCommandLineTest::testGetPropertyStringString",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.DefaultingCommandLineTest::testGetSwitchOption",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.DefaultingCommandLineTest::testGetSwitchString",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.DefaultingCommandLineTest::testGetSwitchStringBoolean",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.DefaultingCommandLineTest::testGetValueString",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.DefaultingCommandLineTest::testGetValuesOptionList",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.DefaultingCommandLineTest::testGetValuesString",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.DefaultingCommandLineTest::testGetValuesStringList",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.DefaultingCommandLineTest::testHasOptionOption",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.DefaultingCommandLineTest::testInsertCommandLine",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.DefaultingCommandLineTest::testOptionAsArgument",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.DefaultingCommandLineTest::testOptions",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.DefaultingCommandLineTest::testProperties",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.DefaultingCommandLineTest::testSwitches",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.DefaultingCommandLineTest::testSwitches_False",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.DefaultingCommandLineTest::testSwitches_True",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.DefaultingCommandLineTest::testTriggers",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.PreferencesCommandLineTest::testGetOption",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.PreferencesCommandLineTest::testGetOptionCount",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.PreferencesCommandLineTest::testGetOptionCountOption",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.PreferencesCommandLineTest::testGetOptionCountString",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.PreferencesCommandLineTest::testGetOptionCount_Strings",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.PreferencesCommandLineTest::testGetOptions",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.PreferencesCommandLineTest::testGetPropertyString",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.PreferencesCommandLineTest::testGetPropertyStringString",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.PreferencesCommandLineTest::testGetSwitchOption",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.PreferencesCommandLineTest::testGetSwitchOptionBoolean",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.PreferencesCommandLineTest::testGetSwitchString",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.PreferencesCommandLineTest::testGetSwitchStringBoolean",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.PreferencesCommandLineTest::testGetValueOption",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.PreferencesCommandLineTest::testGetValueOptionObject",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.PreferencesCommandLineTest::testGetValueStringObject",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.PreferencesCommandLineTest::testGetValuesOption",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.PreferencesCommandLineTest::testGetValuesOptionList",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.PreferencesCommandLineTest::testGetValuesString",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.PreferencesCommandLineTest::testHasOptionOption",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.PreferencesCommandLineTest::testNullOption",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.PreferencesCommandLineTest::testOptions",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.PreferencesCommandLineTest::testPreferenceTriggers",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.PreferencesCommandLineTest::testProperties",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.PreferencesCommandLineTest::testPropertyValues",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.PreferencesCommandLineTest::testSwitches",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.PreferencesCommandLineTest::testSwitches_False",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.PreferencesCommandLineTest::testSwitches_True",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.PreferencesCommandLineTest::testValues",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.PropertiesCommandLineTest::testGetOption",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.PropertiesCommandLineTest::testGetOptionCount_Strings",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.PropertiesCommandLineTest::testGetPropertyStringString",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.PropertiesCommandLineTest::testGetSwitchOptionBoolean",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.PropertiesCommandLineTest::testGetSwitchString",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.PropertiesCommandLineTest::testGetValueOption",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.PropertiesCommandLineTest::testGetValueOptionObject",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.PropertiesCommandLineTest::testGetValueString",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.PropertiesCommandLineTest::testGetValuesOption",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.PropertiesCommandLineTest::testGetValuesString",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.PropertiesCommandLineTest::testGetValuesStringList",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.PropertiesCommandLineTest::testHasOptionOption",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.PropertiesCommandLineTest::testNullOption",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.PropertiesCommandLineTest::testOptionAsArgument",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.PropertiesCommandLineTest::testProperties",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.PropertiesCommandLineTest::testPropertyTriggers",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.PropertiesCommandLineTest::testPropertyValues",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.PropertiesCommandLineTest::testSwitches",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.PropertiesCommandLineTest::testSwitches_True",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.WriteableCommandLineImplTest::testAddProperty",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.WriteableCommandLineImplTest::testAddSwitch",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.WriteableCommandLineImplTest::testGetOption",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.WriteableCommandLineImplTest::testGetOptionCountOption",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.WriteableCommandLineImplTest::testGetOptionCount_Strings",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.WriteableCommandLineImplTest::testGetOptionTriggers",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.WriteableCommandLineImplTest::testGetOptions",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.WriteableCommandLineImplTest::testGetProperties",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.WriteableCommandLineImplTest::testGetPropertyStringString",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.WriteableCommandLineImplTest::testGetSwitchOption",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.WriteableCommandLineImplTest::testGetSwitchString",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.WriteableCommandLineImplTest::testGetSwitchStringBoolean",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.WriteableCommandLineImplTest::testGetValueOption",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.WriteableCommandLineImplTest::testGetValueOptionObject",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.WriteableCommandLineImplTest::testGetValueString",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.WriteableCommandLineImplTest::testGetValueStringObject",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.WriteableCommandLineImplTest::testGetValuesOptionList",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.WriteableCommandLineImplTest::testGetValuesString",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.WriteableCommandLineImplTest::testHasOptionOption",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.WriteableCommandLineImplTest::testHasOptionString",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.WriteableCommandLineImplTest::testLooksLikeOption",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.WriteableCommandLineImplTest::testOptionAsArgument",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.WriteableCommandLineImplTest::testOptions",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.WriteableCommandLineImplTest::testProperties",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.WriteableCommandLineImplTest::testSwitches_False",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.WriteableCommandLineImplTest::testSwitches_True",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.WriteableCommandLineImplTest::testValues",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.CommandLineDefaultsTest::testSwitch_Option",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.CommandLineDefaultsTest::testSwitch_Parsed_Option",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.builder.ArgumentBuilderTest::testNullConsumeRemaining",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.ParserTest::testParseAndHelp_Successful",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.ParserTest::testParseAndHelp_WithUnexpectedOption",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.option.ArgumentTest::testPrefixes",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.option.ArgumentTest::testProcess_StripBoundaryQuotes",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.option.ArgumentTest::testSourceDestArgument",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.option.CommandTest::testNullPreferredName",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.option.GroupTest::testProcess_Nested",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.option.GroupTest::testValidate_RequiredChild",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.option.ParentTest::testHelpLines_NoChildren",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.option.ParentTest::testValidate",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.option.SwitchTest::testEmptyPreferredName",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.util.ComparatorsTest::testNamedFirst",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.util.ComparatorsTest::testRequiredLast",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.util.ComparatorsTest::testSwitchFirst",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.util.HelpFormatterTest::testPrintHelp",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.util.HelpFormatterTest::testWrap",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.validation.ClassValidatorTest::testLoadValid",
+        "failed": false
+      }
+    ],
+    "ochiai": {
+      "best": 157,
+      "avg": 159.0,
+      "worst": 161
+    },
+    "top_ochiai": [
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 374,
+        "score": 0.8018
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 378,
+        "score": 0.8018
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 387,
+        "score": 0.8018
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 322,
+        "score": 0.8018
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 326,
+        "score": 0.8018
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 330,
+        "score": 0.8018
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 307,
+        "score": 0.8018
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 316,
+        "score": 0.8018
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 302,
+        "score": 0.8018
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 390,
+        "score": 0.8018
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 334,
+        "score": 0.8018
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 370,
+        "score": 0.8018
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 320,
+        "score": 0.8018
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 310,
+        "score": 0.8018
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 296,
+        "score": 0.8018
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 314,
+        "score": 0.8018
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 318,
+        "score": 0.8018
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 295,
+        "score": 0.8018
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 304,
+        "score": 0.8018
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 383,
+        "score": 0.7559
+      }
+    ],
+    "tarantula": {
+      "best": 158,
+      "avg": 160.0,
+      "worst": 162
+    },
+    "top_tarantula": [
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 383,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 382,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli2/option/OptionImpl.java",
+        "line": 64,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 274,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 380,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli2/option/OptionImpl.java",
+        "line": 62,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli2/option/OptionImpl.java",
+        "line": 61,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 384,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 365,
+        "score": 0.9856
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 364,
+        "score": 0.9856
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 341,
+        "score": 0.9856
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 340,
+        "score": 0.9856
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 349,
+        "score": 0.9856
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 358,
+        "score": 0.9856
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 367,
+        "score": 0.9856
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 357,
+        "score": 0.9856
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 375,
+        "score": 0.9856
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 361,
+        "score": 0.9856
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 347,
+        "score": 0.9856
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 337,
+        "score": 0.9856
+      }
+    ]
+  },
+  {
+    "id": "Cli-17",
+    "num_failing": 1,
+    "num_passing": 32,
+    "search_space_lines": 67,
+    "scope": "modified",
+    "ground_truth": [
+      [
+        "org/apache/commons/cli/PosixParser.java",
+        303
+      ]
+    ],
+    "tests": [
+      {
+        "test": "org.apache.commons.cli.PosixParserTest::testStopBursting",
+        "failed": true
+      },
+      {
+        "test": "org.apache.commons.cli.PosixParserTest::testComplexShort",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.PosixParserTest::testDoubleDash",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.PosixParserTest::testLongOptionWithShort",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.PosixParserTest::testMissingArg",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.PosixParserTest::testMultiple",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.PosixParserTest::testMultipleWithLong",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.PosixParserTest::testPropertiesOption",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.PosixParserTest::testSimpleLong",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.PosixParserTest::testSimpleShort",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.PosixParserTest::testSingleDash",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.PosixParserTest::testStop",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.PosixParserTest::testUnrecognizedOption",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ApplicationTest::testAnt",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ArgumentIsOptionTest::testOptionAndOptionWithArgument",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test11680",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test13935",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test14786",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test15648",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test21215",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.OptionGroupTest::testTwoOptionsFromDifferentGroup",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.OptionGroupTest::testTwoValidOptions",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.OptionsTest::testDuplicateSimple",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.OptionsTest::testLong",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.PatternOptionBuilderTest::testObjectPattern",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.PatternOptionBuilderTest::testRequiredOption",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ValueTest::testLongOptionalArgValues",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ValueTest::testLongOptionalNoValue",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ValueTest::testPropertyOptionMultipleValues",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ValueTest::testPropertyOverrideValues",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ValueTest::testShortNoArg",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ValuesTest::testMultipleArgValues",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.bug.BugCLI148Test::testWorkaround1",
+        "failed": false
+      }
+    ],
+    "ochiai": null,
+    "top_ochiai": [
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 302,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 300,
+        "score": 0.7071
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 217,
+        "score": 0.5
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 213,
+        "score": 0.5
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 215,
+        "score": 0.5
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 175,
+        "score": 0.5
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 199,
+        "score": 0.5
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 214,
+        "score": 0.5
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 145,
+        "score": 0.3536
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 291,
+        "score": 0.3536
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 288,
+        "score": 0.3536
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 284,
+        "score": 0.3536
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 293,
+        "score": 0.3536
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 290,
+        "score": 0.3536
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 286,
+        "score": 0.3536
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 310,
+        "score": 0.3536
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 138,
+        "score": 0.3162
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 134,
+        "score": 0.2
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 132,
+        "score": 0.2
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 147,
+        "score": 0.2
+      }
+    ],
+    "tarantula": null,
+    "top_tarantula": [
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 302,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 300,
+        "score": 0.9697
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 217,
+        "score": 0.9143
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 213,
+        "score": 0.9143
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 215,
+        "score": 0.9143
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 175,
+        "score": 0.9143
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 199,
+        "score": 0.9143
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 214,
+        "score": 0.9143
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 145,
+        "score": 0.8205
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 291,
+        "score": 0.8205
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 288,
+        "score": 0.8205
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 284,
+        "score": 0.8205
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 293,
+        "score": 0.8205
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 290,
+        "score": 0.8205
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 286,
+        "score": 0.8205
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 310,
+        "score": 0.8205
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 138,
+        "score": 0.7805
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 134,
+        "score": 0.5714
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 132,
+        "score": 0.5714
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 147,
+        "score": 0.5714
+      }
+    ]
+  },
+  {
+    "id": "Cli-18",
+    "num_failing": 1,
+    "num_passing": 33,
+    "search_space_lines": 66,
+    "scope": "modified",
+    "ground_truth": [
+      [
+        "org/apache/commons/cli/PosixParser.java",
+        128
+      ],
+      [
+        "org/apache/commons/cli/PosixParser.java",
+        213
+      ],
+      [
+        "org/apache/commons/cli/PosixParser.java",
+        214
+      ],
+      [
+        "org/apache/commons/cli/PosixParser.java",
+        215
+      ],
+      [
+        "org/apache/commons/cli/PosixParser.java",
+        216
+      ],
+      [
+        "org/apache/commons/cli/PosixParser.java",
+        241
+      ]
+    ],
+    "tests": [
+      {
+        "test": "org.apache.commons.cli.PosixParserTest::testStop2",
+        "failed": true
+      },
+      {
+        "test": "org.apache.commons.cli.PosixParserTest::testComplexShort",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.PosixParserTest::testDoubleDash",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.PosixParserTest::testLongOptionWithShort",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.PosixParserTest::testMissingArg",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.PosixParserTest::testMultiple",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.PosixParserTest::testMultipleWithLong",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.PosixParserTest::testPropertiesOption",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.PosixParserTest::testSimpleLong",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.PosixParserTest::testSimpleShort",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.PosixParserTest::testSingleDash",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.PosixParserTest::testStop",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.PosixParserTest::testStopBursting",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.PosixParserTest::testUnrecognizedOption",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ApplicationTest::testAnt",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ArgumentIsOptionTest::testOptionAndOptionWithArgument",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test11680",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test13935",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test14786",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test15648",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test21215",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.OptionGroupTest::testTwoOptionsFromDifferentGroup",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.OptionGroupTest::testTwoValidOptions",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.OptionsTest::testDuplicateSimple",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.OptionsTest::testLong",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.PatternOptionBuilderTest::testObjectPattern",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.PatternOptionBuilderTest::testRequiredOption",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ValueTest::testLongOptionalArgValues",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ValueTest::testLongOptionalNoValue",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ValueTest::testPropertyOptionMultipleValues",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ValueTest::testPropertyOverrideValues",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ValueTest::testShortNoArg",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ValuesTest::testMultipleArgValues",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.bug.BugCLI148Test::testWorkaround1",
+        "failed": false
+      }
+    ],
+    "ochiai": {
+      "best": 28,
+      "avg": 47.0,
+      "worst": 66
+    },
+    "top_ochiai": [
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 240,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 238,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 172,
+        "score": 0.5
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 170,
+        "score": 0.4472
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 134,
+        "score": 0.2182
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 233,
+        "score": 0.2182
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 242,
+        "score": 0.2182
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 132,
+        "score": 0.1961
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 33,
+        "score": 0.1857
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 106,
+        "score": 0.1857
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 103,
+        "score": 0.1857
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 112,
+        "score": 0.1857
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 57,
+        "score": 0.1857
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 130,
+        "score": 0.1857
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 99,
+        "score": 0.1857
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 56,
+        "score": 0.1857
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 156,
+        "score": 0.1857
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 158,
+        "score": 0.1857
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 36,
+        "score": 0.1857
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 155,
+        "score": 0.1857
+      }
+    ],
+    "tarantula": {
+      "best": 28,
+      "avg": 47.0,
+      "worst": 66
+    },
+    "top_tarantula": [
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 240,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 238,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 172,
+        "score": 0.9167
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 170,
+        "score": 0.8919
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 134,
+        "score": 0.6226
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 233,
+        "score": 0.6226
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 242,
+        "score": 0.6226
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 132,
+        "score": 0.569
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 33,
+        "score": 0.541
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 106,
+        "score": 0.541
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 103,
+        "score": 0.541
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 112,
+        "score": 0.541
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 57,
+        "score": 0.541
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 130,
+        "score": 0.541
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 99,
+        "score": 0.541
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 56,
+        "score": 0.541
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 156,
+        "score": 0.541
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 158,
+        "score": 0.541
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 36,
+        "score": 0.541
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 155,
+        "score": 0.541
+      }
+    ]
+  },
+  {
+    "id": "Cli-19",
+    "num_failing": 1,
+    "num_passing": 34,
+    "search_space_lines": 65,
+    "scope": "modified",
+    "ground_truth": [
+      [
+        "org/apache/commons/cli/PosixParser.java",
+        232
+      ],
+      [
+        "org/apache/commons/cli/PosixParser.java",
+        237
+      ],
+      [
+        "org/apache/commons/cli/PosixParser.java",
+        239
+      ]
+    ],
+    "tests": [
+      {
+        "test": "org.apache.commons.cli.PosixParserTest::testUnrecognizedOption2",
+        "failed": true
+      },
+      {
+        "test": "org.apache.commons.cli.PosixParserTest::testComplexShort",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.PosixParserTest::testDoubleDash",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.PosixParserTest::testLongOptionWithShort",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.PosixParserTest::testMissingArg",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.PosixParserTest::testMultiple",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.PosixParserTest::testMultipleWithLong",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.PosixParserTest::testPropertiesOption",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.PosixParserTest::testSimpleLong",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.PosixParserTest::testSimpleShort",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.PosixParserTest::testSingleDash",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.PosixParserTest::testStop",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.PosixParserTest::testStop2",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.PosixParserTest::testStopBursting",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.PosixParserTest::testUnrecognizedOption",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ApplicationTest::testAnt",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ArgumentIsOptionTest::testOptionAndOptionWithArgument",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test11680",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test13935",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test14786",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test15648",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test21215",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.OptionGroupTest::testTwoOptionsFromDifferentGroup",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.OptionGroupTest::testTwoValidOptions",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.OptionsTest::testDuplicateSimple",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.OptionsTest::testLong",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.PatternOptionBuilderTest::testObjectPattern",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.PatternOptionBuilderTest::testRequiredOption",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ValueTest::testLongOptionalArgValues",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ValueTest::testLongOptionalNoValue",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ValueTest::testPropertyOptionMultipleValues",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ValueTest::testPropertyOverrideValues",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ValueTest::testShortNoArg",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ValuesTest::testMultipleArgValues",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.bug.BugCLI148Test::testWorkaround1",
+        "failed": false
+      }
+    ],
+    "ochiai": {
+      "best": 14,
+      "avg": 15.5,
+      "worst": 17
+    },
+    "top_ochiai": [
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 234,
+        "score": 0.7071
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 280,
+        "score": 0.4082
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 282,
+        "score": 0.4082
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 143,
+        "score": 0.3333
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 271,
+        "score": 0.3333
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 273,
+        "score": 0.3333
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 275,
+        "score": 0.3333
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 276,
+        "score": 0.3333
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 269,
+        "score": 0.3333
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 278,
+        "score": 0.3333
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 296,
+        "score": 0.3333
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 136,
+        "score": 0.3015
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 152,
+        "score": 0.2182
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 134,
+        "score": 0.2132
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 146,
+        "score": 0.2132
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 239,
+        "score": 0.2132
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 229,
+        "score": 0.2132
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 132,
+        "score": 0.1925
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 33,
+        "score": 0.1826
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 106,
+        "score": 0.1826
+      }
+    ],
+    "tarantula": {
+      "best": 14,
+      "avg": 15.5,
+      "worst": 17
+    },
+    "top_tarantula": [
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 234,
+        "score": 0.9714
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 280,
+        "score": 0.8718
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 282,
+        "score": 0.8718
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 143,
+        "score": 0.8095
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 271,
+        "score": 0.8095
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 273,
+        "score": 0.8095
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 275,
+        "score": 0.8095
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 276,
+        "score": 0.8095
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 269,
+        "score": 0.8095
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 278,
+        "score": 0.8095
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 296,
+        "score": 0.8095
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 136,
+        "score": 0.7727
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 152,
+        "score": 0.6296
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 134,
+        "score": 0.6182
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 146,
+        "score": 0.6182
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 239,
+        "score": 0.6182
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 229,
+        "score": 0.6182
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 132,
+        "score": 0.5667
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 33,
+        "score": 0.5397
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 106,
+        "score": 0.5397
+      }
+    ]
+  },
+  {
+    "id": "Cli-20",
+    "num_failing": 1,
+    "num_passing": 35,
+    "search_space_lines": 64,
+    "scope": "modified",
+    "ground_truth": [
+      [
+        "org/apache/commons/cli/PosixParser.java",
+        114
+      ],
+      [
+        "org/apache/commons/cli/PosixParser.java",
+        116
+      ],
+      [
+        "org/apache/commons/cli/PosixParser.java",
+        117
+      ],
+      [
+        "org/apache/commons/cli/PosixParser.java",
+        121
+      ]
+    ],
+    "tests": [
+      {
+        "test": "org.apache.commons.cli.PosixParserTest::testStop3",
+        "failed": true
+      },
+      {
+        "test": "org.apache.commons.cli.PosixParserTest::testComplexShort",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.PosixParserTest::testDoubleDash",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.PosixParserTest::testLongOptionWithShort",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.PosixParserTest::testMissingArg",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.PosixParserTest::testMultiple",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.PosixParserTest::testMultipleWithLong",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.PosixParserTest::testPropertiesOption",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.PosixParserTest::testSimpleLong",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.PosixParserTest::testSimpleShort",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.PosixParserTest::testSingleDash",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.PosixParserTest::testStop",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.PosixParserTest::testStop2",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.PosixParserTest::testStopBursting",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.PosixParserTest::testUnrecognizedOption",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.PosixParserTest::testUnrecognizedOption2",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ApplicationTest::testAnt",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ArgumentIsOptionTest::testOptionAndOptionWithArgument",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test11680",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test13935",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test14786",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test15648",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.BugsTest::test21215",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.OptionGroupTest::testTwoOptionsFromDifferentGroup",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.OptionGroupTest::testTwoValidOptions",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.OptionsTest::testDuplicateSimple",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.OptionsTest::testLong",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.PatternOptionBuilderTest::testObjectPattern",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.PatternOptionBuilderTest::testRequiredOption",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ValueTest::testLongOptionalArgValues",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ValueTest::testLongOptionalNoValue",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ValueTest::testPropertyOptionMultipleValues",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ValueTest::testPropertyOverrideValues",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ValueTest::testShortNoArg",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.ValuesTest::testMultipleArgValues",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli.bug.BugCLI148Test::testWorkaround1",
+        "failed": false
+      }
+    ],
+    "ochiai": {
+      "best": 1,
+      "avg": 1.5,
+      "worst": 2
+    },
+    "top_ochiai": [
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 116,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 117,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 280,
+        "score": 0.378
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 282,
+        "score": 0.378
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 143,
+        "score": 0.3162
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 271,
+        "score": 0.3162
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 273,
+        "score": 0.3162
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 275,
+        "score": 0.3162
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 276,
+        "score": 0.3162
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 269,
+        "score": 0.3162
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 278,
+        "score": 0.3162
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 296,
+        "score": 0.3162
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 114,
+        "score": 0.3015
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 136,
+        "score": 0.2887
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 132,
+        "score": 0.189
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 33,
+        "score": 0.1796
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 106,
+        "score": 0.1796
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 103,
+        "score": 0.1796
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 112,
+        "score": 0.1796
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 57,
+        "score": 0.1796
+      }
+    ],
+    "tarantula": {
+      "best": 1,
+      "avg": 1.5,
+      "worst": 2
+    },
+    "top_tarantula": [
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 116,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 117,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 280,
+        "score": 0.8537
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 282,
+        "score": 0.8537
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 143,
+        "score": 0.7955
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 271,
+        "score": 0.7955
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 273,
+        "score": 0.7955
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 275,
+        "score": 0.7955
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 276,
+        "score": 0.7955
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 269,
+        "score": 0.7955
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 278,
+        "score": 0.7955
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 296,
+        "score": 0.7955
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 114,
+        "score": 0.7778
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 136,
+        "score": 0.7609
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 132,
+        "score": 0.5645
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 33,
+        "score": 0.5385
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 106,
+        "score": 0.5385
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 103,
+        "score": 0.5385
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 112,
+        "score": 0.5385
+      },
+      {
+        "file": "org/apache/commons/cli/PosixParser.java",
+        "line": 57,
+        "score": 0.5385
+      }
+    ]
+  },
+  {
+    "id": "Cli-21",
+    "num_failing": 1,
+    "num_passing": 20,
+    "search_space_lines": 294,
+    "scope": "modified",
+    "ground_truth": [
+      [
+        "org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java",
+        51
+      ],
+      [
+        "org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java",
+        63
+      ],
+      [
+        "org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java",
+        65
+      ],
+      [
+        "org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java",
+        66
+      ],
+      [
+        "org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java",
+        234
+      ],
+      [
+        "org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java",
+        235
+      ],
+      [
+        "org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java",
+        236
+      ],
+      [
+        "org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java",
+        242
+      ],
+      [
+        "org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java",
+        243
+      ],
+      [
+        "org/apache/commons/cli2/commandline/WriteableCommandLineImpl.java",
+        246
+      ],
+      [
+        "org/apache/commons/cli2/option/GroupImpl.java",
+        513
+      ],
+      [
+        "org/apache/commons/cli2/option/GroupImpl.java",
+        514
+      ]
+    ],
+    "tests": [
+      {
+        "test": "org.apache.commons.cli2.bug.BugCLI150Test::testNegativeNumber",
+        "failed": true
+      },
+      {
+        "test": "org.apache.commons.cli2.CommandLineDefaultsTest::testValues_Parsed_Option",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.application.LsTest::testLs",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.bug.BugCLI145Test::testWithMaximum",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.bug.BugCLI80Test::testBug",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.builder.DefaultOptionBuilderTest::testNew_NullShortPrefix",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.DefaultingCommandLineTest::testSwitches_True",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.PreferencesCommandLineTest::testGetSwitchString",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.commandline.WriteableCommandLineImplTest::testGetOptionCount",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.option.ArgumentTest::testAppendUsage_InfiniteNoOptional",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.option.ArgumentTest::testProcessValues_BoundaryQuotes",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.option.ArgumentTest::testProcess_ConsumeRemaining",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.option.ArgumentTest::testRequired",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.option.DefaultOptionTest::testProcessParent_Burst",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.option.ParentTest::testAppendUsage_NoChildren",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.option.SwitchTest::testNullPreferredName",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.option.SwitchTest::testProcess",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.util.ComparatorsTest::testNamedFirst",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.util.ComparatorsTest::testSwitchLast",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.util.HelpFormatterTest::testWrap_AfterSpace",
+        "failed": false
+      },
+      {
+        "test": "org.apache.commons.cli2.util.HelpFormatterTest::testWrap_WrapNeeded",
+        "failed": false
+      }
+    ],
+    "ochiai": {
+      "best": 45,
+      "avg": 47.0,
+      "worst": 49
+    },
+    "top_ochiai": [
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 211,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 209,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 140,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 365,
+        "score": 0.7071
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 374,
+        "score": 0.7071
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 394,
+        "score": 0.7071
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 351,
+        "score": 0.7071
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 378,
+        "score": 0.7071
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 353,
+        "score": 0.7071
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 362,
+        "score": 0.7071
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 371,
+        "score": 0.7071
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 382,
+        "score": 0.7071
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 485,
+        "score": 0.7071
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 341,
+        "score": 0.7071
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 469,
+        "score": 0.7071
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 368,
+        "score": 0.7071
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 197,
+        "score": 0.7071
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 334,
+        "score": 0.7071
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 361,
+        "score": 0.7071
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 208,
+        "score": 0.7071
+      }
+    ],
+    "tarantula": {
+      "best": 45,
+      "avg": 47.0,
+      "worst": 49
+    },
+    "top_tarantula": [
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 211,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 209,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 140,
+        "score": 1.0
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 365,
+        "score": 0.9524
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 374,
+        "score": 0.9524
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 394,
+        "score": 0.9524
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 351,
+        "score": 0.9524
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 378,
+        "score": 0.9524
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 353,
+        "score": 0.9524
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 362,
+        "score": 0.9524
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 371,
+        "score": 0.9524
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 382,
+        "score": 0.9524
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 485,
+        "score": 0.9524
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 341,
+        "score": 0.9524
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 469,
+        "score": 0.9524
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 368,
+        "score": 0.9524
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 197,
+        "score": 0.9524
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 334,
+        "score": 0.9524
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 361,
+        "score": 0.9524
+      },
+      {
+        "file": "org/apache/commons/cli2/option/GroupImpl.java",
+        "line": 208,
+        "score": 0.9524
+      }
+    ]
+  }
+]

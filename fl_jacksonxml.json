@@ -1,0 +1,2024 @@
+[
+  {
+    "id": "JacksonXml-1",
+    "num_failing": 3,
+    "num_passing": 23,
+    "search_space_lines": 293,
+    "scope": "modified",
+    "ground_truth": [
+      [
+        "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        512
+      ],
+      [
+        "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        514
+      ],
+      [
+        "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        550
+      ],
+      [
+        "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        551
+      ],
+      [
+        "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        552
+      ],
+      [
+        "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        553
+      ]
+    ],
+    "tests": [
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.lists.NestedUnwrappedLists180Test::testNestedUnwrappedLists180",
+        "failed": true
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.lists.NestedUnwrappedListsTest::testNestedWithEmpty2",
+        "failed": true
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.lists.NestedUnwrappedListsTest::testNestedWithEmpty",
+        "failed": true
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.lists.NestedUnwrappedListsTest::testNested1_2",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.lists.NestedUnwrappedListsTest::testNested1_2b",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.lists.NestedUnwrappedListsTest::testNested2_1",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.RoundtripContentTest::testRoundtrip",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.deser.TestDeserialization::testMapWithAttr",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.deser.TestStringValues::testStringArrayWithAttribute",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.jaxb.AttributesWithJAXBTest::testAttributeAndElement",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.jaxb.ElementWrapperTest::testElementWrapper",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.jaxb.WithJAXBAnnotationsTest::testPersonAsXml",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.lists.Issue101UnwrappedListAttributesTest::testOptionalsWithMissingType",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.lists.UnwrappedListsTest::testDefaultWrappingWithEmptyLists",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.misc.ArrayConversionsTest::testArrayIdentityTransforms",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.misc.ArrayConversionsTest::testShortArrayToX",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.misc.ObjectId104Test::testSimpleCollectionDeserWithForwardRefs",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.misc.XmlTextTest::testXmlTextWithSuppressedValue",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.ser.TestSerialization::testSimpleAttrAndElem",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.ser.TestSerialization::testSimpleNsElem",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.stream.FormatDetectionTest::testSimpleInvalid",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.stream.FormatDetectionTest::testSimpleValidRoot",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.stream.FormatDetectionTest::testSimpleValidXmlDecl",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.stream.XmlGeneratorTest::testSimpleElement",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.stream.XmlParserTest::testSimpleNested",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.stream.XmlParserTest::testSimplest",
+        "failed": false
+      }
+    ],
+    "ochiai": {
+      "best": 1,
+      "avg": 3.0,
+      "worst": 5
+    },
+    "top_ochiai": [
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        "line": 552,
+        "score": 0.8165
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        "line": 954,
+        "score": 0.8165
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        "line": 551,
+        "score": 0.8165
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        "line": 553,
+        "score": 0.8165
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        "line": 550,
+        "score": 0.8165
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        "line": 305,
+        "score": 0.6667
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        "line": 307,
+        "score": 0.6124
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        "line": 309,
+        "score": 0.6124
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        "line": 304,
+        "score": 0.6124
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        "line": 497,
+        "score": 0.6124
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        "line": 308,
+        "score": 0.6124
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        "line": 303,
+        "score": 0.6124
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        "line": 546,
+        "score": 0.5774
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        "line": 415,
+        "score": 0.5222
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        "line": 410,
+        "score": 0.5222
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        "line": 407,
+        "score": 0.5222
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        "line": 416,
+        "score": 0.5222
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        "line": 413,
+        "score": 0.5222
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        "line": 22,
+        "score": 0.5222
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        "line": 406,
+        "score": 0.5222
+      }
+    ],
+    "tarantula": {
+      "best": 1,
+      "avg": 3.0,
+      "worst": 5
+    },
+    "top_tarantula": [
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        "line": 552,
+        "score": 1.0
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        "line": 954,
+        "score": 1.0
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        "line": 551,
+        "score": 1.0
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        "line": 553,
+        "score": 1.0
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        "line": 550,
+        "score": 1.0
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        "line": 305,
+        "score": 0.9388
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        "line": 533,
+        "score": 0.8846
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        "line": 546,
+        "score": 0.8846
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        "line": 534,
+        "score": 0.8846
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        "line": 947,
+        "score": 0.8364
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        "line": 949,
+        "score": 0.8364
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        "line": 946,
+        "score": 0.8364
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        "line": 948,
+        "score": 0.8364
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        "line": 307,
+        "score": 0.8214
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        "line": 309,
+        "score": 0.8214
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        "line": 304,
+        "score": 0.8214
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        "line": 497,
+        "score": 0.8214
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        "line": 308,
+        "score": 0.8214
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        "line": 303,
+        "score": 0.8214
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        "line": 524,
+        "score": 0.7931
+      }
+    ]
+  },
+  {
+    "id": "JacksonXml-2",
+    "num_failing": 1,
+    "num_passing": 22,
+    "search_space_lines": 170,
+    "scope": "modified",
+    "ground_truth": [
+      [
+        "com/fasterxml/jackson/dataformat/xml/deser/XmlTokenStream.java",
+        62
+      ],
+      [
+        "com/fasterxml/jackson/dataformat/xml/deser/XmlTokenStream.java",
+        324
+      ],
+      [
+        "com/fasterxml/jackson/dataformat/xml/deser/XmlTokenStream.java",
+        325
+      ],
+      [
+        "com/fasterxml/jackson/dataformat/xml/deser/XmlTokenStream.java",
+        327
+      ],
+      [
+        "com/fasterxml/jackson/dataformat/xml/deser/XmlTokenStream.java",
+        330
+      ],
+      [
+        "com/fasterxml/jackson/dataformat/xml/deser/XmlTokenStream.java",
+        333
+      ],
+      [
+        "com/fasterxml/jackson/dataformat/xml/deser/XmlTokenStream.java",
+        340
+      ],
+      [
+        "com/fasterxml/jackson/dataformat/xml/deser/XmlTokenStream.java",
+        506
+      ]
+    ],
+    "tests": [
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.misc.XmlTextTest::testMixedContent",
+        "failed": true
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.misc.XmlTextTest::testSimple198",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.misc.XmlTextTest::testXmlTextWithSuppressedValue",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.deser.TestDeserialization::testFromAttribute",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.deser.TestEnums::testEnum",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.deser.TestStringValues::testStringArrayWithAttribute",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.deser.TestViews::testIssue44",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.deser.TestViews::testNullSuppression",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.lists.Issue101UnwrappedListAttributesTest::testOptionalsWithMissingType",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.lists.ListDeserializationTest::testWrappedList",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.lists.UnwrappedListWithEmptyCData129Test::testListWithEmptyCData",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.lists.UnwrappedListsTest::testDefaultWrapping",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.misc.NodeTest::testMixed",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.misc.PolymorphicTypesTest::testAsClassObject",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.misc.TextValueTest::testAlternateTextElementName",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.misc.TextValueTest::testIssue24",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.misc.TextValueTest::testIssue66",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.ser.TestIndentation::testSimpleMap",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.ser.TestSerialization::testCDataString",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.ser.TestSerialization::testSimpleAttrAndElem",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.stream.XmlParserTest::testSimpleNested",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.stream.XmlParserTest::testXmlAttributes",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.stream.XmlTokenStreamTest::testNested",
+        "failed": false
+      }
+    ],
+    "ochiai": {
+      "best": 24,
+      "avg": 24.5,
+      "worst": 25
+    },
+    "top_ochiai": [
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/XmlTokenStream.java",
+        "line": 337,
+        "score": 0.4082
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/XmlTokenStream.java",
+        "line": 313,
+        "score": 0.4082
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/XmlTokenStream.java",
+        "line": 317,
+        "score": 0.378
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/XmlTokenStream.java",
+        "line": 319,
+        "score": 0.378
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/XmlTokenStream.java",
+        "line": 318,
+        "score": 0.378
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/XmlTokenStream.java",
+        "line": 320,
+        "score": 0.378
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/XmlTokenStream.java",
+        "line": 177,
+        "score": 0.3015
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/XmlTokenStream.java",
+        "line": 181,
+        "score": 0.3015
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/XmlTokenStream.java",
+        "line": 178,
+        "score": 0.3015
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/XmlTokenStream.java",
+        "line": 326,
+        "score": 0.2774
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/XmlTokenStream.java",
+        "line": 433,
+        "score": 0.2774
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/XmlTokenStream.java",
+        "line": 432,
+        "score": 0.2774
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/XmlTokenStream.java",
+        "line": 407,
+        "score": 0.2774
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/XmlTokenStream.java",
+        "line": 416,
+        "score": 0.2774
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/XmlTokenStream.java",
+        "line": 434,
+        "score": 0.2774
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/XmlTokenStream.java",
+        "line": 409,
+        "score": 0.2774
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/XmlTokenStream.java",
+        "line": 406,
+        "score": 0.2774
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/XmlTokenStream.java",
+        "line": 390,
+        "score": 0.2774
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/XmlTokenStream.java",
+        "line": 408,
+        "score": 0.2774
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/XmlTokenStream.java",
+        "line": 348,
+        "score": 0.2774
+      }
+    ],
+    "tarantula": {
+      "best": 24,
+      "avg": 24.5,
+      "worst": 25
+    },
+    "top_tarantula": [
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/XmlTokenStream.java",
+        "line": 337,
+        "score": 0.8148
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/XmlTokenStream.java",
+        "line": 313,
+        "score": 0.8148
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/XmlTokenStream.java",
+        "line": 317,
+        "score": 0.7857
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/XmlTokenStream.java",
+        "line": 319,
+        "score": 0.7857
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/XmlTokenStream.java",
+        "line": 318,
+        "score": 0.7857
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/XmlTokenStream.java",
+        "line": 320,
+        "score": 0.7857
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/XmlTokenStream.java",
+        "line": 177,
+        "score": 0.6875
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/XmlTokenStream.java",
+        "line": 181,
+        "score": 0.6875
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/XmlTokenStream.java",
+        "line": 178,
+        "score": 0.6875
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/XmlTokenStream.java",
+        "line": 326,
+        "score": 0.6471
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/XmlTokenStream.java",
+        "line": 433,
+        "score": 0.6471
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/XmlTokenStream.java",
+        "line": 432,
+        "score": 0.6471
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/XmlTokenStream.java",
+        "line": 407,
+        "score": 0.6471
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/XmlTokenStream.java",
+        "line": 416,
+        "score": 0.6471
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/XmlTokenStream.java",
+        "line": 434,
+        "score": 0.6471
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/XmlTokenStream.java",
+        "line": 409,
+        "score": 0.6471
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/XmlTokenStream.java",
+        "line": 406,
+        "score": 0.6471
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/XmlTokenStream.java",
+        "line": 390,
+        "score": 0.6471
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/XmlTokenStream.java",
+        "line": 408,
+        "score": 0.6471
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/XmlTokenStream.java",
+        "line": 348,
+        "score": 0.6471
+      }
+    ]
+  },
+  {
+    "id": "JacksonXml-3",
+    "num_failing": 1,
+    "num_passing": 20,
+    "search_space_lines": 294,
+    "scope": "modified",
+    "ground_truth": [
+      [
+        "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        669
+      ],
+      [
+        "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        671
+      ]
+    ],
+    "tests": [
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.stream.XmlParserNextXxxTest::testXmlAttributesWithNextTextValue",
+        "failed": true
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.RoundtripContentTest::testRoundtrip",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.deser.TestDeserialization::testMapWithAttr",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.deser.TestStringValues::testStringWithAttribute",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.jaxb.AttributesWithJAXBTest::testTwoAttributes",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.jaxb.ElementWrapperTest::testNoElementWrapper",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.jaxb.WithJAXBAnnotationsTest::testRootName",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.lists.Issue101UnwrappedListAttributesTest::testOptionalsWithMissingType",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.lists.NestedUnwrappedListsTest::testNestedWithEmpty",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.lists.UnwrappedListWithEmptyCData129Test::testListWithEmptyCData",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.misc.ArrayConversionsTest::testArrayIdentityTransforms",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.misc.ArrayConversionsTest::testListAsProperty",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.misc.TextValueTest::testIssue24",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.ser.TestNamespaces::testRootNamespace",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.ser.TestSerialization::testCDataStringArray",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.ser.TestSerializationAttr::testSimpleNsAttr",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.ser.TestXmlDeclaration::testXml10Declaration",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.ser.TestXmlDeclaration::testXml11Declaration",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.stream.FormatDetectionTest::testSimpleValidPI",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.stream.XmlGeneratorTest::testAttrAndElem",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.stream.XmlGeneratorTest::testSimpleAttribute",
+        "failed": false
+      }
+    ],
+    "ochiai": {
+      "best": 1,
+      "avg": 2.0,
+      "worst": 3
+    },
+    "top_ochiai": [
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        "line": 670,
+        "score": 1.0
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        "line": 669,
+        "score": 1.0
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        "line": 671,
+        "score": 1.0
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        "line": 545,
+        "score": 0.7071
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        "line": 544,
+        "score": 0.7071
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        "line": 643,
+        "score": 0.5774
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        "line": 620,
+        "score": 0.5774
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        "line": 604,
+        "score": 0.5774
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        "line": 617,
+        "score": 0.5774
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        "line": 603,
+        "score": 0.5774
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        "line": 692,
+        "score": 0.5774
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        "line": 537,
+        "score": 0.5
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        "line": 516,
+        "score": 0.3536
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        "line": 480,
+        "score": 0.3536
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        "line": 336,
+        "score": 0.3536
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        "line": 484,
+        "score": 0.3536
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        "line": 333,
+        "score": 0.3536
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        "line": 326,
+        "score": 0.3536
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        "line": 330,
+        "score": 0.3536
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        "line": 168,
+        "score": 0.3333
+      }
+    ],
+    "tarantula": {
+      "best": 1,
+      "avg": 2.0,
+      "worst": 3
+    },
+    "top_tarantula": [
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        "line": 670,
+        "score": 1.0
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        "line": 669,
+        "score": 1.0
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        "line": 671,
+        "score": 1.0
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        "line": 545,
+        "score": 0.9524
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        "line": 544,
+        "score": 0.9524
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        "line": 643,
+        "score": 0.9091
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        "line": 620,
+        "score": 0.9091
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        "line": 604,
+        "score": 0.9091
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        "line": 617,
+        "score": 0.9091
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        "line": 603,
+        "score": 0.9091
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        "line": 692,
+        "score": 0.9091
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        "line": 537,
+        "score": 0.8696
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        "line": 516,
+        "score": 0.7407
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        "line": 480,
+        "score": 0.7407
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        "line": 336,
+        "score": 0.7407
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        "line": 484,
+        "score": 0.7407
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        "line": 333,
+        "score": 0.7407
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        "line": 326,
+        "score": 0.7407
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        "line": 330,
+        "score": 0.7407
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/deser/FromXmlParser.java",
+        "line": 168,
+        "score": 0.7143
+      }
+    ]
+  },
+  {
+    "id": "JacksonXml-4",
+    "num_failing": 1,
+    "num_passing": 21,
+    "search_space_lines": 119,
+    "scope": "modified",
+    "ground_truth": [
+      [
+        "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        204
+      ],
+      [
+        "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        205
+      ]
+    ],
+    "tests": [
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.misc.RootNameTest::testDynamicRootName",
+        "failed": true
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.misc.RootNameTest::testRootNameAnnotation",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.RoundtripContentTest::testRoundtrip",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.deser.TestDeserialization::testMapWithAttr",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.deser.TestStringValues::testStringWithAttribute",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.jaxb.AttributesWithJAXBTest::testTwoAttributes",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.jaxb.ElementWrapperTest::testNoElementWrapper",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.jaxb.WithJAXBAnnotationsTest::testRootName",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.lists.Issue101UnwrappedListAttributesTest::testOptionalsWithMissingType",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.lists.NestedUnwrappedListsTest::testNestedWithEmpty",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.lists.UnwrappedListWithEmptyCData129Test::testListWithEmptyCData",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.misc.ArrayConversionsTest::testArrayIdentityTransforms",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.misc.ArrayConversionsTest::testListAsProperty",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.misc.TextValueTest::testIssue24",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.ser.TestJDKSerializability::testMapper",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.ser.TestNamespaces::testRootNamespace",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.ser.TestSerializationAttr::testIssue6",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.ser.TestSerializerCustom::testIssue42",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.ser.TestXmlDeclaration::testXml10Declaration",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.stream.FormatDetectionTest::testSimpleValidDoctype",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.stream.FormatDetectionTest::testSimpleViaObjectReader",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.stream.XmlGeneratorTest::testSecondLevelAttribute",
+        "failed": false
+      }
+    ],
+    "ochiai": {
+      "best": 1,
+      "avg": 5.0,
+      "worst": 9
+    },
+    "top_ochiai": [
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        "line": 251,
+        "score": 1.0
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        "line": 205,
+        "score": 1.0
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        "line": 70,
+        "score": 1.0
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        "line": 250,
+        "score": 1.0
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        "line": 207,
+        "score": 1.0
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        "line": 204,
+        "score": 1.0
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        "line": 69,
+        "score": 1.0
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        "line": 252,
+        "score": 1.0
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        "line": 208,
+        "score": 1.0
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        "line": 82,
+        "score": 0.3162
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        "line": 84,
+        "score": 0.3162
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        "line": 79,
+        "score": 0.3162
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        "line": 83,
+        "score": 0.3162
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        "line": 78,
+        "score": 0.3162
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        "line": 242,
+        "score": 0.3015
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        "line": 269,
+        "score": 0.3015
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        "line": 235,
+        "score": 0.3015
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        "line": 246,
+        "score": 0.3015
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        "line": 230,
+        "score": 0.3015
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        "line": 223,
+        "score": 0.3015
+      }
+    ],
+    "tarantula": {
+      "best": 1,
+      "avg": 5.0,
+      "worst": 9
+    },
+    "top_tarantula": [
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        "line": 251,
+        "score": 1.0
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        "line": 205,
+        "score": 1.0
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        "line": 70,
+        "score": 1.0
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        "line": 250,
+        "score": 1.0
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        "line": 207,
+        "score": 1.0
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        "line": 204,
+        "score": 1.0
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        "line": 69,
+        "score": 1.0
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        "line": 252,
+        "score": 1.0
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        "line": 208,
+        "score": 1.0
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        "line": 82,
+        "score": 0.7
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        "line": 84,
+        "score": 0.7
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        "line": 79,
+        "score": 0.7
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        "line": 83,
+        "score": 0.7
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        "line": 78,
+        "score": 0.7
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        "line": 242,
+        "score": 0.6774
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        "line": 269,
+        "score": 0.6774
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        "line": 235,
+        "score": 0.6774
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        "line": 246,
+        "score": 0.6774
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        "line": 230,
+        "score": 0.6774
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        "line": 223,
+        "score": 0.6774
+      }
+    ]
+  },
+  {
+    "id": "JacksonXml-5",
+    "num_failing": 1,
+    "num_passing": 23,
+    "search_space_lines": 96,
+    "scope": "modified",
+    "ground_truth": [
+      [
+        "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        59
+      ]
+    ],
+    "tests": [
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.MapperCopyTest::testCopyWith",
+        "failed": true
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.MapperCopyTest::testMapperCopy",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.MapperCopyTest::testMapperSerialization",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.MapperCopyTest::testSerializerProviderCopy",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.RoundtripContentTest::testRoundtrip",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.deser.EmptyStringValueTest::testEmptyStringElement",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.deser.NullConversionsSkipTest::testSkipNullMethod2",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.deser.SimpleStringValuesTest::testStringsWithAttribute",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.deser.TestDeserialization::testRoundTripWithJacksonExample",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.deser.TestViews::testNullSuppression",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.lists.ListDeserializationTest::testUnwrappedListBeanDeser",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.lists.ListRoundtripTest::testListWithAttrOnlyValues",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.lists.NestedUnwrappedListsTest::testNested1_2b",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.lists.NestedUnwrappedListsTest::testNestedWithEmpty2",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.misc.TextValueTest::testDeserializeAsText",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.misc.TextValueTest::testIssue66",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.ser.TestIndentation::testSimpleIntBean",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.ser.TestJDKSerializability::testMapper",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.ser.TestJDKSerializability::testXmlFactory",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.ser.TestSerialization::testMap",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.ser.TestSerialization::testSimpleNsElem",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.ser.TestSerializationAttr::testIssue19",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.stream.XmlGeneratorTest::testRawOffsetAttribute",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.stream.XmlParserTest::testSimpleNested",
+        "failed": false
+      }
+    ],
+    "ochiai": {
+      "best": 1,
+      "avg": 2.5,
+      "worst": 4
+    },
+    "top_ochiai": [
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        "line": 59,
+        "score": 0.5774
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        "line": 70,
+        "score": 0.5774
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        "line": 56,
+        "score": 0.5774
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        "line": 60,
+        "score": 0.5774
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        "line": 105,
+        "score": 0.3162
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        "line": 98,
+        "score": 0.3162
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        "line": 107,
+        "score": 0.3162
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        "line": 116,
+        "score": 0.3162
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        "line": 93,
+        "score": 0.3162
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        "line": 95,
+        "score": 0.3162
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        "line": 113,
+        "score": 0.3162
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        "line": 97,
+        "score": 0.3162
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        "line": 90,
+        "score": 0.3162
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        "line": 99,
+        "score": 0.3162
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        "line": 83,
+        "score": 0.3162
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        "line": 110,
+        "score": 0.3162
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        "line": 94,
+        "score": 0.3162
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        "line": 87,
+        "score": 0.3162
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        "line": 89,
+        "score": 0.3162
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        "line": 210,
+        "score": 0.3015
+      }
+    ],
+    "tarantula": {
+      "best": 1,
+      "avg": 2.5,
+      "worst": 4
+    },
+    "top_tarantula": [
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        "line": 59,
+        "score": 0.92
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        "line": 70,
+        "score": 0.92
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        "line": 56,
+        "score": 0.92
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        "line": 60,
+        "score": 0.92
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        "line": 105,
+        "score": 0.7188
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        "line": 98,
+        "score": 0.7188
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        "line": 107,
+        "score": 0.7188
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        "line": 116,
+        "score": 0.7188
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        "line": 93,
+        "score": 0.7188
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        "line": 95,
+        "score": 0.7188
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        "line": 113,
+        "score": 0.7188
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        "line": 97,
+        "score": 0.7188
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        "line": 90,
+        "score": 0.7188
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        "line": 99,
+        "score": 0.7188
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        "line": 83,
+        "score": 0.7188
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        "line": 110,
+        "score": 0.7188
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        "line": 94,
+        "score": 0.7188
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        "line": 87,
+        "score": 0.7188
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        "line": 89,
+        "score": 0.7188
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/XmlSerializerProvider.java",
+        "line": 210,
+        "score": 0.697
+      }
+    ]
+  },
+  {
+    "id": "JacksonXml-6",
+    "num_failing": 5,
+    "num_passing": 20,
+    "search_space_lines": 485,
+    "scope": "modified",
+    "ground_truth": [
+      [
+        "com/fasterxml/jackson/dataformat/xml/ser/ToXmlGenerator.java",
+        843
+      ],
+      [
+        "com/fasterxml/jackson/dataformat/xml/ser/ToXmlGenerator.java",
+        844
+      ],
+      [
+        "com/fasterxml/jackson/dataformat/xml/ser/ToXmlGenerator.java",
+        845
+      ],
+      [
+        "com/fasterxml/jackson/dataformat/xml/ser/ToXmlGenerator.java",
+        846
+      ],
+      [
+        "com/fasterxml/jackson/dataformat/xml/ser/ToXmlGenerator.java",
+        847
+      ],
+      [
+        "com/fasterxml/jackson/dataformat/xml/ser/ToXmlGenerator.java",
+        848
+      ],
+      [
+        "com/fasterxml/jackson/dataformat/xml/ser/ToXmlGenerator.java",
+        849
+      ],
+      [
+        "com/fasterxml/jackson/dataformat/xml/ser/ToXmlGenerator.java",
+        851
+      ],
+      [
+        "com/fasterxml/jackson/dataformat/xml/ser/ToXmlGenerator.java",
+        866
+      ],
+      [
+        "com/fasterxml/jackson/dataformat/xml/ser/ToXmlGenerator.java",
+        867
+      ]
+    ],
+    "tests": [
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.ser.TestBinaryStreamToXMLSerialization::testWith0Bytes",
+        "failed": true
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.ser.TestBinaryStreamToXMLSerialization::testWith2Bytes",
+        "failed": true
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.ser.TestBinaryStreamToXMLSerialization::testWith3Bytes",
+        "failed": true
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.ser.TestBinaryStreamToXMLSerialization::testWith4Bytes",
+        "failed": true
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.ser.TestBinaryStreamToXMLSerialization::testWith1Byte",
+        "failed": true
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.MapperCopyTest::testCopyWith",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.deser.CaseInsensitiveDeserTest::testCaseInsensitive1036",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.deser.NullConversionsGenericTest::testNullsToGenericPojo",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.deser.SimpleStringValuesTest::testSimpleStringElement",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.deser.TestDeserialization::testFromAttribute",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.deser.TestDeserialization::testRoundTripWithJacksonExample",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.jaxb.ElementWrapperTest::testElementWrapper",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.lists.ListAsObjectTest::testCollection",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.lists.ListDeserializationTest::testWrappedList",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.misc.ArrayConversionsTest::testListToIntArray",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.misc.ArrayConversionsTest::testNullXform",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.misc.TextValueTest::testAlternateTextElementName",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.misc.TextValueTest::testSerializeAsText",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.misc.TextValueTest::testTextOnlyPojo",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.misc.XmlTextTest::testSimple198",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.ser.TestIndentation::testSimpleIntBean",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.ser.TestIndentation::testSimpleStringBean",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.ser.TestSerializerCustom::testIssue42",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.stream.FormatDetectionTest::testSimpleViaObjectReader",
+        "failed": false
+      },
+      {
+        "test": "com.fasterxml.jackson.dataformat.xml.stream.XmlGeneratorTest::testWriteToFile",
+        "failed": false
+      }
+    ],
+    "ochiai": null,
+    "top_ochiai": [
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/ToXmlGenerator.java",
+        "line": 509,
+        "score": 0.5976
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/ToXmlGenerator.java",
+        "line": 359,
+        "score": 0.5423
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/ToXmlGenerator.java",
+        "line": 201,
+        "score": 0.5423
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/ToXmlGenerator.java",
+        "line": 358,
+        "score": 0.5423
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/ToXmlGenerator.java",
+        "line": 196,
+        "score": 0.5423
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/ToXmlGenerator.java",
+        "line": 191,
+        "score": 0.5423
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/ToXmlGenerator.java",
+        "line": 438,
+        "score": 0.5423
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/ToXmlGenerator.java",
+        "line": 577,
+        "score": 0.5423
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/ToXmlGenerator.java",
+        "line": 177,
+        "score": 0.5423
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/ToXmlGenerator.java",
+        "line": 181,
+        "score": 0.5423
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/ToXmlGenerator.java",
+        "line": 158,
+        "score": 0.5423
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/ToXmlGenerator.java",
+        "line": 176,
+        "score": 0.5423
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/ToXmlGenerator.java",
+        "line": 144,
+        "score": 0.5423
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/ToXmlGenerator.java",
+        "line": 1195,
+        "score": 0.5423
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/ToXmlGenerator.java",
+        "line": 152,
+        "score": 0.5423
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/ToXmlGenerator.java",
+        "line": 511,
+        "score": 0.5423
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/ToXmlGenerator.java",
+        "line": 1194,
+        "score": 0.5423
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/ToXmlGenerator.java",
+        "line": 538,
+        "score": 0.5423
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/ToXmlGenerator.java",
+        "line": 138,
+        "score": 0.5423
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/ToXmlGenerator.java",
+        "line": 506,
+        "score": 0.5423
+      }
+    ],
+    "tarantula": null,
+    "top_tarantula": [
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/ToXmlGenerator.java",
+        "line": 509,
+        "score": 0.6897
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/ToXmlGenerator.java",
+        "line": 359,
+        "score": 0.625
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/ToXmlGenerator.java",
+        "line": 201,
+        "score": 0.625
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/ToXmlGenerator.java",
+        "line": 358,
+        "score": 0.625
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/ToXmlGenerator.java",
+        "line": 196,
+        "score": 0.625
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/ToXmlGenerator.java",
+        "line": 191,
+        "score": 0.625
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/ToXmlGenerator.java",
+        "line": 438,
+        "score": 0.625
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/ToXmlGenerator.java",
+        "line": 577,
+        "score": 0.625
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/ToXmlGenerator.java",
+        "line": 177,
+        "score": 0.625
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/ToXmlGenerator.java",
+        "line": 181,
+        "score": 0.625
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/ToXmlGenerator.java",
+        "line": 158,
+        "score": 0.625
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/ToXmlGenerator.java",
+        "line": 176,
+        "score": 0.625
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/ToXmlGenerator.java",
+        "line": 144,
+        "score": 0.625
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/ToXmlGenerator.java",
+        "line": 1195,
+        "score": 0.625
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/ToXmlGenerator.java",
+        "line": 152,
+        "score": 0.625
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/ToXmlGenerator.java",
+        "line": 511,
+        "score": 0.625
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/ToXmlGenerator.java",
+        "line": 1194,
+        "score": 0.625
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/ToXmlGenerator.java",
+        "line": 538,
+        "score": 0.625
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/ToXmlGenerator.java",
+        "line": 138,
+        "score": 0.625
+      },
+      {
+        "file": "com/fasterxml/jackson/dataformat/xml/ser/ToXmlGenerator.java",
+        "line": 506,
+        "score": 0.625
+      }
+    ]
+  }
+]
